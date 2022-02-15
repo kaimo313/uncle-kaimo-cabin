@@ -1,0 +1,17 @@
+/* sidebar */
+.sidebar .search {
+  margin-bottom: 10px;
+}
+.sidebar .app-name {
+  margin-bottom: 0;
+  font-size: 0;
+}
+.sidebar .app-name .app-name-link, .sidebar .app-name .app-name-link .img {
+  display: block;
+}
+.sidebar .sidebar-nav {
+  line-height: 1.8em;
+}
+.sidebar .sidebar-nav > ul > li > a.section-link {
+  font-size: 15px;
+}

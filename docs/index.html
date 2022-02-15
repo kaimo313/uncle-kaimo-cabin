@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Uncle Kaimo's Cabin - 凯默叔叔的小屋</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Uncle Kaimo's Cabin - 凯默叔叔的小屋是凯小默的个人博客，主要记录学习资源，读书等个人兴趣方面的东西。">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta name="keywords" content="凯小默,凯小默的博客,博客,个人博客,Uncle Kaimo's Cabin,凯默叔叔的小屋,学习资源,音乐,电影,书籍,vue,vuejs,docsify">
+  <link rel="shortcut icon" href="/_media/favicon.ico">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="/_style/custom.css">
+</head>
+<body>
+  <div id="app">
+    <img width="32px" src="./_media/loading.gif" alt="loading"/>
+  </div>
+  <script>
+    window.$docsify = {
+      name: "Uncle Kaimo's Cabin",
+      repo: "https://github.com/kaimo313/uncle-kaimo-cabin",
+      logo: "./_media/kxm-cabin-sub-logo.svg", // 在侧边栏中出现的网站图标
+      coverpage: true, // 封面
+      themeColor: '#007fff', // 主题色
+      loadNavbar: true, // 导航 _navbar.md
+      subMaxLevel: 3,
+      loadSidebar: true,
+      autoHeader: true, // 同时设置 loadSidebar 和 autoHeader 后，可以根据 _sidebar.md 的内容自动为每个页面增加标题。
+      search: {
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: ['/','/roadmap'], // or 'auto'
+        placeholder: '🔍 搜索',
+        noData: '小屋里没有找到线索！',
+        // 搜索标题的最大层级, 1 - 6
+        depth: 6,
+        hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
+        // 避免搜索索引冲突
+        // 同一域下的多个网站之间
+        namespace: 'website-1',
+        // 使用不同的索引作为路径前缀（namespaces）
+        // 注意：仅适用于 paths: 'auto' 模式
+        // 初始化索引时，我们从侧边栏查找第一个路径
+        // 如果它与列表中的前缀匹配，我们将切换到相应的索引
+        pathNamespaces: ['/zh-cn', '/ru-ru', '/ru-ru/v1'],
+        // 您可以提供一个正则表达式来匹配前缀。在这种情况下，
+        // 匹配到的字符串将被用来识别索引
+        pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
+      },
+      vueComponents: {
+        'copyright': {
+          template: `
+          <div style="text-align: center;margin-top: 30px;">
+            <div>遵循 MIT 开源协议</div>
+            <div style="margin-top: 10px;">
+              Powered&nbsp;&nbsp;by&nbsp;&nbsp;<a href="https://docsify.js.org/#/zh-cn/" target="_blank">docsify@4</a>&nbsp;&nbsp;
+              &nbsp;&nbsp;Copyright&nbsp;&nbsp;©&nbsp;&nbsp;2022-present&nbsp;&nbsp;kaimo
+            </div>
+          </div>
+          `
+        }
+      },
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- Vue 2.x -->
+  <script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
+  <!--搜索插件-->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- docsify-tabs (latest v1.x.x) -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <!-- docsify-example-panels (latest) -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-example-panels"></script>
+  <!-- docsify-plugin-flexible-alerts Latest -->
+  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+  <!--语法高亮插件-->
+  <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+  <!--统计访问量插件-->
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</body>
+</html>
