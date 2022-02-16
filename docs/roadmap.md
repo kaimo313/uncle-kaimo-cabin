@@ -524,11 +524,9 @@
 ## k29：Linux/计算机操作系统
 
 ---
-<!-- panels:start -->
-<!-- div:left-panel -->
+
 - [后端程序员必备的 Linux 基础知识+常见命令（近万字总结）](https://juejin.cn/post/6860400014569996302)
-<!-- div:right-panel -->
-<!-- panels:end -->
+
 ---
 
 ## k30：前端面试
