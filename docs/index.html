@@ -7,9 +7,9 @@
   <meta name="description" content="Uncle Kaimo's Cabin - 凯默叔叔的小屋是凯小默的个人博客，主要记录学习资源，读书等个人兴趣方面的东西。">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <meta name="keywords" content="凯小默,凯小默的博客,博客,个人博客,Uncle Kaimo's Cabin,凯默叔叔的小屋,学习资源,音乐,电影,书籍,vue,vuejs,docsify">
-  <link rel="shortcut icon" href="/_media/favicon.ico">
+  <link rel="shortcut icon" href="./_media/favicon.ico">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <link rel="stylesheet" href="/_style/custom.css">
+  <link rel="stylesheet" href="./_style/custom.css">
 </head>
 <body>
   <div id="app">
@@ -28,7 +28,7 @@
       autoHeader: true, // 同时设置 loadSidebar 和 autoHeader 后，可以根据 _sidebar.md 的内容自动为每个页面增加标题。
       search: {
         maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-        paths: ['/','/roadmap'], // or 'auto'
+        paths: 'auto', // or 'auto'
         placeholder: '🔍 搜索',
         noData: '小屋里没有找到线索！',
         // 搜索标题的最大层级, 1 - 6
@@ -45,6 +45,9 @@
         // 您可以提供一个正则表达式来匹配前缀。在这种情况下，
         // 匹配到的字符串将被用来识别索引
         pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
+      },
+      'flexible-alerts': {
+        style: 'flat'
       },
       vueComponents: {
         'copyright': {

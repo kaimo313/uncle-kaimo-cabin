@@ -11,7 +11,7 @@
 ## 打赏
 ---
 
-💰 如果觉得写得还不错或对您有帮助，可以投喂小饼干，皮卡皮卡`(*╹▽╹*)`
+💰 如果觉得写得还不错或对您有帮助，可以投喂小饼干或者给我的项目点颗星⭐[【github：uncle-kaimo-cabin】](https://github.com/kaimo313/uncle-kaimo-cabin)，皮卡皮卡`(*╹▽╹*)`，非常感谢您的支持。
 
 <img width="150" src='_media/mm_facetoface_collect_qrcode.png' alt="微信支付"/>
 <img width="375" src="_media/pikapika.jpg"/>

@@ -80,6 +80,7 @@
   * [HTML Standard](https://html.spec.whatwg.org/)
   * [Sass 中文文档](https://www.sass.hk/docs/)
   * [Annotated ECMAScript 5](https://es5.github.io/)
+  * [Promises/A+](https://promisesaplus.com/)
   * [W3C](https://www.w3.org)
   * [MDN](https://developer.mozilla.org/zh-CN/)
   * [ECMA](https://www.ecma-international.org/)
