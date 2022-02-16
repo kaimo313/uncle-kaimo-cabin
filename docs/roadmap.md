@@ -739,11 +739,9 @@
 ## k37：游戏开发
 
 ---
-<!-- panels:start -->
-<!-- div:left-panel -->
+
 - [如何入门独立游戏开发？](https://www.zhihu.com/question/314175363)
-<!-- div:right-panel -->
-<!-- panels:end -->
+
 ---
 
 ## k38：职业发展
