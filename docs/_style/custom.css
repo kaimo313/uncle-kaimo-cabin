@@ -15,3 +15,11 @@
 .sidebar .sidebar-nav > ul > li > a.section-link {
   font-size: 15px;
 }
+
+/* 自定义 markdown-color-red 红色区域 */
+.markdown-color-red ul li {
+  color: red;
+}
+.markdown-color-red ul li a{
+  color: red;
+}
