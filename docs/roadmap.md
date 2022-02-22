@@ -5,24 +5,36 @@
 > [!TIP]
 > ❤️🧡💛💚💙💜**欢迎来到 Uncle Kaimo's Cabin - 凯默叔叔的小屋**💜💙💚💛🧡❤️。<br/>
 > <br/>
-> 为了方便查阅学习资料以及更直观的看到各方面的知识点，我搭建了自己的小屋博客。<br/>
+> 为了方便查阅学习资料以及更直观的看到前端各方面的知识点，我搭建了自己的小屋博客。<br/>
 > 主要内容涉及如下：
-> - 1、整理了前端学习涉及的知识点
-> - 2、收录了一些开发、创作需要的工具
-> - 3、收录了一些优秀的博客、小册、视频以及一些不错的文章资源
-> - 4、还有一些自己兴趣方面的资源
-> - ...
+> 1. 收录前端不错的文章资源等
+> 2. 收录开发、创作需要的工具等
+> 3. 收录博客/大牛、技术团队、小册、视频等
+> 4. 收录自己兴趣方面的资源等
+> 
+> <img src="_media/kxm-cabin-logo.gif"/>
 
 如果觉得写得还不错或对您有帮助，可以投喂[小饼干](/?id=打赏)或者给我的项目点颗星⭐（点击右上角的小猫猫）皮卡皮卡`(*╹▽╹*)`，非常感谢。
 
 ---
 
-# 前端学习路线
+# 前端专栏
 
 ---
 
 ## k00：Html/CSS
 
+---
+<!-- tabs:start -->
+### **CSS相关**
+
+- [CSS-Tricks：一个关于运用CSS技术进行网络开发和设计的小技巧的交流网站](https://css-tricks.com/)
+- [Css Wizardry：Front-end Architecture and Performance Engineering](http://csswizardry.com/)
+- [Sass：Sass 是成熟、稳定、强大的 CSS 扩展语言](http://sass.bootcss.com/docs/sass-reference/)
+- [Less：一种将css赋予了动态语言特性的动态样式语言](http://less.bootcss.com/)
+- [Stylus：EXPRESSIVE, DYNAMIC, ROBUST CSS](http://stylus-lang.com/)
+
+<!-- tabs:end -->
 ---
 <!-- panels:start -->
 <!-- div:left-panel -->
@@ -98,7 +110,13 @@
 - [在单页应用中，如何优雅的监听url的变化](https://github.com/forthealllight/blog/issues/37)
 - [淘系前端校招负责人元彦直播答疑文字实录](https://github.com/mqyqingfeng/Blog/issues/167)
 - [业务前端的困境](https://github.com/mqyqingfeng/Blog/issues/172)
+- [你不知道的 JavaScript 上](https://wangtunan.github.io/blog/books/javascript/know-up.html)
+- [你不知道的 JavaScript 中下](https://wangtunan.github.io/blog/books/javascript/know-down.html)
+- [深入理解 ES6](https://wangtunan.github.io/blog/books/javascript/es6.html)
 <!-- div:right-panel -->
+- [JavaScript 设计模式与开发实践](https://wangtunan.github.io/blog/designPattern/)
+- [JavaScript 数据结构和算法](https://wangtunan.github.io/blog/books/javascript/algorithm.html)
+- [JavaScript 高级程序设计](https://wangtunan.github.io/blog/books/javascript/red-book.html)
 - [手把手教你实现json嵌套对象的范式化和反范式化](https://github.com/forthealllight/blog/issues/12)
 - [实现一个完美符合Promise/A+规范的Promise](https://github.com/forthealllight/blog/issues/4)
 - [从promise、process.nextTick、setTimeout出发，谈谈Event Loop中的Job queue](https://github.com/forthealllight/blog/issues/5)
@@ -357,24 +375,17 @@
 - [快速高斯模糊算法的原理以及webgl工程实现](https://github.com/forthealllight/blog/issues/58)
 <!-- div:right-panel -->
 - [Threejs官方文档-入门-（1）创建一个场景](https://github.com/forthealllight/learn-threejs/blob/master/demo1.md)
-- [demo地址](https://github.com/forthealllight/learn-threejs/blob/master/demo/demo1.html)
 - [Threejs官方文档-入门-（2）模块的方法引入](https://github.com/forthealllight/learn-threejs/blob/master/demo2.md)
 - [Threejs官方文档-入门-（3）浏览器支持](https://github.com/forthealllight/learn-threejs/blob/master/demo3.md)
 - [Threejs官方文档-入门-（4）webgl兼容性检测](https://github.com/forthealllight/learn-threejs/blob/master/demo4.md)
 - [Threejs官方文档-入门-（5）画线](https://github.com/forthealllight/learn-threejs/blob/master/demo5.md)
-- [demo地址](https://github.com/forthealllight/learn-threejs/blob/master/demo/demo5.html)
 - [从0到1实现Web端H.265播放器：YUV渲染篇](https://mp.weixin.qq.com/s/-YI2Xfjkns98-j7TR8sKJw)
 - [渲染器、场景和照相机简介](https://github.com/forthealllight/learn-threejs/blob/master/demo6.md)
 - [照相机详细介绍](https://github.com/forthealllight/learn-threejs/blob/master/demo7.md)
 - [几何形状](https://github.com/forthealllight/learn-threejs/blob/master/demo8.md)
 - [文字形状和自定义形状](https://github.com/forthealllight/learn-threejs/blob/master/demo9.md)
-- [demo1地址](https://github.com/forthealllight/learn-threejs/blob/master/demo/demo9-1.html)
-- [demo2地址](https://github.com/forthealllight/learn-threejs/blob/master/demo/demo9-2.html)
 - [材质](https://github.com/forthealllight/learn-threejs/blob/master/demo10.md)
-- [demo地址](https://github.com/forthealllight/learn-threejs/blob/master/demo/demo10.html)
 - [材质的纹理贴图](https://github.com/forthealllight/learn-threejs/blob/master/demo11.md)
-- [demo1地址](https://github.com/forthealllight/learn-threejs/blob/master/demo/demo11-1.html)
-- [demo2地址](https://github.com/forthealllight/learn-threejs/blob/master/demo/demo11-2.html)
 <!-- panels:end -->
 ---
 
@@ -526,6 +537,7 @@
 ---
 
 - [后端程序员必备的 Linux 基础知识+常见命令（近万字总结）](https://juejin.cn/post/6860400014569996302)
+- [Epoll原理解析](https://blog.csdn.net/armlinuxww/article/details/92803381)
 
 ---
 
@@ -614,12 +626,10 @@
 
 ## k33：前端书籍
 
-- [你不知道的 JavaScript 上](https://wangtunan.github.io/blog/books/javascript/know-up.html)
-- [你不知道的 JavaScript 中下](https://wangtunan.github.io/blog/books/javascript/know-down.html)
-- [深入理解 ES6](https://wangtunan.github.io/blog/books/javascript/es6.html)
-- [JavaScript 设计模式与开发实践](https://wangtunan.github.io/blog/designPattern/)
-- [JavaScript 数据结构和算法](https://wangtunan.github.io/blog/books/javascript/algorithm.html)
-- [JavaScript 高级程序设计](https://wangtunan.github.io/blog/books/javascript/red-book.html)
+- [JavaScript权威指南](https://book.douban.com/subject/6854549/)
+- [JavaScript高级程序设计](https://book.douban.com/subject/10546125//)
+- [JavaScript设计模式与开发实践](https://book.douban.com/subject/26382780/)
+- [HTTP权威指南](https://book.douban.com/subject/10746113/)
 
 ## k34：前端专题系列
 
@@ -730,21 +740,60 @@
 
 ## k35：前端人工智能
 
+---
+
 - [前端人工智能？TensorFlow.js 学会游戏通关](https://zhuanlan.zhihu.com/p/35451395)
 
-## k36：产品交互
+---
+
+## k36：前端社区门户
+
+---
+<!-- tabs:start -->
+### **开发社区**
+
+- [掘金：只有高手分享的中文技术社区](https://juejin.im/)
+- [Stack Overflow：编程相关的IT技术问答网站](http://stackoverflow.com/)
+- [GitHub：面向开源及私有软件项目的git托管平台](https://github.com/)
+- [SegmentFault：一个专注于解决编程问题，提高开发技能的社区。](https://segmentfault.com/)
+- [V2EX：一个关于分享和探索的地方。](https://www.v2ex.com/)
+- [Smashingmagazine：一个web技术类的博客杂志站点](https://www.smashingmagazine.com/)
+- [CNode：Node.js专业中文社区](https://cnodejs.org/)
+- [JS Tips：每天推出一个JS技巧的网站](http://www.jstips.co/)
+
+### **前端门户**
+
+- [印记中文：印记中文是最权威是技术中文文档社区](https://www.docschina.org/)
+- [W3cplus：W3cplus是一个致力于推广国内前端行业的技术博客](http://www.w3cplus.com/)
+- [HTML5梦工厂：HTML5梦工场 助推HTML5发展](http://www.html5dw.com/)
+- [w3ctech：中国最大的前端技术社区](https://w3ctech.com/)
+- [大前端：旨在更完善的为各位前端爱好者提供阅读和自我提升服务。](http://www.daqianduan.com/)
+
+<!-- tabs:end -->
+---
+
+## k37：产品交互
 
 - [让功能找到用户；让用户体验美好「自然交互 1」](https://zhuanlan.zhihu.com/p/41952711)
 
-## k37：游戏开发
+## k38：游戏开发
 
 ---
 
 - [如何入门独立游戏开发？](https://www.zhihu.com/question/314175363)
 
 ---
+<!-- tabs:start -->
+### **游戏框架**
 
-## k38：职业发展
+- [PhaserJS](http://phaser.io/)
+- [Cocos2d-x](http://www.cocos.com/)
+- [白鹭引擎](https://www.egret.com/)
+
+<!-- tabs:end -->
+---
+
+## k39：职业发展
 
 ---
 
@@ -827,7 +876,7 @@
 
 ### **可视化/格式化工具**
 
-- [在线前端编辑器](https://codepen.io/)
+- [在线代码测试工具](https://codepen.io/)
 - [在线数据可视化](https://flourish.studio/)
 - [在线JSON解析](http://www.json.cn/)
 - [在线CSS代码可视化工具](https://enjoycss.com/)
@@ -925,13 +974,35 @@
 - [StackOverFlow](https://stackoverflow.com/)
 - [LeetCode](https://leetcode-cn.com/)
 - [LintCode](https://www.lintcode.com/)
-  
-### **其他常用在线开发相关工具**
+
+### **构建工具**
+
+- [Webpack：代码模块化构建打包工具](https://webpack.js.org/)
+- [Gulp：基于流的自动化构建工具](http://www.gulpjs.com.cn/)
+- [Browserify：遵循commonjs规范的模块化工具](http://browserify.org/)
+- [Yeoman：一套用于自动化开发工作流程的工具](http://yeoman.io/)
+- [Grunt：JavaScript 世界的构建工具](http://www.gruntjs.net/)
+- [Babel：使用最新的规范来编写js](https://babeljs.io/)
+- [FIS3：为你定制的前端工程构建工具](https://fex-team.github.io/fis3/)
+
+### **调试工具**
+
+- [Fiddler：前端必备抓包调试工具，没有之一](http://www.telerik.com/fiddler)
+- [Charles：好用的抓包调试工具，可在mac上使用](https://www.charlesproxy.com/)
+
+### **IDE**
+
+- [Sublime](https://www.sublimetext.com/)
+- [WebStorm](https://www.jetbrains.com/webstorm/)
+- [VSCode](https://code.visualstudio.com/)
+
+### **其他工具**
 
 - [在线Nginx配置工具](https://nginxconfig.io/)
 - [在线文本代码比对工具](http://www.fly63.com/tool/textdiff/)
 - [在线Chrome浏览器插件](https://www.crx4chrome.com/)
 - [在线接口文档管理工具](http://www.docway.net/)
+- [Can I use - Web前端兼容性列表](https://caniuse.com/)
 
 <!-- tabs:end -->
 ---

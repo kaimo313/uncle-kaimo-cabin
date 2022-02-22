@@ -23,3 +23,44 @@
 .markdown-color-red ul li a{
   color: red;
 }
+
+/* app-nav */
+.app-nav > ul > li {
+  margin: 0 0.5rem;
+}
+/* cover */
+section.cover {
+  background: linear-gradient(to left bottom, hsl(17, 100%, 85%) 0%,hsl(194, 100%, 85%) 100%) !important;
+}
+section.cover .cover-main {
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  z-index: 9;
+}
+section.cover .cover-main>p:last-child a:last-child:hover {
+  color: #fff;
+}
+/* canvas-effect */
+#app2 {
+  display: none;
+}
+body[data-page="README.md"] #app2 {
+  display: block;
+}
+
+/* 重置滚动条样式 */
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+	background-color: #fff;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #C5C8CA !important;
+	border-radius: 10px !important;
+}
+::-webkit-scrollbar-track {
+	background-color: transparent !important;
+	border-radius: 10px !important;
+	-webkit-box-shadow: none !important;
+}

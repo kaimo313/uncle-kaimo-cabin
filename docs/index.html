@@ -15,6 +15,9 @@
   <div id="app">
     <img width="32px" src="./_media/loading.gif" alt="loading"/>
   </div>
+  <div id="app2">
+    <bubbles-effect :options="options"></bubbles-effect>
+  </div>
   <script>
     window.$docsify = {
       name: "Uncle Kaimo's Cabin",
@@ -67,6 +70,7 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <!-- Vue 2.x -->
   <script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
+  <script src="./_dist/bubbles.min.js"></script>
   <!--搜索插件-->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <!-- docsify-tabs (latest v1.x.x) -->
@@ -79,5 +83,20 @@
   <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
   <!--统计访问量插件-->
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <script>
+    new Vue({
+      el: '#app2',
+      data() {
+        return {
+          options: {
+            color: 'rgba(0,127,255,0.2)', //Bubble color
+            radius: 15, //Bubble radius
+            densety: 0.3, // The larger the bubble density, the greater the density (suggest no more than 1).
+            clearOffset: 0.2 // The larger the bubble disappears [0-1], the longer it disappears.
+          }
+        }
+      }
+    })
+  </script>
 </body>
 </html>

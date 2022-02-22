@@ -1,5 +1,5 @@
 <!-- _navbar.md -->
-* 开发必备
+* 开发工具
 
   * [在线ASCII码表](http://www.fly63.com/tool/ascii/)
   * [正则表达式调试工具](https://regexr.com/)
@@ -32,7 +32,7 @@
   * [在线文本比对](http://www.fly63.com/tool/textdiff/)
   * [Gitstar Ranking](https://gitstar-ranking.com/)
 
-* 创作必备
+* 创作工具
 
   * [在线画图工具](https://www.processon.com/)
   * [在线思维导图](http://www.mindline.cn/webapp)
@@ -61,18 +61,20 @@
   * [Unsplash图片素材库](https://unsplash.com/)
   * [Pexels图片素材库](http://www.pexels.com/)
   * [智能 WebP、PNG 和 JPEG 压缩](https://tinypng.com/)
-  * [印象笔记](https://www.yinxiang.com/)
-  * [有道笔记](https://note.youdao.com/)
-  * [OneNote](https://www.onenote.com/)
-  * [幕 布](https://mubu.com/)
-  * [石墨文档](ttps://shimo.im/)
-  * [为知笔记](https://www.wiz.cn/)
-  * [语 雀](https://www.yuque.com/)
   * [在线画图工具Draw.io](https://app.diagrams.net/)
-  * [iconfont-阿里巴巴矢量图标库](https://www.iconfont.cn/home/index)
+  * [Font Awesome](http://www.bootcss.com/p/font-awesome/)
+  * [阿里巴巴矢量图标库 Iconfont](http://iconfont.cn/)
+  * [IcoMoon](https://icomoon.io/)
   * [产品班资源下载](http://www.chanpinban.com/downloads/)
-  
-* 技术文档
+  * [UIGREAT](http://www.uigreat.com/)
+  * [花瓣](http://huaban.com/)
+  * [Dribbble](https://dribbble.com/)
+  * [Behance](https://www.behance.net/)
+  * [Pinterest](https://www.pinterest.com/)
+  * [站酷](http://www.zcool.com.cn/)
+  * [FWA](https://thefwa.com/)
+
+* 文档
   
   * [caniuse](https://caniuse.com/)
   * [菜鸟教程](https://www.runoob.com/)
@@ -126,24 +128,7 @@
   * [正则表达式手册](https://tool.oschina.net/uploads/apidocs/jquery/regexp.html)
   * [印记中文](https://docschina.org/)
 
-* 优秀博客
-
-  * [Road2Coding 编程自学之路](https://www.r2coding.com/#/)
-  * [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
-  * [廖雪峰的官方网站](https://www.liaoxuefeng.com/)
-  * [酷 壳 – CoolShell](https://coolshell.cn/)
-  * [技术胖 - 前端免费视频第一博客](https://jspang.com/)
-  * [CS-Notes](http://www.cyc2018.xyz/)
-  * [阿叶子. 的学习笔记](https://www.yuque.com/ye65432/liuye)
-  * [编程导航 - 鱼皮](https://www.code-nav.cn/)
-  * [天明夜尽 biaochenxuying](https://github.com/biaochenxuying/blog)
-  * [springleo's blog](https://lq782655835.github.io/blogs/)
-  * [阿西河](https://www.axihe.com/)
-  * [木偶 muwoo](https://github.com/muwoo/blogs)
-  * [小浩算法](https://www.geekxh.com/)
-  * [木易杨前端进阶](https://muyiy.cn/question/)
-
-* 优秀小册
+* 小册
 
   * [手撕 VbenAdmin](https://www.kuxiaoxin.com/archives/29#)
   * [深入浅出 Webpack](http://webpack.wuhaolin.cn/)
@@ -165,10 +150,49 @@
   * [33-js-concepts](https://github.com/leonardomso/33-js-concepts)
   * [Node.js 应用故障排查手册](https://github.com/aliyun-node/Node.js-Troubleshooting-Guide)
 
-* 技术团队
+* 大牛/博客
+
+  * [TAT.Kinvix](https://github.com/kinvix)
+  * [dntzhang](https://github.com/dntzhang)
+  * [TJ Holowaychuk](https://github.com/tj)
+  * [尤雨溪](https://github.com/yyx990803)
+  * [玉伯](https://github.com/lifesinger)
+  * [winter](https://github.com/wintercn)
+  * [BYVod](https://github.com/BYVoid)
+  * [Road2Coding 编程自学之路](https://www.r2coding.com/#/)
+  * [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
+  * [廖雪峰的官方网站](https://www.liaoxuefeng.com/)
+  * [酷 壳 – CoolShell](https://coolshell.cn/)
+  * [技术胖 - 前端免费视频第一博客](https://jspang.com/)
+  * [CS-Notes](http://www.cyc2018.xyz/)
+  * [阿叶子. 的学习笔记](https://www.yuque.com/ye65432/liuye)
+  * [编程导航 - 鱼皮](https://www.code-nav.cn/)
+  * [天明夜尽 biaochenxuying](https://github.com/biaochenxuying/blog)
+  * [springleo's blog](https://lq782655835.github.io/blogs/)
+  * [阿西河](https://www.axihe.com/)
+  * [木偶 muwoo](https://github.com/muwoo/blogs)
+  * [小浩算法](https://www.geekxh.com/)
+  * [木易杨前端进阶](https://muyiy.cn/question/)
+
+* 团队/大会
 
   * [美团技术团队](https://tech.meituan.com/)
   * [饿了么前端 github](https://github.com/ElemeFE)
+  * [奇舞团](https://www.zhihu.com/people/75team)
+  * [淘系前端团队（FED）](https://fed.taobao.org/)
+  * [腾讯 AlloyTeam 团队](http://www.alloyteam.com/)
+  * [ISUX](https://isux.tencent.com/)
+  * [FEX](http://fex.baidu.com/)
+  * [EFE](https://efe.baidu.com/)
+  * [凹凸实验室](https://aotu.io/)
+  * [腾讯 Web 前端大会](https://tfc.tencent.com/)
+  * [AlloyTeam 前端技术大会](http://ac.alloyteam.com/)
+  * [iWeb峰会](http://2016.html5dw.com/)
+  * [D2前端技术论坛](http://d2forum.alibaba-inc.com/)
+  * [中国CSS开发者大会](https://css.w3ctech.com/)
+  * [前端开发者大会](https://fequan.com/feday)
+  * [Vue.js开发者大会](https://fequan.com/feday)
+  * [中国JS开发者大会](http://jsconf.cn/)
 
 * 插件库
 
@@ -176,6 +200,7 @@
   * [全屏功能 screenfull.js](https://github.com/sindresorhus/screenfull)
   * [vue 翻页时钟](https://github.com/kuan1/kuan-vue-flip-clock)
   * [better-scroll 滚动](http://ustbhuangyi.github.io/better-scroll/)
+  * [vue-canvas-effect 画布效果](https://github.com/chenxuan0000/vue-canvas-effect)
 
 * 图书馆
 
@@ -186,12 +211,12 @@
   * [中华诗词](https://www.shi-ci.com/)
   * [【建议收藏！】最全公开课知识库](https://docs.qq.com/sheet/DRU5MWHZCTHFGQnhM?tab=qb1sze)
 
-* 友情链接
+* 友链
 
   * [smileNicky](https://blog.csdn.net/u014427391?type=blog)
   * [汪图南的个人博客](https://wangtunan.github.io/blog/)
 
-* 关于站长
+* 关于
 
   * [CSDN](https://blog.csdn.net/kaimo313)
   * [Gitee](https://gitee.com/kaimo313)
