@@ -180,9 +180,9 @@
 
 ## k03：Jquery
 
-## k04：Angular 技术栈
+## k04：Angular技术栈
 
-## k05：React 技术栈
+## k05：React技术栈
 
 ---
 <!-- panels:start -->
@@ -265,7 +265,7 @@
 <!-- panels:end -->
 ---
 
-## k06：Vue 技术栈
+## k06：Vue技术栈
 
 ---
 <!-- panels:start -->
@@ -283,11 +283,16 @@
 <!-- panels:end -->
 ---
 
-## k07：JavaScript 插件库
+## k07：常用插件库
 
 - [从零开始开发一款属于你的 Visual Studio Code 插件](https://www.microsoft.com/china/events/video_316)
+- [动画库 lottie-web](https://github.com/airbnb/lottie-web)
+- [全屏功能 screenfull.js](https://github.com/sindresorhus/screenfull)
+- [vue 翻页时钟](https://github.com/kuan1/kuan-vue-flip-clock)
+- [better-scroll 滚动](http://ustbhuangyi.github.io/better-scroll/)
+- [vue-canvas-effect 画布效果](https://github.com/chenxuan0000/vue-canvas-effect)
 
-## k08：UI 库
+## k08：UI库
 
 ## k09：Electron/桌面端
 
@@ -307,7 +312,7 @@
 <!-- panels:end -->
 ---
 
-## k12：Nodejs 技术栈
+## k12：Nodejs技术栈
 
 ---
 <!-- panels:start -->
@@ -326,7 +331,7 @@
 <!-- panels:end -->
 ---
 
-## k13：SVN/Git 版本管理
+## k13：SVN/Git版本管理
 
 ## k14：Webpack/Vite 构建工具
 
@@ -361,25 +366,44 @@
 ## k16：WebGL/计算机图形学
 
 ---
-<!-- panels:start -->
-<!-- div:left-panel -->
-- [一起来玩玩WebGL--第一弹](https://mp.weixin.qq.com/s/bR5IBdETINDcVsqMx6Xl_w)
-- [一起来玩玩WebGL--第二弹](https://mp.weixin.qq.com/s/aDk5iHztXWpw2Scd-jd_BA)
+<!-- tabs:start -->
+
+### **资料**
+
+- [【MDN WebGL_API】](https://developer.mozilla.org/zh-CN/docs/Web/API/WebGL_API)
+- [Khronos Group](https://www.khronos.org/)
+- [w3cschool WebGL 中文版](https://www.w3cschool.cn/webgl/)
+- [WebGL 理论基础](https://webglfundamentals.org/webgl/lessons/zh_cn/)
+- [WebGL2 理论基础](https://webgl2fundamentals.org/webgl/lessons/zh_cn/)
+- [WebGL Academy](http://www.webglacademy.com/)
+
+### **优雅的学习webgl**
+
 - [优雅的学习webgl(1)—从0开始构造你的第一个webgl程序](https://github.com/forthealllight/blog/issues/50)
 - [优雅的学习webgl(2)—webgl中的着色器和缓冲区](https://github.com/forthealllight/blog/issues/51)
 - [优雅的学习webgl(3)—webgl中的三维图形和矩阵变换](https://github.com/forthealllight/blog/issues/52)
 - [优雅的学习webgl(4)—webgl中的投影模型](https://github.com/forthealllight/blog/issues/53)
 - [优雅的学习webgl(5)—webgl中的光照和反射变换](https://github.com/forthealllight/blog/issues/54)
-- [通过webgl中的纹理贴图来自定义图片间的转场效果](https://github.com/forthealllight/blog/issues/55)
-- [如何优雅的通过canvas实现一个简单的文本编辑器](https://github.com/forthealllight/blog/issues/60)
-- [快速高斯模糊算法的原理以及webgl工程实现](https://github.com/forthealllight/blog/issues/58)
-<!-- div:right-panel -->
+
+### **Threejs官方文档-入门**
+
 - [Threejs官方文档-入门-（1）创建一个场景](https://github.com/forthealllight/learn-threejs/blob/master/demo1.md)
 - [Threejs官方文档-入门-（2）模块的方法引入](https://github.com/forthealllight/learn-threejs/blob/master/demo2.md)
 - [Threejs官方文档-入门-（3）浏览器支持](https://github.com/forthealllight/learn-threejs/blob/master/demo3.md)
 - [Threejs官方文档-入门-（4）webgl兼容性检测](https://github.com/forthealllight/learn-threejs/blob/master/demo4.md)
 - [Threejs官方文档-入门-（5）画线](https://github.com/forthealllight/learn-threejs/blob/master/demo5.md)
+
+<!-- tabs:end -->
+---
+<!-- panels:start -->
+<!-- div:left-panel -->
+- [一起来玩玩WebGL--第一弹](https://mp.weixin.qq.com/s/bR5IBdETINDcVsqMx6Xl_w)
+- [一起来玩玩WebGL--第二弹](https://mp.weixin.qq.com/s/aDk5iHztXWpw2Scd-jd_BA)
+- [通过webgl中的纹理贴图来自定义图片间的转场效果](https://github.com/forthealllight/blog/issues/55)
+- [如何优雅的通过canvas实现一个简单的文本编辑器](https://github.com/forthealllight/blog/issues/60)
+- [快速高斯模糊算法的原理以及webgl工程实现](https://github.com/forthealllight/blog/issues/58)
 - [从0到1实现Web端H.265播放器：YUV渲染篇](https://mp.weixin.qq.com/s/-YI2Xfjkns98-j7TR8sKJw)
+<!-- div:right-panel -->
 - [渲染器、场景和照相机简介](https://github.com/forthealllight/learn-threejs/blob/master/demo6.md)
 - [照相机详细介绍](https://github.com/forthealllight/learn-threejs/blob/master/demo7.md)
 - [几何形状](https://github.com/forthealllight/learn-threejs/blob/master/demo8.md)
@@ -410,11 +434,11 @@
 <!-- panels:end -->
 ---
 
-## k20：Web 性能
+## k20：Web性能
 
 - [前端性能相关：防抖、节流](https://juejin.cn/post/6844903592898330638)
 
-## k21：Web 安全
+## k21：Web安全
 
 ## k22：Nginx/服务器
 
@@ -1102,6 +1126,19 @@
 ---
 
 - [书单狗精神成长文学树（65本）](/书单推荐/01.精神成长书籍.md)
+
+---
+
+## c02：图书馆
+
+---
+
+- [时间地图](https://www.allhistory.com/map)
+- [中文维基百科](https://www.wiki-wiki.top/)
+- [ProcessOn图形化知识资源](https://www.processon.com/diagrams/new#template)
+- [世界数字图书馆](https://www.wdl.org/zh/)
+- [中华诗词](https://www.shi-ci.com/)
+- [【建议收藏！】最全公开课知识库](https://docs.qq.com/sheet/DRU5MWHZCTHFGQnhM?tab=qb1sze)
 
 ---
 

@@ -194,23 +194,6 @@
   * [Vue.js开发者大会](https://fequan.com/feday)
   * [中国JS开发者大会](http://jsconf.cn/)
 
-* 插件库
-
-  * [动画库 lottie-web](https://github.com/airbnb/lottie-web)
-  * [全屏功能 screenfull.js](https://github.com/sindresorhus/screenfull)
-  * [vue 翻页时钟](https://github.com/kuan1/kuan-vue-flip-clock)
-  * [better-scroll 滚动](http://ustbhuangyi.github.io/better-scroll/)
-  * [vue-canvas-effect 画布效果](https://github.com/chenxuan0000/vue-canvas-effect)
-
-* 图书馆
-
-  * [时间地图](https://www.allhistory.com/map)
-  * [中文维基百科](https://www.wiki-wiki.top/)
-  * [ProcessOn图形化知识资源](https://www.processon.com/diagrams/new#template)
-  * [世界数字图书馆](https://www.wdl.org/zh/)
-  * [中华诗词](https://www.shi-ci.com/)
-  * [【建议收藏！】最全公开课知识库](https://docs.qq.com/sheet/DRU5MWHZCTHFGQnhM?tab=qb1sze)
-
 * 友链
 
   * [smileNicky](https://blog.csdn.net/u014427391?type=blog)

@@ -48,6 +48,18 @@ section.cover .cover-main>p:last-child a:last-child:hover {
 body[data-page="README.md"] #app2 {
   display: block;
 }
+/* 置顶组件 */
+.scroll-to-top {
+  background: url('../_media/scroll-top.png') 0 0 no-repeat !important;
+  background-size: contain !important;
+  font-size: 0 !important;
+  border: none !important;
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+  right: 1rem !important;
+  bottom: 2rem !important;
+  box-shadow: none !important;
+}
 
 /* 重置滚动条样式 */
 ::-webkit-scrollbar {
