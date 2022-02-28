@@ -1,3 +1,8 @@
+/*  */
+body {
+  cursor: url(../_img/arrow.cur), auto !important;
+}
+
 /* sidebar */
 .sidebar .search {
   margin-bottom: 10px;
@@ -50,17 +55,51 @@ body[data-page="README.md"] #app2 {
 }
 /* 置顶组件 */
 .scroll-to-top {
-  background: url('../_media/scroll-top.png') 0 0 no-repeat !important;
-  background-size: contain !important;
-  font-size: 0 !important;
+  font-size: 20px !important;
   border: none !important;
   width: 2.5rem !important;
   height: 2.5rem !important;
+  line-height: 2.5rem !important;
   right: 1rem !important;
   bottom: 2rem !important;
   box-shadow: none !important;
+  transform: rotate(-45deg);
+  text-align: center !important;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1) !important;
+  /* chrome 浏览器不可选中  */
+  user-select: none;
+  /* safari 浏览器不可选中   */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+ /* firefox 浏览器不可选中  */
+  -moz-user-select: none;
+  /* microsoft IE浏览器不可选中 */
+  -ms-user-select: none;
 }
-
+.scroll-to-top:hover {
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.2) !important;
+}
+/* 鼠标点击效果 */
+.text-popup {
+  animation: textPopup 1s;
+  color: red;
+  user-select: none;
+  white-space: nowrap;
+  position: absolute;
+  z-index: 99;
+}
+@keyframes textPopup {
+  0%, 100% {
+    opacity: 0;
+  }
+  61.8% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-50px);    
+  }
+}
 /* 重置滚动条样式 */
 ::-webkit-scrollbar {
 	width: 8px;

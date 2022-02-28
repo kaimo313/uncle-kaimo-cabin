@@ -12,13 +12,13 @@
 > 3. 收录博客/大牛、技术团队、小册、视频等
 > 4. 收录自己兴趣方面的资源等
 > 
-> <img src="_media/kxm-cabin-logo.gif"/>
+> <img src="_img/kxm-cabin-logo.gif"/>
 
 如果觉得写得还不错或对您有帮助，可以投喂[小饼干](/?id=打赏)或者给我的项目点颗星⭐（点击右上角的小猫猫）皮卡皮卡`(*╹▽╹*)`，非常感谢。
 
 ---
 
-# 前端专栏
+# 前端指南
 
 ---
 
@@ -33,6 +33,28 @@
 - [Sass：Sass 是成熟、稳定、强大的 CSS 扩展语言](http://sass.bootcss.com/docs/sass-reference/)
 - [Less：一种将css赋予了动态语言特性的动态样式语言](http://less.bootcss.com/)
 - [Stylus：EXPRESSIVE, DYNAMIC, ROBUST CSS](http://stylus-lang.com/)
+- [**css modules**](https://github.com/css-modules/css-modules)
+- [**emotion**](https://github.com/emotion-js/emotion)
+
+### **Css && 动画**
+
+- [**animate.css**](https://github.com/daneden/animate.css) 最有名的动画效果库
+- [**magic.css**](https://github.com/miniMAC/magic) css 动画效果库 类似 animate.css
+- [**popmotion**](https://github.com/Popmotion/popmotion) 一个函数式声明前端动画库
+- [**NES.css**](https://github.com/BcRikko/NES.css) 任天堂主题风格 css 库
+- [**particles.js**](https://github.com/VincentGarreau/particles.js) 前端实现颗粒粒子的动画效果库，比较炫酷，但相对的也比较吃性能
+- [**PaperCSS**](https://www.getpapercss.com/docs/) 手绘风格感觉 css 库
+- [**rough**](https://github.com/pshihn/rough) 基于 Canvas 的手绘风格图形库
+- [**wired-elements**](https://github.com/wiredjs/wired-elements) 基于 rough.js 分装 button input radio 等组件。它的底层是 Web components
+- [**roughViz**](https://github.com/jwilber/roughViz) rough 风格的图表库 手绘风格的图表库
+- [**matter-js**](https://github.com/liabru/matter-js) web 物理引擎
+- [**micron**](https://github.com/webkul/micron) 通过在元素上绑定属性从而实现动画效果的库
+- [**direction-reveal**](https://github.com/NigelOToole/direction-reveal) 根据鼠标进入位置，展现从不同方向 展现 hover 效果
+- [**laxxx**](https://github.com/alexfoxy/laxxx) 滚动特效库 轻量级 压缩完 2kb
+- [**cssfx**](https://cssfx.dev/) 优雅的 CSS 动画效果，开箱即用
+- [**zdog**](https://github.com/metafizzy/zdog) 3D engine 引擎
+- [**leonsans**](https://github.com/cmiscm/leonsans) 酷炫的 字体 动画 geometric sans-serif typeface made with code
+- [**css-doodle**](https://github.com/css-doodle/css-doodle) A web component for drawing patterns with CSS 一个用于使用 CSS 绘制图案的 Web 组件
 
 <!-- tabs:end -->
 ---
@@ -185,6 +207,45 @@
 ## k05：React技术栈
 
 ---
+<!-- tabs:start -->
+### **react 相关库**
+
+- [**preact**](https://github.com/developit/preact) - 轻量级 React 实现。
+- [**inferno**](https://github.com/infernojs/inferno) - 轻量级 React 实现。
+- [**react-router**](https://github.com/ReactTraining/react-router) - React 路由方案。
+- [**reach-router**](https://github.com/reach/router) - React 路由方案，较新，优势是可访问性。
+- [**router5**](https://github.com/router5/router5) - 通用的路由方案。
+- [**react-loadable**](https://github.com/jamiebuilds/react-loadable) - 按需加载 react 组件。
+- [**ant-design**](https://github.com/ant-design/ant-design) - 蚂蚁金服的 React UI 库。
+- [**material-ui**](https://github.com/mui-org/material-ui) - UI 库。
+- [**react-intl**](https://github.com/yahoo/react-intl) - React 的国际化方案。
+- [**react-dnd**](https://github.com/react-dnd/react-dnd) - 拖拽实现。
+- [**react-helmet**](https://github.com/nfl/react-helmet) - 修改 html 的 header 内容。
+- [**react-jsonschema-form**](https://github.com/mozilla-services/react-jsonschema-form) - A React component for building Web forms from JSON Schema.
+
+### **数据流**
+
+- [**redux**](https://github.com/reduxjs/redux)
+- [**immer**](https://github.com/mweststrate/immer)
+- [**mobx**](https://github.com/mobxjs/mobx)
+- [**unstated**](https://github.com/jamiebuilds/unstated)
+- [**rxjs**](https://github.com/ReactiveX/rxjs)
+- [**dva**](https://github.com/dvajs/dva) - 基于 redux。
+- [**rematch**](https://github.com/rematch/rematch) - 基于 redux。
+- [**vuex**](https://github.com/vuejs/vuex)
+- [**ngrx**](https://github.com/ngrx/platform)
+
+### **redux 扩展**
+
+- [**react-redux**](https://github.com/reduxjs/react-redux) - 绑定 react 和 redux。
+- [**redux-saga**](https://github.com/redux-saga/redux-saga)
+- [**redux-persist**](https://github.com/rt2zz/redux-persist)
+- [**redux-bundler**](https://github.com/henrikjoreteg/redux-bundler)
+- [**redux-box**](https://github.com/anish000kumar/redux-box)
+
+<!-- tabs:end -->
+
+---
 <!-- panels:start -->
 <!-- div:left-panel -->
 - [React 源码解析](https://zhuanlan.zhihu.com/p/28697362)
@@ -270,20 +331,160 @@
 ---
 <!-- panels:start -->
 <!-- div:left-panel -->
+- [8个非常实用的Vue自定义指令](https://juejin.cn/post/7067051410671534116)
 - [Vue2.0 源码分析](https://wangtunan.github.io/blog/vueAnalysis/introduction/)
 - [手摸手，带你用 vue 撸后台 系列一(基础篇)](https://juejin.im/post/59097cd7a22b9d0065fb61d2)
 - [手摸手，带你用 vue 撸后台 系列二(登录权限篇)](https://juejin.im/post/591aa14f570c35006961acac)
 - [手摸手，带你用 vue 撸后台 系列三 (实战篇)](https://juejin.im/post/593121aa0ce4630057f70d35)
-<!-- div:right-panel -->
 - [手摸手，带你用 vue 撸后台 系列四(vueAdmin 一个极简的后台基础模板)](https://juejin.im/post/595b4d776fb9a06bbe7dba56)
 - [手摸手，带你封装一个 vue component](https://segmentfault.com/a/1190000009090836)
 - [手摸手，带你优雅的使用 icon](https://juejin.im/post/59bb864b5188257e7a427c09)
 - [手写Vue-router核心原理，再也不怕面试官问我Vue-router原理](https://juejin.cn/post/6854573222231605256)
 - [浅谈使用 Vue 构建前端 10w+ 代码量的单页面应用开发底层](https://juejin.cn/post/6844903622501728263)
+<!-- div:right-panel -->
+- [**vue-multiselect**](https://github.com/shentao/vue-multiselect) select 组件 目前 vue 里面用过最好用的
+- [**Vue.Draggable**](https://github.com/SortableJS/Vue.Draggable) DnD 拖拽组件 基于 Sortable.js 的 vue 版本
+- [**vue-sauce**](https://github.com/Botre/vue-sauce) 一个可以展示 vue 源码的指令
+- [**vue-smooth-dnd**](https://github.com/kutlugsahin/vue-smooth-dnd) Vue wrappers components for smooth-dnd
+- [**vuegg**](https://github.com/vuegg/vuegg) 一个 vue 可视化拖拽界面生成器
+- [**vee-validate**](https://github.com/baianat/vee-validate) 基于 vue 的验证，能验证的内容比较全
+- [**vuesax**](https://github.com/lusaxweb/vuesax) 一个很漂亮的基于 vue 的 ui 框架
+- [**vue-analytics**](https://github.com/MatteoGabriele/vue-analytics) 基于 vue 的 谷歌统计封装
+- [**vue-virtual-scroller**](https://github.com/Akryum/vue-virtual-scroller) 基于 vue 的虚拟列表无限滚动
+- [**vue-content-placeholders**](https://github.com/michalsnik/vue-content-placeholders) 页面龙骨 skeleton
+- [**buefy**](https://github.com/buefy/buefy) 适配移动端的 vue 组件库 看着还挺舒服的
+- [**vxe-table**](https://github.com/xuliangzhan/vxe-table)vue 表格解决方案，还没具体用过看着的确解决了其它 table 组件的一些问题
+- [**Vue 测试指南**](https://lmiller1990.github.io/vue-testing-handbook/zh-CN/) vue 测试指南
 <!-- panels:end -->
 ---
 
 ## k07：常用插件库
+
+---
+<!-- tabs:start -->
+### **框架**
+
+- [**react**](https://github.com/facebook/react)
+- [**vue**](https://github.com/vuejs/vue)
+- [**next.js**](https://github.com/zeit/next.js)
+- [**nuxt.js**](https://github.com/nuxt/nuxt.js)
+- [**gastby**](https://github.com/gatsbyjs/gatsby)
+- [**umi**](https://github.com/umijs/umi) - 蚂蚁金服的前端框架，我目前在维护。
+- [**rekit**](https://github.com/rekit/rekit) - IDE and toolkit for building scalable web applications with React, Redux and React-router.
+- [**choo**](https://github.com/choojs/choo) - dva 最初的 API 是参考这个实现的，已经不怎么发展了，再关注一段时间。
+- [**taro**](https://github.com/NervJS/taro) - 用 React 写小程序，适配微信和支付宝等。
+- [**after.js**](https://github.com/jaredpalmer/after.js)
+- [**mint**](https://github.com/mint-lang/mint) - 提供了语言层方案的框架。
+- [**quasar**](https://github.com/quasarframework/quasar) - 基于 vue，一套代码多处适用。
+
+### **rtfs**
+
+- [**eslint/rfcs**](https://github.com/eslint/rfcs)
+- [**gastbyjs/rfcs**](https://github.com/gatsbyjs/rfcs)
+- [**npm/rfcs**](https://github.com/npm/rfcs)
+- [**nuxtjs/rfcs**](https://github.com/nuxt/rfcs)
+- [**reactjs/rfcs**](https://github.com/reactjs/rfcs)
+- [**vuejs/rfcs**](https://github.com/vuejs/rfcs)
+- [**yarnpkg/rfcs**](https://github.com/yarnpkg/rfcs)
+
+### **命令行**
+
+- [**ajv**](https://github.com/epoberezkin/ajv) - 参数校验。
+- [**chalk**](https://github.com/chalk/chalk) - 命令行着色美化库
+- [**cheerio**](https://github.com/cheeriojs/cheerio) - 用类 jQuery 语法处理 HTML。
+- [**chokidar**](https://github.com/paulmillr/chokidar) - 文件监听。
+- [**clipboardy**](https://github.com/sindresorhus/clipboardy) - 复制文本到粘贴板。
+- [**consola**](https://github.com/nuxt/consola) 优雅的命令行 console logger `vuepress` 也使用了它
+- [**commander.js**](https://github.com/tj/commander.js) 自动的解析命令和参数，合并多选项，处理短参，等等，功能强大，上手简单
+- [**debug**](https://github.com/visionmedia/debug) - 打印调试信息。
+- [**depd**](https://github.com/dougwilson/nodejs-depd) - 给出 deprecated 警告。
+- [**deprecate**](https://github.com/brianc/node-deprecate) - 给过期警告。
+- [**enquirer**](https://github.com/enquirer/enquirer) - 同上，更 cool 一些。
+- [**execa**](https://github.com/sindresorhus/execa) - 比 child_process 好用，返回 Promise。
+- [**figures**](https://github.com/sindresorhus/figures) - ✔︎ 等特殊字符，做了 windows 兼容处理。
+- [**glob**](https://github.com/isaacs/node-glob) - 文件查找。
+- [**ink**](https://github.com/vadimdemedes/ink) - 用 React 处理命令行输出。
+- [**inquirer**](https://github.com/SBoudrias/Inquirer.js) - 交互式命令接口，比如 prompt。
+- [**ora**](https://github.com/sindresorhus/ora) - 控制命令行光标，显示 loading 等。
+- [**rimraf**](https://github.com/isaacs/rimraf) - 删除文件。
+- [**signale**](https://github.com/klaussinani/signale) - 一个 Node 的日志格式库，自带 16 个级别，可以定制颜色和 Emoji，可扩展的日志记录器
+- [**semver**](https://github.com/npm/node-semver) - semver 版本处理。
+- [**tiny-glob**](https://github.com/terkelg/tiny-glob) - 文件查找。
+- [**update-notifier**](https://github.com/yeoman/update-notifier) - 更新提醒。
+- [**why-is-node-running**](https://github.com/mafintosh/why-is-node-running) - 检查 node 没退出的原因。
+- [**yargs**](https://github.com/yargs/yargs) - 命令行入口套件。
+- [**yargs-parser**](https://github.com/yargs/yargs-parser) - 命令行参数解析。
+- [**progress-estimator**](https://github.com/bvaughn/progress-estimator) 命令行 progress bar 进度条模拟库
+- [**listr**](https://github.com/SamVerschueren/listr) Terminal task 命令行任务列表
+- [**y18n**](https://github.com/yargs/y18n) yargs 基于 i18n 的一个包
+- [**Inquirer.js**](https://github.com/SBoudrias/Inquirer.js) A collection of common interactive command line user interfaces. 命令行询问库
+- [**enquirer**](https://github.com/nasa/openmct) 命令行 prompt 询问库，写 cli 的时候很有用
+- [**Qoa**](https://github.com/klaussinani/qoa) 同上
+- [**cli-progress**](https://github.com/AndiDittrich/Node.CLI-Progress) Terminal Progress Bar
+- [**cli-table**](https://github.com/Automattic/cli-table) tables for the CLI
+- [**node-notifier**](https://github.com/mikaelbr/node-notifier) 在 NodeJS 环境中，可以很方便的唤起 notifier 通知
+
+### **文件处理**
+
+- [**rimraf**](https://github.com/isaacs/rimraf) 删除文件
+- [**globby**](https://github.com/sindresorhus/globby) 用于模式匹配目录文件
+- [**glob**](https://github.com/isaacs/node-glob) 文件查找
+- [**tiny-glob**](https://github.com/terkelg/tiny-glob) 文件查找
+- [**chokidar**](https://github.com/paulmillr/chokidar) node 监听文件变化的库
+- [**fs-extra**](https://github.com/jprichardson/node-fs-extra) fs-extra 模块是系统 fs 模块的扩展，提供了更多便利的 API，并继承了 fs 模块的 API
+- [**execa**](https://github.com/sindresorhus/execa) 比 child_process 好用，返回 Promise
+- [**npm-run-all**](https://github.com/mysticatea/npm-run-all) 一个 CLI 工具可以并行或者串行执行 script 指令
+- [**memfs**](https://github.com/streamich/memfs) memory-fs 的替代品，将文件放在内存中优化读写，webpack 依赖
+
+### **实践库**
+
+- [**Jasonette**](https://github.com/Jasonette/JASONETTE-iOS) 一个用 json 来构建 hybrid App 的框架
+- [**crate**](https://github.com/atulmy/crate) 一个 react 全栈练习(pc,mobile,rn,api) demo，适合入门拿来练手
+- [**react-in-patterns**](https://github.com/krasimir/react-in-patterns) 一本开源教你如何写 react 的书
+- [**hocs**](https://github.com/deepsweet/hocs) react 相关 hoc 收集库
+
+### **文档**
+
+- [**vuepress**](https://github.com/vuejs/vuepress) vue 官方出品的文档工具
+- [**docsify**](https://github.com/docsifyjs/docsify) 轻量级文档工具，但其是运行时编译的，所以 seo 不好
+- [**GitBook**](https://www.gitbook.com/) 除了编译慢没啥毛病
+- [**mdx**](https://github.com/mdx-js/mdx) jsx + markdown
+- [**docz**](https://github.com/pedronauck/docz)
+- [**storybook**](https://github.com/storybooks/storybook)
+
+### **调试**
+
+- [**fx**](https://github.com/antonmedv/fx) 命令行优化 JSON 输出
+- [**dumper.js**](https://github.com/zeeshanu/dumper.js) 能让你的 node console 更加的规整，方便调试
+- [**ndb**](https://github.com/GoogleChromeLabs/ndb) node 调试
+- [**why-is-node-running**](https://github.com/mafintosh/why-is-node-running) 查看 node 为什么在运行
+- [**siege**](https://www.joedog.org/siege-home/) 压测工具
+- [**node-in-debugging**](https://github.com/nswbmw/node-in-debugging) node.js 调试指南
+- [**node-best-practices**](https://github.com/i0natan/nodebestpractices) node 最佳实践
+- [**Node.js 最佳实践**](https://github.com/i0natan/nodebestpractices/blob/master/README.chinese.md)
+
+### **请求处理**
+
+- [**axios**](https://github.com/axios/axios) 目前最常见的请求库
+- [**got**](https://github.com/sindresorhus/got) http 请求库 如果你觉得 request 太多的话 这是一个不错的选择
+- [**request**](https://github.com/request/request) 老牌请求库
+- [**whatwg-fetch**](https://github.com/github/fetch) fetch 请求库
+- [**grpc-web**](https://github.com/grpc/grpc-web) 前端直连 gRPC 服务
+- [**node-fetch**](https://github.com/bitinn/node-fetch) node 环境下轻量级 fetch 请求库
+- [**reqwest**](https://github.com/ded/reqwest)
+- [**urllib**](https://github.com/node-modules/urllib)
+
+### **语法解析**
+
+- [**esquery**](https://github.com/estools/esquery) - 语法树查询。
+
+### **Markdown**
+
+- [**markdown-it**](https://github.com/markdown-it/markdown-it) - Markdown 转 HTML。
+- [**remark**](https://github.com/remarkjs/remark) - Markdown 语法解析器。
+
+<!-- tabs:end -->
+---
 
 - [从零开始开发一款属于你的 Visual Studio Code 插件](https://www.microsoft.com/china/events/video_316)
 - [动画库 lottie-web](https://github.com/airbnb/lottie-web)
@@ -291,16 +492,46 @@
 - [vue 翻页时钟](https://github.com/kuan1/kuan-vue-flip-clock)
 - [better-scroll 滚动](http://ustbhuangyi.github.io/better-scroll/)
 - [vue-canvas-effect 画布效果](https://github.com/chenxuan0000/vue-canvas-effect)
+- [**cheerio**](https://github.com/cheeriojs/cheerio) 用类 jQuery 语法处理 HTML
+- [**node-semver**](https://github.com/npm/node-semver) node 版本验证库
+- [**live-server**](https://github.com/tapio/live-server) 一个简单的 http server 带有 reload 功能
+- [**node-portfinder**](https://github.com/indexzero/node-portfinder) 一个端口嗅探工具
+- [**update-notifier**](https://github.com/yeoman/update-notifier)node 依赖升级提醒工具
+- [**fastscan**](https://github.com/pyloque/fastscan) node 敏感词库
+- [**hygen**](https://github.com/jondot/hygen) 快速方便的创建代码 可以命令行创建预设的 template
+- [**plop**](https://github.com/plopjs/plop) 同上，代码生成工具
+- [**ink**](https://github.com/vadimdemedes/ink) 是一个 React 的命令行渲染器，命令行界面可以像写页面那么写了
+- [**dotenv**](https://github.com/motdotla/dotenv) 通过.env 设置环境部变量 vue-cli 也依赖它
+- [**patch-package**](https://github.com/ds300/patch-package) 优雅的修改 node_modules 中的依赖库
+- [**Playwright**](https://github.com/microsoft/playwright) 同 Puppeteer 团队出品，但区别是它支持 Chrome、Safari、Firefox、Edge
+- [**tree-cli**](https://github.com/MrRaindrop/tree-cli) node 根据目录结构生成 tree
+- [**tree-node-cli**](https://github.com/yangshun/tree-node-cli) node 根据目录结构生成 tree
+- [**open**](https://github.com/sindresorhus/open) node 打开浏览器
+
+---
 
 ## k08：UI库
 
+---
+
+---
+
 ## k09：Electron/桌面端
+
+---
+
+- [**electron**](https://github.com/electron/electron)
+- [**DeskGap**](https://github.com/patr0nus/DeskGap/) - 类 electron，由于不包含浏览器的部分，所以产物更小
+
+---
 
 ## k10：微信小程序/快应用
 
 - [只需两步获取任何微信小程序源码](https://juejin.im/post/5b0e431f51882515497d979f?utm_source=花裤衩)
 
 ## k11：Flutter/RN/移动端
+
+- [**fastclick**](https://github.com/ftlabs/fastclick) 解决移动端一些点击问题
 
 ---
 <!-- panels:start -->
@@ -322,18 +553,136 @@
 - [浏览器与Node的事件循环(Event Loop)有何区别](https://zhuanlan.zhihu.com/p/54882306)
 - [从Express到Nestjs，谈谈Nestjs的设计思想和使用方法](https://github.com/forthealllight/blog/issues/35)
 - [基于 node.js 的脚手架工具开发经历](https://juejin.im/post/5a31d210f265da431a43330e)
-<!-- div:right-panel -->
 - [How to build a CLI with Node.js](https://www.twilio.com/blog/how-to-build-a-cli-with-node-js)
 - [循序渐进教你实现一个完整的node的EventEmitter模块](https://github.com/forthealllight/blog/issues/21)
 - [nodejs中的子进程，深入解析child_process模块和cluster模块](https://github.com/forthealllight/blog/issues/24)
 - [NodeJS与模块系统](https://mp.weixin.qq.com/s/uDp0v_1hN0Uzg-EGr1yfgA)
 - [基于node.js的脚手架工具开发经历](https://juejin.cn/post/6844903526947110919#heading-14)
+<!-- div:right-panel -->
+- [**live-server**](https://github.com/tapio/live-server) 可以快速启一个本地 dev 服务 并且支持自动刷新的 http server
+- [**serve**](https://github.com/zeit/serve) 快速起本地静态服务
+- [**picojs**](https://github.com/tehnokv/picojs) js 人脸识别库
+- [**es-checker**](https://github.com/ruanyf/es-checker) 检查当前环境对 ES6 支持的情况。支持浏览器和 node.js
+- [**merge-images**](https://github.com/lukechilds/merge-images) 图片合成，利用`canvas`能将几张图片合成一张
+- [**fabric.js**](https://github.com/fabricjs/fabric.js) 基于 canvas 创建交互式的图片编辑界面非常适合用来做图片合成类工作。
+- [**phaser**](https://github.com/photonstorm/phaser) 这是一个为桌面和移动浏览器开发 HTML5 游戏的快速开源框架。
+  你可以为 iOS、 Android 和不同的本地应用程序创建游戏。
+- [**purifycss**](https://github.com/purifycss/purifycss) 移除没使用到的 css
+- [**dropcss**](https://github.com/leeoniya/dropcss) 同上
+- [**fast-cli**](https://github.com/sindresorhus/fast-cli) 命令行测试下载上传速度
+- [**@pika/web**](https://github.com/pikapkg/web) 让你不需要在本地 webpack 中 import，直接在游览器里面运行 npm 包
+- [**pinyin**](https://github.com/hotoo/pinyin) 汉字拼音转换工具
+- [**JavaScript Obfuscator Tool**](https://obfuscator.io/) js 代码混淆工具
+- [**tesseract**](https://github.com/naptha/tesseract.js) 图像识别，它能识别图片中的文字，支持中文
+- [**gka**](https://github.com/gkajs/gka) 一款高效、高性能的帧动画生成工具。只需一行命令，快速图片优化、生成动画文件，支持效果预览。
+- [**recast**](https://github.com/benjamn/recast) 前端 ast 库
+- [**jscodeshift**](https://github.com/facebook/jscodeshift) 将 js 内容解析成 AST 语法树，然后提供一些便利的操作接口，方便我们对各个节点进行更改
+- [**stats.js**](https://github.com/mrdoob/stats.js/) 前端性能监控 如 FPS、内存使用情况等
+- [**PapaParse**](https://github.com/mholt/PapaParse) 解析 csv excel
+- [**mddir**](https://github.com/JohnByrneRepo/mddir) 生成 markdown file/folder structure 目录结构 tree
+- [**imagemin**](https://github.com/imagemin/imagemin) 图片压缩库
+- [**inline-css**](https://github.com/jonkemp/inline-css#readme) css covert to inline style 在生成 email 格式 html 的时候特别有用
+- [**babel-plugin-try-catch-error-report**](https://github.com/mcuking/babel-plugin-try-catch-error-report) 全局自动 catch 错误进行数据上报
+- [**StreamSaver.js**](https://github.com/jimmywarting/StreamSaver.js) 大文件下载，不用像 saveAs 那样先读到内存中再下载
+- [**mammoth.js**](https://github.com/mwilliamson/mammoth.js) Convert Word documents (.docx files) to HTML
+- [**npkill**](https://github.com/voidcosmos/npkill) 列出所有 node_modules，并支持删除
+- [**strapi**](https://github.com/strapi/strapi/) 开源的解决方案来创建、部署和管理自己的 API，通过图形化界面进行操作
+
 <!-- panels:end -->
 ---
 
 ## k13：SVN/Git版本管理
 
 ## k14：Webpack/Vite 构建工具
+
+---
+<!-- tabs:start -->
+### **webpack**
+
+- [**webpackbar**](https://github.com/nuxt/webpackbar) webpack 打包进度条
+- [**jarvis**](https://github.com/zouhir/jarvis) webpack dashboard
+- [**webpack-chain**](https://github.com/neutrinojs/webpack-chain) 通过 chain 风格 api 的方式修改 webpack 配置
+- [**speed-measure-webpack-plugin**](https://github.com/stephencookdev/speed-measure-webpack-plugin) 统计 webpack 各阶段的耗时
+- [**obsolete-webpack-plugin**](https://github.com/ElemeFE/obsolete-webpack-plugin) 基于 browserslist 做浏览器升级提示
+- [**mini-css-extract-plugin**](https://github.com/webpack-contrib/mini-css-extract-plugin) 提取 CSS 为单独文件
+- [**copy-webpack-plugin**](https://github.com/webpack-contrib/copy-webpack-plugin) 复制额外的文件到输出目录
+- [**duplicate-package-checker-webpack-plugin**](https://github.com/darrenscerri/duplicate-package-checker-webpack-plugin) 检查是否存在重复依赖
+- [**cssnano**](https://github.com/cssnano/cssnano) CSS 压缩
+- [**bundle-buddy**](https://github.com/samccone/bundle-buddy) webpack bundle 依赖分析
+### **打包工具**
+
+* [**webpack**](https://github.com/webpack/webpack) - 打包项目。
+* [**rollup**](https://github.com/rollup/rollup) - 打包 npm 库。
+* [**parcel**](https://github.com/parcel-bundler/parcel) - webpack 竞品，但发展前景不乐观，再观察一段时间。
+* [**systemjs**](https://github.com/systemjs/systemjs) - 针对一些特殊场景会比较有用，比如云 ide，支付宝小程序 IDE 等。
+* [**microbundle**](https://github.com/developit/microbundle) - 基于 rollup，简化配置。
+* [**bili**](https://github.com/egoist/bili) - 基于 rollup，同上。
+* [**father**](https://github.com/umijs/father) - 组件打包工具，提供 babel 和 rollup 两种打包方式。
+* [**vue-cli**](https://github.com/vuejs/vue-cli) - vue 命令行工具。
+* [**create-react-app**](https://github.com/facebook/create-react-app) - react 官方脚手架。
+* [**prepack**](https://github.com/facebook/prepack) - 通过预先执行的方式优化打包结果。
+* [**lebab**](https://github.com/lebab/lebab) - 把 es5 代码转成 es6，反向 babel。
+* [**esm-to-cjs**](https://github.com/sidvishnoi/esm-to-cjs) - 把 esm 转成 cjs。
+* [**tsdx**](https://github.com/palmerhq/tsdx) - Zero-config CLI for TypeScript package development.
+
+### **webpack 辅助工具、Loader 和插件**
+
+* [**webpack-dev-server**](https://github.com/webpack/webpack-dev-server) - webpack 开发服务器。
+* [**webpack-dev-middleware**](https://github.com/webpack/webpack-dev-middleware) - webpack 中间件。
+* [**webpack-merge**](https://github.com/survivejs/webpack-merge) - 合并 webpack 配置。
+* [**webpack-chain**](https://github.com/neutrinojs/webpack-chain) - 通过 chain 风格 api 的方式修改 webpack 配置。
+* [**svgr**](https://github.com/smooth-code/svgr) - svg 转 react 组件。
+* [**postcss**](https://github.com/postcss/postcss) - CSS 界的 babel。
+* [**autoprefixer**](https://github.com/postcss/autoprefixer) - 为 CSS 选择权自动加 prefix。
+* [**cssnano**](https://github.com/cssnano/cssnano) - CSS 压缩，也有类 preset 的概念。
+* [**mini-css-extract-plugin**](https://github.com/webpack-contrib/mini-css-extract-plugin) - 提取 CSS 为单独文件。
+* [**webpackbar**](https://github.com/nuxt/webpackbar) - webpack 进度条。
+* [**webpack-bundle-analyzer**](https://github.com/webpack-contrib/webpack-bundle-analyzer) - 构建产物占比分析。
+* [**uglifyjs-webpack-plugin**](https://github.com/webpack-contrib/uglifyjs-webpack-plugin) - JS 压缩，产物为 ES5 语法。
+* [**terser-webpack-plugin**](https://github.com/webpack-contrib/terser-webpack-plugin) - JS 压缩，产物为 ES6 语法。
+* [**webpack-manifest-plugin**](https://github.com/danethurber/webpack-manifest-plugin) - 生成 manifest.json。
+* [**copy-webpack-plugin**](https://github.com/webpack-contrib/copy-webpack-plugin) - 复制额外的文件到输出目录。
+* [**case-sensitive-paths-webpack-plugin**](https://github.com/Urthen/case-sensitive-paths-webpack-plugin) - 大小写敏感检测，能规避一些问题，但构建时性能消耗较大。
+* [**css-hot-loader**](https://github.com/shepherdwind/css-hot-loader) - CSS 热更新，搭配 mini-css-extract-plugin 使用。
+* [**duplicate-package-checker-webpack-plugin**](https://github.com/darrenscerri/duplicate-package-checker-webpack-plugin) - 重复依赖检测。
+* [**fork-ts-checker-webpack-plugin**](https://github.com/Realytics/fork-ts-checker-webpack-plugin) - ts 语法检测。
+* [**speed-measure-webpack-plugin**](https://github.com/stephencookdev/speed-measure-webpack-plugin) - 统计 webpack 各阶段耗时。
+
+### **Bundless**
+
+* [**vite**](https://github.com/vitejs/vite)
+* [**snowpack**](https://github.com/pikapkg/snowpack) - 浏览器里跑 npm 依赖，面向现代浏览器。
+* [**es-dev-server**](https://github.com/open-wc/open-wc/tree/master/packages/es-dev-server)
+
+### **非 JavaScript 编译工具**
+
+* [**boa**](https://github.com/boa-dev/boa) - 基于 Rust，嵌入式 Javascript 引擎。
+* [**dprint**](https://github.com/dprint/dprint) - 基于  Rust，代码格式化工具，Prettier 替代品。
+* [**elsa**](https://github.com/elsaland/elsa) - 基于 Go，JavaScript 和 TypeScript 的 runtime。 
+* [**es-module-lexer**](https://github.com/guybedford/es-module-lexer) - 基于 C，输出 Web Assembly，esm 模块解析。
+* [**esbuild**](https://github.com/evanw/esbuild) - 基于 Go，Webpack 替代品。
+* [**esbuild-node-tsc**](https://github.com/a7ul/esbuild-node-tsc) - 用 esbuild 编译 TypeScript 项目，但不支持类型检测。
+* [**minify**](https://github.com/tdewolff/minify) - 基于 Go，压缩器，支持 HTML5、CSS3、JS、JSON、SVG 和 XML。
+* [**RSLint**](https://github.com/RDambrosio016/RSLint) - 基于 Rust，lint 工具。
+* [**sucrase**](https://github.com/alangpierce/sucrase) - 基于 Rust，Babel 替代品。
+* [**swc**](https://github.com/swc-project/swc) - 基于 rust 的语法转换器，babel 的竞争者。
+* [**swc-node**](https://github.com/Brooooooklyn/swc-node)
+* [**markdown-wasm**](https://github.com/rsms/markdown-wasm) - 基于 wasm 的 markdown 解析工具。
+
+### **包管理**
+
+* [**npm**](https://github.com/npm/cli)
+* [**yarn**](https://github.com/yarnpkg/yarn) - 我用这个。
+
+### **babel**
+
+* [**babel**](https://github.com/babel/babel)
+* [**babel-plugin-dynamic-import-node**](https://github.com/airbnb/babel-plugin-dynamic-import-node) - 有些场景下会需要禁用 `import()` 语法。
+* [**babel-plugin-macros**](https://github.com/kentcdodds/babel-plugin-macros) - 前端文件写 node 逻辑。
+* [**babel-plugin-rawest**](https://github.com/sokra/rawact) - React 的 DOM 直出方案。
+* [**babel-plugin-react-require**](https://github.com/vslinko/babel-plugin-react-require) - 自动为 jsx 语法加 react 引用。
+* [**babel-plugin-transform-react-remove-prop-types**](https://github.com/oliviertassinari/babel-plugin-transform-react-remove-prop-types) - 删除 prop-types，生产环境用。
+<!-- tabs:end -->
 
 ---
 <!-- panels:start -->
@@ -422,6 +771,30 @@
 ## k19：V8/浏览器
 
 ---
+<!-- tabs:start -->
+### **Chrome 拓展**
+
+- [**Tampermonkey**](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) 油猴 神器
+- [**扩展管理器**](https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco/related?utm_source=chrome-ntp-icon) 轻松管理扩展，就不用担心安装太多扩展了
+- [**visbug**](https://github.com/GoogleChromeLabs/ProjectVisBug) 它可以帮助你改变 css，移动元素等等一系类强大的功能,页面调试神器。当然有些时候还是 DevTools 更好用
+- [**refined-github**](https://github.com/sindresorhus/refined-github) 优化 github 默认功能和样式的 chrome 插件
+- [**ADB**](https://chrome.google.com/webstore/detail/adb/dpngiggdglpdnjdoaefidgiigpemgage) chrome 真机调试安卓神器
+- [**Adblock Plus**](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb)
+  免费广告拦截程序 这个应该不用说了，装机必备
+- [**Axure RP Extension**](https://chrome.google.com/webstore/detail/axure-rp-extension-for-ch/dogkpdfcklifaemcdfbildhcofnopogp) 看原型必备
+- [**JSON Formatter**](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) JSON 格式化 程序员必备
+- [**Lighthouse**](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) 谷歌出品，检查网页综合性能评分，分析不足
+- [**二维码(QR 码)生成器**](https://chrome.google.com/webstore/detail/%E4%BA%8C%E7%BB%B4%E7%A0%81qr%E7%A0%81%E7%94%9F%E6%88%90%E5%99%A8qr-code-generato/pflgjjogbmmcmfhfcnlohagkablhbpmg) 手机扫码神器
+- [**Octotree**](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc) github 上看代码必备神器
+- [**OctoLinker**](https://chrome.google.com/webstore/detail/octolinker/jlmafbaeoofdegohdhinkhilhclaklkp) 能在 github 上看代码的时候 快速链接跳转到依赖的库
+- [**The Great Suspender**](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg) chrome 太吃内存了，当页面开的很多时候会很卡，它就完美的解决了这个问题。它将几分钟没浏览过的页面都挂载了，当你想看是再重新加载
+- [**WEB 前端助手**](https://chrome.google.com/webstore/detail/web%E5%89%8D%E7%AB%AF%E5%8A%A9%E6%89%8Bfehelper/pkgccpejnmalmdinmhkkfafefagiiiad) 支持 JSON 格式化、二维码生成与解码、代码压缩、Markdown 与 HTML 互转、网页滚动截屏、正则表达式、时间转换工具、JSON 比对工具等
+- [**掘金**](https://chrome.google.com/webstore/detail/%E6%8E%98%E9%87%91/lecdifefmmfjnjjinhaennhdlmcaeeeb) 目前我默认新开 tab 的默认页，可以刷刷新的文章或者项目，还不错。
+- [**沙拉查词**](https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg) 划词翻译插件
+- [**npmhub**](https://github.com/npmhub/npmhub)在 README 下方显示 npm 依赖信息
+<!-- tabs:end -->
+
+---
 <!-- panels:start -->
 <!-- div:left-panel -->
 - [浏览器系列之 Cookie 和 SameSite 属性](https://github.com/mqyqingfeng/Blog/issues/157)
@@ -436,6 +809,8 @@
 
 ## k20：Web性能
 
+- [**workbox**](https://github.com/googlechrome/workbox) PWA 方案，Google 出品
+- [**critical**](https://github.com/addyosmani/critical) - 提取关键 CSS。
 - [前端性能相关：防抖、节流](https://juejin.cn/post/6844903592898330638)
 
 ## k21：Web安全
@@ -445,6 +820,19 @@
 ## k23：Redis/数据库
 
 ## k24：测试与持续集成
+
+---
+<!-- tabs:start -->
+### **测试**
+
+- [**jest**](https://github.com/facebook/jest)
+- [**ts-jest**](https://github.com/kulshekhar/ts-jest)
+- [**enzyme**](https://github.com/airbnb/enzyme)
+- [**jsdom**](https://github.com/jsdom/jsdom)
+- [**puppeteer**](https://github.com/GoogleChrome/puppeteer)
+- [**react-test-rerender**](https://github.com/facebook/react/tree/master/packages/react-test-renderer) - 官方出品。
+- [**react-testing-library**](https://github.com/kentcdodds/react-testing-library) - kentcdodds 出品。
+<!-- tabs:end -->
 
 ---
 <!-- panels:start -->
@@ -503,6 +891,38 @@
 ---
 
 ## k28：前端工程架构
+
+---
+<!-- tabs:start -->
+### **工程**
+
+- [**lerna**](https://github.com/lerna/lerna) monorepo 管理
+- [**lerna-changelog**](https://github.com/lerna/lerna-changelog) 为 lerna 项目自动生成 changelog
+- [**eslint**](https://github.com/eslint/eslint) JS 风格约束
+- [**eslint-config-airbnb**](https://github.com/airbnb/javascript) airbnb 约束风格
+- [**xo**](https://github.com/xojs/xo) 封装自 eslint
+- [**prettier**](https://github.com/prettier/prettier) 更主观的风格自动修改
+- [**yeoman-generator**](https://github.com/yeoman/generator) 脚手架工具
+- [**serve**](https://github.com/zeit/serve) 本地静态服务器
+- [**np**](https://github.com/sindresorhus/np) npm publish 辅助，自动 push、打 tag、升版本等
+- [**lint-staged**](https://github.com/okonet/lint-staged) eslint 提速，只 lint 提交的代码
+- [**coveralls**](https://github.com/marketplace/coveralls) 覆盖率
+- [**husky**](https://github.com/typicode/husky) 添加 git hooks
+- [**cross-env**](https://github.com/kentcdodds/cross-env) 跨平台的环境变量声明
+- [**nvm**](https://github.com/creationix/nvm) 管理 node 版本
+- [**concurrently**](https://github.com/kimmobrunfeldt/concurrently) 在 npm scripts 里并行执行命令
+- [**@zeit/ncc**](https://github.com/zeit/ncc) 打包为 npm 包为一个文件
+- [**npm-check**](https://github.com/dylang/npm-check) 检测依赖升级情况，可以和 `yarn upgrade-interactive` 配合着用，主要用来检测冗余依赖
+- [**cpx**](https://github.com/mysticatea/cpx) 复制，支持 glob，并且可以 watch
+- [**onchange**](https://github.com/Qard/onchange) 监听文件变动然后做一些事
+- [**tasksfile**](https://github.com/pawelgalazka/tasksfile) 在 node 中执行 script 脚本
+- [**servor**](https://github.com/lukejacksonn/servor) - 另一个静态服务器。
+- [**budo**](https://github.com/mattdesl/budo) - 又一个静态服务器。
+- [**projj**](https://github.com/popomore/projj) - 本地 git 项目管理，支持 github 和 gitlab。
+- [**just**](https://github.com/Microsoft/just) - 微软出的任务管理器。
+- [**tern**](https://github.com/ternjs/tern) - 代码分析器，为不少编辑器服务。
+- [**lightproxy**](https://github.com/alibaba/lightproxy) - 底层协议代理工具，跨平台。
+<!-- tabs:end -->
 
 ---
 <!-- panels:start -->
@@ -796,11 +1216,41 @@
 <!-- tabs:end -->
 ---
 
-## k37：产品交互
+## k37：前端开发规范
+
+---
+
+- [YY UED前端规范指南](https://www.bookstack.cn/read/fe-guide/README.md)
+- [前端开发规范手册](https://www.bookstack.cn/read/Aaaaaashu-Guide/README.md)
+- [饿了么前端风格指南](https://www.bookstack.cn/read/style-guide/README.md)
+
+- [Eslint + Prettier + Husky + Commitlint+ Lint-staged 规范前端工程代码规范](https://juejin.cn/post/7038143752036155428)
+- [Eslint + Prettier + stylelint + Husky + Lint-staged 规范你的工程git提交信息和代码规范](https://juejin.cn/post/7018053886699110407)
+- [eslint最详细规范整理](https://blog.csdn.net/weixin_40013817/article/details/108003812)
+- [vuejs/eslint-config-vue](/k37/01.eslint-config-vue.md)
+
+---
+
+## k38：前端开发者指南
+
+---
+
+- [移动前端开发经验指南](https://www.bookstack.cn/read/doyoe-trip/README.md)
+- [前端开发者指南（2017）](https://www.bookstack.cn/read/front-end-handbook-2017-zh/README.md)
+- [前端开发者指南（2018）](https://www.bookstack.cn/read/front-end-handbook-2018-zh/README.md)
+- [前端开发者指南（2019）](https://www.bookstack.cn/read/front-end-handbook-2019-zh/README.md)
+
+---
+
+## k39：产品交互
+
+---
 
 - [让功能找到用户；让用户体验美好「自然交互 1」](https://zhuanlan.zhihu.com/p/41952711)
 
-## k38：游戏开发
+---
+
+## k40：游戏开发
 
 ---
 
@@ -817,7 +1267,7 @@
 <!-- tabs:end -->
 ---
 
-## k39：职业发展
+## k100：职业发展
 
 ---
 
@@ -833,7 +1283,6 @@
 
 - [01.网站资源](/资源工具/01.网站资源.md)
 - [02.Vue资源](/资源工具/02.Vue资源.md)
-- [03.工具库](/资源工具/03.工具库.md)
 - [04.黑色技术](/资源工具/04.黑色技术.md)
 - [05.awesome-f2e-libs](/资源工具/05.awesome-f2e-libs.md)
 - [06.全球开放电子图书馆及免费资源](/资源工具/06.全球开放电子图书馆及免费资源)
@@ -842,10 +1291,90 @@
 
 ## m00：常用在线工具集
 
-> [Road2Coding 编程自学之路](https://www.r2coding.com/#/)
-
----
 <!-- tabs:start -->
+### **前端常用**
+
+- [**sweetalert2**](https://github.com/sweetalert2/sweetalert2) 一个自适应，且自定义性强的弹出框（零依赖）
+- [**tippy.js**](https://github.com/atomiks/tippyjs) 最著名的 tooltip/popover library
+- [**text-mask**](https://github.com/text-mask/text-mask) 可以让 input 按照规则输入(如电话,email,日期,信用卡等)，特殊格式 input
+- [**dinero.js**](https://github.com/sarahdayan/dinero.js) 用来创建、计算和格式化货币价值的不可变的框架，支持国际化
+- [**lerna**](https://github.com/lerna/lerna) 大项目版本控制工具，项目中可以有多个 package.json 文件
+- [**img-2**](https://github.com/RevillWeb/img-2) 一个提高图片加载性能和体验的库，懒加载使用 web worker 模糊预览
+- [**fingerprintjs**](https://github.com/Valve/fingerprintjs2) 是一个快速的浏览器指纹库，通浏览环境的一系列配置生成 id
+- [**ajv**](https://github.com/epoberezkin/ajv) 一个 json schema 验证的库
+- [**dayjs**](https://github.com/xx45/dayjs) 一个轻量级类 moment.js API 时间库
+- [**primjs**](https://github.com/PrismJS/prism) 让页面支持代码高亮
+- [**ReLaXed**](https://github.com/RelaxedJS/ReLaXed) 一个将 document html 转成 PDF 的工具
+- [**uppy**](https://github.com/transloadit/uppy) 一个很好看的也很好用的 前端上传库
+- [**Filepond**](https://github.com/pqina/filepond) 一个小巧的文件上传库
+- [**tui-calendar**](http://ui.toast.com/tui-calendar/) 功能全面的日程安排日历控件，还支持拖拽
+- [**tui.editor**](https://github.com/nhnent/tui.editor) markdown 所见即所得编辑器
+- [**tabler**](https://github.com/tabler/tabler) 基于 Bootstrap 4 的 Dashboard UI Kit 和美观 高颜值 ui 模板
+- [**pulltorefresh.js**](https://github.com/BoxFactura/pulltorefresh.js) 下个下拉刷新插件
+- [**lulu**](https://github.com/yued-fe/lulu) 腾讯阅文基于 jQuery，针对 PC 网站 IE8+（peak 主题）的前端 UI 框架
+- [**chancejs**](https://github.com/chancejs/chancejs) 生成随机数据的库
+- [**spritejs**](https://github.com/spritejs/spritejs) 360 奇舞团出的跨平台绘图对象模型
+- [**tui.image-editor**](https://github.com/nhnent/tui.image-editor) 一个功能齐全的在线图片编辑，基于 canvas
+- [**nanoid**](https://github.com/ai/nanoid) 前端轻量 unique string ID 生成库
+- [**rxdb**](https://github.com/pubkey/rxdb) 一款开源的快速、灵活的客户端数据库，支持各种浏览器以及 NodeJS，Electron、React 等等，是 PouthDB 之上的一个封装库
+- [**percollate**](https://github.com/danburzo/percollate) 命令行工具 能将网页转换成 pdf
+- [**rawact**](https://github.com/sokra/rawact) 一个 babel 插件，把 react 组件转为原生 dom
+- [**irondb**](https://github.com/gruns/irondb) 是一个浏览器 key-value 储存的封装库，把 Cookies、IndexedDB、LocalStorage、SessionStorage 统一成一个接口。它的最大特色就是数据冗余机制，即使某种底层储存机制失效，它可以从其他机制恢复数据。
+- [**big.js**](https://github.com/MikeMcl/big.js) 解决 js 浮点数问题。 主要就是 Big Number 或者小数点温柔
+- [**bignumber.js**](https://github.com/MikeMcl/bignumber.js) 同上
+- [**stickybits**](https://github.com/dollarshaveclub/stickybits) CSS 的 position: sticky 是一个很有用的设置，但是老的浏览器不支持。这个 JS 库是该功能的垫片库。
+- [**react-jsonschema-form**](https://github.com/mozilla-services/react-jsonschema-form) Mozilla service 开源了一个通过 JSON 直接生成表单的 React 组件
+- [**cleave.js**](https://github.com/nosir/cleave.js) 用于在输入时格式化输入内容（信用卡格式、日期等）
+- [**shiny**](https://github.com/rikschennink/shiny) 在手机设备上模拟光的反射效果。 支持 DeviceMotion 事件
+- [**cloudquery**](https://github.com/cloudfetch/cloudquery) Turn any website to serverless API
+- [**A-Programmers-Guide-to-English**](https://github.com/yujiangshui/A-Programmers-Guide-to-English) 专为程序员编写的英语学习指南。
+- [**rrweb**](https://github.com/rrweb-io/rrweb) 一个可以记录你页面中所有操作的库
+- [**nodeppt**](https://github.com/ksky521/nodeppt) markdown 写 ppt
+- [**flexsearch**](https://github.com/nextapps-de/flexsearch) 能让你更加高效和快速的检索文本内容
+- [**public-apis**](https://github.com/toddmotto/public-apis) 汇集了市面上一些对外免费开放的 api，做一些自己练手 app 的时候很好用。
+- [**scroll-hint**](https://github.com/appleple/scroll-hint) 用于提示用户页面可以左右滑动的一个提示库
+- [**fuse.js**](https://github.com/krisk/fuse) 轻量级前端模糊查询库 非常的好用
+- [**FileSaver.js**](https://github.com/eligrey/FileSaver.js) 文件下载插件 很多时候下载会有兼容性问题，它能帮你解决这些问题
+- [**instant.page**](https://github.com/instantpage/instant.page) 一个判断用户行为 预测提前加载页面的库
+- [**screenfull.js**](https://github.com/sindresorhus/screenfull.js) 浏览器全屏插件 解决了不少兼容性问题
+- [**VuePress**](https://github.com/vuejs/vuepress) 本网站就是基于它实现的，简单方便的静态网站生成器
+- [**selection**](https://github.com/Simonwep/selection) 可视化选择页面元素的库
+- [**scroll-out**](https://github.com/scroll-out/scroll-out) 滚动效果（滚动视差）的框架，框架大小不到 1KB,使用回调的方式将相关动画元素的属性进行实时分配
+- [**gpu.js**](https://github.com/gpujs/gpu.js) 通过将 js 转为特定的 language，利用 GPU 来执行，大大提高了执行性能和速度
+- [**pressure**](https://github.com/stuyam/pressure) 前端实现 3D Touch
+- [**hammer**](https://github.com/hammerjs/hammer.js) 移动端手势库
+- [**AlloyFinger**](https://github.com/AlloyTeam/AlloyFinger) 腾讯出的手势库
+- [**lowdb**](https://github.com/typicode/lowdb) LowDB 是一个本地 JSON 数据库，基于 Lodash 开发的
+- [**JSON-server**](https://github.com/typicode/json-server) 可以配合 LowDB 使用 快速搭建一个 REST API
+- [**lunr.js**](https://github.com/olivernn/lunr.js) 是个用于浏览器的轻量级 JavaScript 全文搜索引擎,对于一些小型的博客、开发者文档或 Wiki 网站来说,完全可以通过它实现站内离线搜索
+- [**he**](https://github.com/mathiasbynens/he) 一个前端 encoder/decoder 库
+- [**grade**](https://github.com/benhowdle89/grade) 一个可以根据你的 图片 调整底色的插件
+- [**pretty-bytes**](https://github.com/sindresorhus/pretty-bytes) 将字节转换成可以读的字符串，比如 1337 个字节，会显示成 1.34 KB
+- [**runkit**](https://runkit.com) 一个基于 node 的在线 playground
+- [**chart.xkcd**](https://github.com/timqian/chart.xkcd) 手绘风格的图表库
+- [**sketchviz**](https://sketchviz.com/new) 手绘风格流程图
+- [**pagemap**](https://github.com/lrsjng/pagemap) Mini map for web pages 页面导航图
+- [**commonmark.js**](https://github.com/commonmark/commonmark.js) parser and renderer markdown
+- [**body-scroll-lock**](https://github.com/willmcpo/body-scroll-lock) 解决滚动穿透问题
+- [**lodash**](https://github.com/lodash/lodash) 前端工具函数集合
+- [**dayjs**](https://github.com/iamkun/dayjs) 时间处理库，不过大部分情况下我还是用自己的封装的函数
+- [**lightgallery**](https://github.com/sachinchoolur/lightgallery.js) 图片预览组件
+- [**photoswipe**](https://github.com/dimsemenov/photoswipe) 图片预览组件，支持移动端
+- [**darken**](https://github.com/ColinEspinas/darken) 页面黑夜模式切换
+- [**mitt**](https://github.com/developit/mitt) 轻量级 pub/sub
+- [sanitize-html](https://github.com/apostrophecms/sanitize-html) html 过滤库，防 xss
+- [DOMPurify](https://github.com/cure53/DOMPurify) 比 sanitize-html 更轻量，建议一般业务用这个
+
+### **开发常用软件**
+
+- [**Github Desktop**](https://github.com/desktop/desktop)管理 github 仓库的变更和 PR
+- [**runjs**](https://runjs.dev/) js 运行沙盒，写 test case 或者面试当场写代码的时候很有用
+- [**Charles**](https://www.charlesproxy.com/) 抓包用，支持 https
+- [**Google Chrome**](https://www.google.com/chrome/) 前端必备没啥好说的
+- [**ColorSnapper2**](https://colorsnapper.com/) 取色工具
+- [**postman**](https://www.getpostman.com/) api 调试工具
+- [**Sequel Pro**](https://www.sequelpro.com/) MySQL 界面管理工具
+- [**KeepingYouAwake**](https://github.com/newmarcel/KeepingYouAwake) 可保证系统不自动休眠，挂机跑脚本很有用
 
 ### **在线画图工具**
 
@@ -1014,20 +1543,160 @@
 - [Fiddler：前端必备抓包调试工具，没有之一](http://www.telerik.com/fiddler)
 - [Charles：好用的抓包调试工具，可在mac上使用](https://www.charlesproxy.com/)
 
-### **IDE**
+### **编辑器/IDE**
 
+- [**VSCode**](https://code.visualstudio.com/)
+- [**IntelliJ IDEA**](https://www.jetbrains.com/idea/)
+- [**codesandbox**](https://codesandbox.io/)
+- [**stackblitz**](https://stackblitz.com/)
 - [Sublime](https://www.sublimetext.com/)
 - [WebStorm](https://www.jetbrains.com/webstorm/)
 - [VSCode](https://code.visualstudio.com/)
+- [**che**](https://github.com/eclipse/che)
+- [**codesandbox-client**](https://github.com/CompuIves/codesandbox-client)
+- [**theia**](https://github.com/theia-ide/theia)
+
+### **字体**
+
+- [**Dank Mono**](https://dank.sh/)
+- [**FiraCode**](https://github.com/tonsky/FiraCode)
+- [**Operator Mono**](https://www.typography.com/blog/introducing-operator)
+
+### **语言**
+
+- [**typescript**](https://github.com/Microsoft/TypeScript)
+- [**flow**](https://github.com/facebook/flow)
+- [**graphql**](https://github.com/graphql/graphql-js)
+
+### **文档**
+
+- [**dumi**](https://github.com/umijs/dumi)
+- [**vuepress**](https://github.com/vuejs/vuepress)
+- [**docz**](https://github.com/pedronauck/docz)
+- [**storybook**](https://github.com/storybooks/storybook)
+- [**mdx**](https://github.com/mdx-js/mdx) - jsx + markdown。
+
+### **Mac**
+
+- [**get-plain-text**](https://itunes.apple.com/cn/app/get-plain-text/) 能清除剪贴板里的格式 很实用
+- [**IINA**](https://github.com/lhc70000/iina) mac 平台感觉免费最好的播放器 强推
+- [**magnet**](https://itunes.apple.com/cn/app/magnet/id441258766?mt=12&ign-mpt=uo%3D4) 分屏管理
+- [**Xnip**](https://zh.xnipapp.com/) 方便好用的截图工具-支持截长图
+- [**Spectacle**](https://www.spectacleapp.com/) 窗口管理工具
+- [**vanilla**](https://matthewpalmer.net/vanilla/) 顶栏图标管理工具
+- [**Dozer**](https://github.com/Mortennn/Dozer) 一个开源的顶栏管理
+- [**腾讯电脑管家**](https://mac.guanjia.qq.com/index_o.html) 反正我用下来好觉得蛮好用的
+- [**mos**](https://mos.caldis.me/) 鼠标平滑滚动软件，很好用。免费开源
+- [**sequel pro**](https://www.sequelpro.com/) mysql 客户端 好用
+- [**Microsoft Remote Desktop Beta**](https://itunes.apple.com/us/app/microsoft-remote-desktop/id715768417?mt=12#) Mac 远程登录 Windows 调试神器
+- [**pap.er**](http://paper.meiyuan.in/) 专为 Mac 设计的壁纸应用
+- [**The Unarchive**](https://theunarchiver.com/) Mac 目前感觉最好用的免费解压软件
+- [**Tickeys**](https://github.com/yingDev/Tickeys) 让你用 Mac 键盘也能打出机械键盘的感觉
+- [**Beaker Browser**](https://github.com/beakerbrowser/beaker) P2P 开源浏览器 支持点对点发布文件，成为了文件传输工具，支持 DAT 对等协议
+- [**Gifski**](https://github.com/sindresorhus/gifski-app) 视频转 gif 工具
+- [**more**](https://github.com/serhii-londar/open-source-mac-os-apps) 更多优秀的 mac app 介绍
+- [**Motrix**](https://github.com/agalwood/Motrix) 支持 HTTP、FTP、BT、磁力链、百度网盘的下载工具
+- [**iPic**](https://apps.apple.com/cn/app/ipic-markdown-%E5%9B%BE%E5%BA%8A-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%B7%A5%E5%85%B7/id1101244278?mt=12)这个应用可以让你方便地上传图片到各种图床
+- [**Image2Icon**](http://www.img2icnsapp.com/)
+- [**hidden**](https://github.com/dwarvesf/hidden) 是用来帮助你隐藏 macOS 菜单栏上那些不常用的应用图标
+
+### **录制**
+
+- [**licecap**](https://www.cockos.com/licecap/) gif 录制，简洁好用，之前都用这个录制
+- [**kap**](https://getkap.co/) 现在都用这个录制 gif，还支持导出 mp4，录制的 fps 很高
+- [**KeyCastr**](https://github.com/keycastr/keycastr) 按键显示，录制的时候显示你的按键
+
+### **压缩解压缩**
+
+- [**compressing**](https://github.com/node-modules/compressing) - 压缩和解压缩。
+- [**tar-fs**](https://github.com/mafintosh/tar-fs) - tar 的压缩和解压缩。
+- [**yauzl**](https://github.com/thejoshwolfe/yauzl) - zip 解压缩。
+- [**yazl**](https://www.npmjs.com/package/yazl) - zip 压缩。
+
+### **有趣**
+
+- [**the-bread-code**](https://github.com/hendricius/the-bread-code) 使用程序员的思维制作面包 ，比如制作中使用 A/B test,
+  来比较那种做法更好。
+- [**build-your-own-x**](https://github.com/danistefanovic/build-your-own-x) 教你用各种语言实现 Bot Database Neural Network
+- [**javascript-algorithms **](https://github.com/trekhleb/javascript-algorithms) 教你用前端知识认识各种算法
+- [**not-paid**](https://github.com/kleampa/not-paid) 如果你给人做网站，交过去以后对方没有付款，那么这个 JS 会把网站的透明度一天调低一点，直到看不见
+- [**nsfwjs**](https://github.com/infinitered/nsfwjs) 前端图片鉴黄，基于 Tensorflow
+- [**elevator.js**](https://github.com/tholman/elevator.js) 我很喜欢的一个库，让一个 back-to-top 的效果有了一种坐复古电梯的感觉
+- [**app-ideas**](https://github.com/florinpop17/app-ideas) 很多年轻人苦于缺少练手的项目，这个项目收集了不少点子，每个点子都有明确的目标和复杂资源。
+- [**WebGL-Fluid-Simulation**](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) 很酷的 WebGL 交互
+- [**react-kawaii**](https://github.com/miukimiu/react-kawaii) 一个非常可爱的 React 卡通人脸库，很有意思
+- [**chart-race-react**](https://github.com/Mckinsey666/chart-race-react) 图表竞赛 长条图赛跑动画 在微博或者 b 站这种类型视频很火
+- [**98.css**](https://jdan.github.io/98.css/#tree-view) windows 98 主题分格 css
 
 ### **其他工具**
 
+---
+<!-- panels:start -->
+<!-- div:left-panel -->
 - [在线Nginx配置工具](https://nginxconfig.io/)
 - [在线文本代码比对工具](http://www.fly63.com/tool/textdiff/)
 - [在线Chrome浏览器插件](https://www.crx4chrome.com/)
 - [在线接口文档管理工具](http://www.docway.net/)
 - [Can I use - Web前端兼容性列表](https://caniuse.com/)
-
+- [**high-speed-downloader**](https://github.com/high-speed-downloader/high-speed-downloader) 百度网盘不限速下载 支持 Windows 和 Mac
+- [**hyper**](https://github.com/zeit/hyper) 前端命令行
+- [**yapi**](https://github.com/ymfe/yapi) 是一个可本地部署的、打通前后端及 QA 的、可视化的接口管理平台
+- [**sway**](https://sway.com/) 一个微软自己出的在线 ppt 很强大
+- [**Ascii Art Generator**](https://asciiartgen.now.sh) 在线生成 Ascii 图案
+- [**Winds**](https://github.com/GetStream/Winds) 开源 RSS
+- [**JSUI**](https://github.com/kitze/JSUI) 一个用来控制管理前端项目的客户端
+- [**docz**](https://github.com/pedronauck/docz) 让你能快速写文档的一个库
+- [**hiper**](https://github.com/pod4g/hiper) 性能统计分析工具
+- [**verdaccio**](https://github.com/verdaccio/verdaccio) 私有 npm
+- [**git-guide**](http://rogerdudler.github.io/git-guide/index.zh.html) git 入门指南
+- [**git-tips**](https://github.com/521xueweihan/git-tips) git 进阶
+- [**bit**](https://github.com/teambit/bit) 实现了项目之间的代码共享 可以自建私有
+- [**simpread**](https://github.com/Kenshin/simpread) 简悦 ( SimpRead ) 让你瞬间进入沉浸式阅读的扩展
+- [**mkcert**](https://github.com/FiloSottile/mkcert) 一键命令 让本地也支持 https
+- [**termtosvg**](https://github.com/nbedos/termtosvg) 录制 命令操作转成 svg 基于 python
+- [**gh-polls**](https://github.com/apex/gh-polls) 可以在 github issue 中添加投票
+- [**eruda**](https://github.com/liriliri/eruda) 移动端调试工具
+- [**vConsole**](https://github.com/Tencent/vConsole) 也是一个移动端调试工具 腾讯出品
+- [**terminalizer**](https://github.com/faressoft/terminalizer) 命令行录制工具 基于 node
+- [**badgen**](https://github.com/amio/badgen-service) 快速构建和 shields 一样的 svg badge 但速度更快
+- [**readability**](https://github.com/luin/readability) 移除页面非正文部分 基于 jsdom
+- [**WeChatPlugin-MacOS**](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS) 一款功能强大的 macOS 版微信小助手
+- [**puppeteer-recorder**](https://github.com/checkly/puppeteer-recorder) 一个 chrome 插件 能够根据你的操作 自动生成 puppeteer 相关代码
+- [**mdx-deck**](https://github.com/jxnblk/mdx-deck) 用 markdown 编写演示文稿
+- [**code-surfer**](https://github.com/pomber/code-surfer) 基于 mdx-deck 的一个插件
+  让你更好的在文稿中展示 code
+- [**Progressive Tooling**](https://progressivetooling.com/) 前端性能优化工具集合
+- [**https://github.com/artf/grapesjs**](https://github.com/artf/grapesjs) 可视化建站工具 不需要写代码就能写一个页面，前端再次再次要下岗了
+<!-- div:right-panel -->
+- [**image-charts**](https://www.image-charts.com/) 该服务通过 URL 接受参数，然后生成图表，以图片形式返回
+- [**eagle.js**](https://github.com/Zulko/eagle.js) 一个用 vue 来制作 PPT 的库
+- [**Optimizely**](https://www.optimizely.com/) A/B Test
+- [**appadhoc**](http://www.appadhoc.com/) 一个国内的 A/B Test 服务
+- [**glorious-demo**](https://github.com/glorious-codes/glorious-demo) 通过编写代码的方式构建一个命令行的演示例子
+- [**nginxconfig**](https://github.com/valentinxxx/nginxconfig.io/) 可视化配置 nginx 提供了多个基础模板
+- [**bundlephobia**](https://bundlephobia.com/) 一个可以查看某个库的大小，并且分析它的依赖
+- [**jsperf**](https://jsperf.com/popular) 一个提供在线 test case 的网站，主要用来比较性能。可以比较如： forEach vs for 的性能
+- [**perflink**](https://github.com/lukejacksonn/perflink) 与 jsperf 类似的一个比较 js 性能的网站
+- [**algorithm-visualizer**](https://github.com/algorithm-visualizer/algorithm-visualizer) 算法代码可视化
+- [**An-English-Guide-for-Programmers**](https://github.com/yujiangshui/An-English-Guide-for-Programmers) 专为程序员编写的英语学习指南
+- [**Webhint**](https://webhint.io/) 用于检查代码的可访问性、性能和安全的开源检查（Linting）工具
+- [**airtap**](https://github.com/airtap/airtap) 测试浏览器兼容性，可覆盖 800 多种浏览器
+- [**jsonstore**](https://github.com/bluzi/jsonstore) 供免费，安全且基于 JSON 的云数据存储，自己玩的小项目神器
+- [**git-history**](https://github.com/pomber/git-history) 可视化查看一个文件的历史变化
+- [**x-spreadsheet**](https://github.com/myliang/x-spreadsheet) 一个基于 Canvas 的 JS 电子表格库 excel
+- [**imgcook**](https://imgcook.taobao.org/) 阿里出品，一键通过设计稿生成代码
+- [**majestic**](https://github.com/Raathigesh/majestic) jest 可视化
+- [**leon**](https://github.com/leon-ai/leon) 你开源项目的 ai 个人助手
+- [**js-code-to-svg-flowchart**](https://github.com/Bogdan-Lyashenko/js-code-to-svg-flowchart) 将代码逻辑用流程图的方式展现出来
+- [**xterm.js**](https://github.com/xtermjs/xterm.js) 一个 web terminal
+- [**pixelmatch**](https://github.com/mapbox/pixelmatch) diff 两张图片不一样的地方
+- [**readme-md-generator**](https://github.com/kefranabg/readme-md-generator) 一个命令行脚本帮你快速的创建一个 README
+- [**build-tracker**](https://github.com/paularmstrong/build-tracker) 构建大小追踪 记录你多个版本构建后文件大小的变化
+- [**zan-proxy**](https://github.com/youzan/zan-proxy/blob/master/README.zh-CN.md) 本地调试线上环境的工具
+- [**mjml**](https://github.com/mjmlio/mjml) 一个让发 email 更简单的框架。定义了一套自己的语法，你用这套语法写邮件，然后编译成 HTML。
+- [**any-rule**](https://any86.github.io/any-rule/) 正则大全
+- [**outline**](https://github.com/outline/outline) 一个免费开源的库，能让你快速搭建自己的 wiki
+<!-- panels:end -->
 <!-- tabs:end -->
 ---
 
@@ -1111,13 +1780,13 @@
 ---
 <!-- panels:start -->
 <!-- div:left-panel -->
-- [01.【醒醒】中华儿女该起床了](/忧伤的年轻人/01.【醒醒】中华儿女该起床了.md)
-- [02.他们死在了祖国胜利的前夜](/忧伤的年轻人/02.他们死在了祖国胜利的前夜.md)
-- [03.七尺之躯，已许国，再难许卿](/忧伤的年轻人/03.七尺之躯，已许国，再难许卿)
+- [01.【醒醒】中华儿女该起床了](/c00/01.【醒醒】中华儿女该起床了.md)
+- [02.他们死在了祖国胜利的前夜](/c00/02.他们死在了祖国胜利的前夜.md)
+- [03.七尺之躯，已许国，再难许卿](/c00/03.七尺之躯，已许国，再难许卿)
 <!-- div:right-panel -->
-- [04.【祭·英烈】中国的未来，拜托了！【百万剪辑狮】](/忧伤的年轻人/04.【祭·英烈】中国的未来，拜托了！【百万剪辑狮】.md)
-- [05.【派大星的独白】一个关于正常人的故事](/忧伤的年轻人/05.【派大星的独白】一个关于正常人的故事.md)
-- [06.小时候看笑话，长大后看真实](/忧伤的年轻人/06.小时候看笑话，长大后看真实)
+- [04.【祭·英烈】中国的未来，拜托了！【百万剪辑狮】](/c00/04.【祭·英烈】中国的未来，拜托了！【百万剪辑狮】.md)
+- [05.【派大星的独白】一个关于正常人的故事](/c00/05.【派大星的独白】一个关于正常人的故事.md)
+- [06.小时候看笑话，长大后看真实](/c00/06.小时候看笑话，长大后看真实)
 <!-- panels:end -->
 ---
 
@@ -1125,7 +1794,7 @@
 
 ---
 
-- [书单狗精神成长文学树（65本）](/书单推荐/01.精神成长书籍.md)
+- [书单狗精神成长文学树（65本）](/c01/01.精神成长书籍.md)
 
 ---
 
@@ -1133,6 +1802,8 @@
 
 ---
 
+- [中国图书馆图书分类法](/c02/01.中国图书馆图书分类法.md)
+- [书栈网 · BookStack_程序员IT互联网开源编程书籍免费阅读，助您【码】力十足！](https://www.bookstack.cn/)
 - [时间地图](https://www.allhistory.com/map)
 - [中文维基百科](https://www.wiki-wiki.top/)
 - [ProcessOn图形化知识资源](https://www.processon.com/diagrams/new#template)

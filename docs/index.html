@@ -7,13 +7,13 @@
   <meta name="description" content="Uncle Kaimo's Cabin - 凯默叔叔的小屋是凯小默的个人博客，主要记录学习资源，读书等个人兴趣方面的东西。">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <meta name="keywords" content="凯小默,凯小默的博客,博客,个人博客,Uncle Kaimo's Cabin,凯默叔叔的小屋,学习资源,音乐,电影,书籍,vue,vuejs,docsify">
-  <link rel="shortcut icon" href="./_media/favicon.ico">
+  <link rel="shortcut icon" href="./_img/favicon.ico">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="stylesheet" href="./_style/custom.css">
 </head>
 <body>
   <div id="app">
-    <img width="32px" src="./_media/loading.gif" alt="loading"/>
+    <img width="32px" src="./_img/loading.gif" alt="loading"/>
   </div>
   <div id="app2">
     <bubbles-effect :options="options"></bubbles-effect>
@@ -22,7 +22,7 @@
     window.$docsify = {
       name: "Uncle Kaimo's Cabin",
       repo: "//github.com/kaimo313/uncle-kaimo-cabin",
-      logo: "./_media/kxm-cabin-sub-logo.svg", // 在侧边栏中出现的网站图标
+      logo: "./_img/kxm-cabin-sub-logo.svg", // 在侧边栏中出现的网站图标
       coverpage: true, // 封面
       themeColor: '#007fff', // 主题色
       loadNavbar: true, // 导航 _navbar.md
@@ -47,9 +47,14 @@
         color: 'rgb(90,90,90)',
         language: 'chinese'
       },
+      copyCode: {
+        buttonText : '复制',
+        errorText  : '错误',
+        successText: '已复制'
+      },
       scrollToTop: {
         auto: true,
-        text: 'Top',
+        text: '🚀',
         right: 15,
         bottom: 15,
         offset: 500
@@ -73,7 +78,7 @@
   <!-- Vue 2.x -->
   <script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
   <!-- 气泡动效 -->
-  <script src="./_dist/bubbles.min.js"></script>
+  <script src="./_lib/bubbles.min.js"></script>
   <!-- 全文搜索,直接用官方提供的无法生效 -->
   <script src="//cdn.bootcss.com/docsify/4.5.9/plugins/search.min.js"></script>
   <!-- docsify-tabs (latest v1.x.x) -->
@@ -110,6 +115,40 @@
         }
       }
     })
+  </script>
+  <script>
+    (function () {
+      var fnTextPopup = function (arr, options) {
+      // arr参数是必须的
+      if (!arr || !arr.length) {
+          return;    
+      }
+      // 主逻辑
+      var index = 0;
+      document.documentElement.addEventListener('dblclick', function (event) {
+          var x = event.pageX, y = event.pageY;
+          var eleText = document.createElement('span');
+          eleText.className = 'text-popup';
+          this.appendChild(eleText);
+          if (arr[index]) {
+              eleText.innerHTML = arr[index];
+          } else {
+              index = 0;
+              eleText.innerHTML = arr[0];
+          }
+          // 动画结束后删除自己
+          eleText.addEventListener('animationend', function () {
+              eleText.parentNode.removeChild(eleText);
+          });
+          // 位置
+          eleText.style.left = (x - eleText.clientWidth / 2) + 'px';
+          eleText.style.top = (y - eleText.clientHeight) + 'px';
+          // index递增
+          index++;
+        });    
+      };
+      fnTextPopup(['富强', '民主', '文明', '和谐', '自由', '平等', '公正', '法治', '爱国', '敬业', '诚信', '友善']);
+    })();
   </script>
 </body>
 </html>

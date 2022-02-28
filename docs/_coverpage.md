@@ -1,5 +1,5 @@
 <div>
-  <img style="border-radius: 100%;" width="120px" src="_media/kxm-cabin-logo.jpg"/>
+  <img style="border-radius: 100%;" width="120px" src="_img/kxm-cabin-logo.jpg"/>
 
   <div style="margin-top: 20px; font-size: 2rem;">Uncle Kaimo's Cabin - 凯默叔叔的小屋</div>
 
