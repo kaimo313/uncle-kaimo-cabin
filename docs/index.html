@@ -28,9 +28,14 @@
       loadNavbar: true, // 导航 _navbar.md
       auto2top: true, // 切换页面后是否自动跳转到页面顶部
       // notFoundPage: './_404.md',
+      mergeNavbar: true, // 小屏设备下合并导航栏到侧边栏
+      formatUpdated: '{YYYY}/{MM}/{DD} {HH}:{mm}:{ss}', // 显示文档更新日期
       subMaxLevel: 3,
       loadSidebar: true,
       autoHeader: true, // 同时设置 loadSidebar 和 autoHeader 后，可以根据 _sidebar.md 的内容自动为每个页面增加标题。
+      requestHeaders: {
+        'Cache-Control': 'max-age=86400000',
+      },
       search: {
         maxAge: 86400000, // 过期时间，单位毫秒，默认一天
         paths: 'auto',
@@ -69,6 +74,12 @@
               &nbsp;&nbsp;Copyright&nbsp;&nbsp;©&nbsp;&nbsp;2022-present&nbsp;&nbsp;kaimo
             </div>
           </div>`
+        },
+        'last-update-time': {
+          template: `<div style="text-align: right;">最近更新时间：<slot></slot></div>`
+        },
+        'red-block': {
+          template: `<div class="markdown-color-red"><slot></slot></div>`
         }
       },
     }
@@ -97,11 +108,10 @@
   <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
   <!-- 基于Docsify的页面滚动回顶部的插件 -->
   <script src="//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
-  <!-- 外链脚本 - External Script -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
   <!--统计访问量插件-->
   <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   <script>
+    // vue
     new Vue({
       el: '#app2',
       data() {
@@ -115,37 +125,40 @@
         }
       }
     })
-  </script>
-  <script>
+    // pwa
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
+    // 鼠标点击特效
     (function () {
       var fnTextPopup = function (arr, options) {
-      // arr参数是必须的
-      if (!arr || !arr.length) {
+        // arr参数是必须的
+        if (!arr || !arr.length) {
           return;    
-      }
-      // 主逻辑
-      var index = 0;
-      document.documentElement.addEventListener('dblclick', function (event) {
+        }
+        // 主逻辑
+        var index = 0;
+        document.documentElement.addEventListener('dblclick', function (event) {
           var x = event.pageX, y = event.pageY;
           var eleText = document.createElement('span');
           eleText.className = 'text-popup';
           this.appendChild(eleText);
           if (arr[index]) {
-              eleText.innerHTML = arr[index];
+            eleText.innerHTML = arr[index];
           } else {
-              index = 0;
-              eleText.innerHTML = arr[0];
+            index = 0;
+            eleText.innerHTML = arr[0];
           }
           // 动画结束后删除自己
           eleText.addEventListener('animationend', function () {
-              eleText.parentNode.removeChild(eleText);
+            eleText.parentNode.removeChild(eleText);
           });
           // 位置
           eleText.style.left = (x - eleText.clientWidth / 2) + 'px';
           eleText.style.top = (y - eleText.clientHeight) + 'px';
           // index递增
           index++;
-        });    
+        })
       };
       fnTextPopup(['富强', '民主', '文明', '和谐', '自由', '平等', '公正', '法治', '爱国', '敬业', '诚信', '友善']);
     })();

@@ -1,4 +1,6 @@
 <!-- _navbar.md -->
+* [导航](/roadmap)
+
 * 开发工具
 
   * [在线ASCII码表](http://www.fly63.com/tool/ascii/)
@@ -74,6 +76,76 @@
   * [站酷](http://www.zcool.com.cn/)
   * [FWA](https://thefwa.com/)
 
+* 小册/周刊
+
+  * [《IVWEB技术周刊》](https://github.com/iv-web/weekly)
+  * [前端精读周刊](https://github.com/dt-fe/weekly)
+  * [《阿里云前端技术周刊》](https://github.com/aliyunfe/weekly)
+  * [手撕 VbenAdmin](https://www.kuxiaoxin.com/archives/29#)
+  * [深入浅出 Webpack](http://webpack.wuhaolin.cn/)
+  * [Vue.js 技术揭秘](https://ustbhuangyi.github.io/vue-analysis/)
+  * [learnVue](https://github.com/answershuto/learnVue)
+  * [vue-cli 源码分析](https://kuangpf.com/vue-cli-analysis/)
+  * [TypeScript 入门教程](https://ts.xcatliu.com/?tdsourcetag=s_pctim_aiomsg)
+  * [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/)
+  * [React技术揭秘](https://react.iamkasong.com/#%E5%AF%BC%E5%AD%A6%E8%A7%86%E9%A2%91)
+  * [前端开发者手册](http://caibaojian.com/fedbook/)
+  * [学习源码整体架构系列](https://juejin.cn/column/6960551178908205093)
+  * [Web安全学习笔记](https://websec.readthedocs.io/zh/latest/)
+  * [前端面试题宝典](https://fe.ecool.fun/)
+  * [Favorite JavaScript Utilities](https://1loc.dev/)
+  * [30 seconds of code](https://www.30secondsofcode.org/)
+  * [每天一个JS程序](https://gitee.com/imba97/js)
+  * [通过源码分析nodejs原理](https://github.com/theanarkh/understand-nodejs)
+  * [鸟哥的Linux私房菜：基础学习篇 第四版](https://wizardforcel.gitbooks.io/vbird-linux-basic-4e/content/index.html)
+  * [33-js-concepts](https://github.com/leonardomso/33-js-concepts)
+  * [Node.js 应用故障排查手册](https://github.com/aliyun-node/Node.js-Troubleshooting-Guide)
+
+* 大牛/博客
+
+  * [TAT.Kinvix](https://github.com/kinvix)
+  * [dntzhang](https://github.com/dntzhang)
+  * [TJ Holowaychuk](https://github.com/tj)
+  * [尤雨溪](https://github.com/yyx990803)
+  * [张鑫旭](https://www.zhangxinxu.com/wordpress/)
+  * [玉伯](https://github.com/lifesinger)
+  * [winter](https://github.com/wintercn)
+  * [BYVod](https://github.com/BYVoid)
+  * [Road2Coding 编程自学之路](https://www.r2coding.com/#/)
+  * [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
+  * [廖雪峰的官方网站](https://www.liaoxuefeng.com/)
+  * [酷 壳 – CoolShell](https://coolshell.cn/)
+  * [技术胖 - 前端免费视频第一博客](https://jspang.com/)
+  * [CS-Notes](http://www.cyc2018.xyz/)
+  * [阿叶子. 的学习笔记](https://www.yuque.com/ye65432/liuye)
+  * [编程导航 - 鱼皮](https://www.code-nav.cn/)
+  * [天明夜尽 biaochenxuying](https://github.com/biaochenxuying/blog)
+  * [springleo's blog](https://lq782655835.github.io/blogs/)
+  * [阿西河](https://www.axihe.com/)
+  * [木偶 muwoo](https://github.com/muwoo/blogs)
+  * [小浩算法](https://www.geekxh.com/)
+  * [木易杨前端进阶](https://muyiy.cn/question/)
+
+* 团队/大会
+
+  * [美团技术团队](https://tech.meituan.com/)
+  * [饿了么前端 github](https://github.com/ElemeFE)
+  * [奇舞团](https://www.zhihu.com/people/75team)
+  * [淘系前端团队（FED）](https://fed.taobao.org/)
+  * [腾讯 AlloyTeam 团队](http://www.alloyteam.com/)
+  * [ISUX](https://isux.tencent.com/)
+  * [FEX](http://fex.baidu.com/)
+  * [EFE](https://efe.baidu.com/)
+  * [凹凸实验室](https://aotu.io/)
+  * [腾讯 Web 前端大会](https://tfc.tencent.com/)
+  * [AlloyTeam 前端技术大会](http://ac.alloyteam.com/)
+  * [iWeb峰会](http://2016.html5dw.com/)
+  * [D2前端技术论坛](http://d2forum.alibaba-inc.com/)
+  * [中国CSS开发者大会](https://css.w3ctech.com/)
+  * [前端开发者大会](https://fequan.com/feday)
+  * [Vue.js开发者大会](https://fequan.com/feday)
+  * [中国JS开发者大会](http://jsconf.cn/)
+
 * 文档
   
   * [caniuse](https://caniuse.com/)
@@ -127,72 +199,6 @@
   * [Markdown 语法中文版](https://www.appinn.com/markdown/)
   * [正则表达式手册](https://tool.oschina.net/uploads/apidocs/jquery/regexp.html)
   * [印记中文](https://docschina.org/)
-
-* 小册
-
-  * [手撕 VbenAdmin](https://www.kuxiaoxin.com/archives/29#)
-  * [深入浅出 Webpack](http://webpack.wuhaolin.cn/)
-  * [Vue.js 技术揭秘](https://ustbhuangyi.github.io/vue-analysis/)
-  * [learnVue](https://github.com/answershuto/learnVue)
-  * [vue-cli 源码分析](https://kuangpf.com/vue-cli-analysis/)
-  * [TypeScript 入门教程](https://ts.xcatliu.com/?tdsourcetag=s_pctim_aiomsg)
-  * [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/)
-  * [React技术揭秘](https://react.iamkasong.com/#%E5%AF%BC%E5%AD%A6%E8%A7%86%E9%A2%91)
-  * [前端开发者手册](http://caibaojian.com/fedbook/)
-  * [学习源码整体架构系列](https://juejin.cn/column/6960551178908205093)
-  * [Web安全学习笔记](https://websec.readthedocs.io/zh/latest/)
-  * [前端面试题宝典](https://fe.ecool.fun/)
-  * [Favorite JavaScript Utilities](https://1loc.dev/)
-  * [30 seconds of code](https://www.30secondsofcode.org/)
-  * [每天一个JS程序](https://gitee.com/imba97/js)
-  * [通过源码分析nodejs原理](https://github.com/theanarkh/understand-nodejs)
-  * [鸟哥的Linux私房菜：基础学习篇 第四版](https://wizardforcel.gitbooks.io/vbird-linux-basic-4e/content/index.html)
-  * [33-js-concepts](https://github.com/leonardomso/33-js-concepts)
-  * [Node.js 应用故障排查手册](https://github.com/aliyun-node/Node.js-Troubleshooting-Guide)
-
-* 大牛/博客
-
-  * [TAT.Kinvix](https://github.com/kinvix)
-  * [dntzhang](https://github.com/dntzhang)
-  * [TJ Holowaychuk](https://github.com/tj)
-  * [尤雨溪](https://github.com/yyx990803)
-  * [玉伯](https://github.com/lifesinger)
-  * [winter](https://github.com/wintercn)
-  * [BYVod](https://github.com/BYVoid)
-  * [Road2Coding 编程自学之路](https://www.r2coding.com/#/)
-  * [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
-  * [廖雪峰的官方网站](https://www.liaoxuefeng.com/)
-  * [酷 壳 – CoolShell](https://coolshell.cn/)
-  * [技术胖 - 前端免费视频第一博客](https://jspang.com/)
-  * [CS-Notes](http://www.cyc2018.xyz/)
-  * [阿叶子. 的学习笔记](https://www.yuque.com/ye65432/liuye)
-  * [编程导航 - 鱼皮](https://www.code-nav.cn/)
-  * [天明夜尽 biaochenxuying](https://github.com/biaochenxuying/blog)
-  * [springleo's blog](https://lq782655835.github.io/blogs/)
-  * [阿西河](https://www.axihe.com/)
-  * [木偶 muwoo](https://github.com/muwoo/blogs)
-  * [小浩算法](https://www.geekxh.com/)
-  * [木易杨前端进阶](https://muyiy.cn/question/)
-
-* 团队/大会
-
-  * [美团技术团队](https://tech.meituan.com/)
-  * [饿了么前端 github](https://github.com/ElemeFE)
-  * [奇舞团](https://www.zhihu.com/people/75team)
-  * [淘系前端团队（FED）](https://fed.taobao.org/)
-  * [腾讯 AlloyTeam 团队](http://www.alloyteam.com/)
-  * [ISUX](https://isux.tencent.com/)
-  * [FEX](http://fex.baidu.com/)
-  * [EFE](https://efe.baidu.com/)
-  * [凹凸实验室](https://aotu.io/)
-  * [腾讯 Web 前端大会](https://tfc.tencent.com/)
-  * [AlloyTeam 前端技术大会](http://ac.alloyteam.com/)
-  * [iWeb峰会](http://2016.html5dw.com/)
-  * [D2前端技术论坛](http://d2forum.alibaba-inc.com/)
-  * [中国CSS开发者大会](https://css.w3ctech.com/)
-  * [前端开发者大会](https://fequan.com/feday)
-  * [Vue.js开发者大会](https://fequan.com/feday)
-  * [中国JS开发者大会](http://jsconf.cn/)
 
 * 友链
 
