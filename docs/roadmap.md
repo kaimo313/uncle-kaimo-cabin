@@ -82,7 +82,7 @@
 <!-- tabs:end -->
 ---
 
-# 前端指南 :id=frontendguide
+# 前端专栏 :id=frontendcolumn
 
 ---
 
@@ -90,13 +90,22 @@
 
 ---
 <!-- tabs:start -->
+### **HTML5 API应用**
+
+- [History.js - gracefully supports the HTML5 History/State APIs](https://github.com/browserstate/history.js)
+- [jquery-pjax - pushState+ajax](https://github.com/defunkt/jquery-pjax)
+- [jquery-address - Deep Linking](https://github.com/asual/jquery-address)
+- [Notify.js(Web Notifications API)](https://github.com/alexgibson/notify.js)
+- [html5 移动端兼容性速查](http://mobilehtml5.org/)
+- [html5 Canvas画图系列教程目录](http://jo2.org/html5-canvas-tutorial-list/)
+- [HTML5 Cross Browser Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills)
+- [HTML5 POLYFILLS](http://html5polyfill.com/)
+
 ### **CSS相关**
 
+- [cssreference.io](http://cssreference.io/) 一个免费的 CSS 视觉指南
 - [CSS-Tricks](https://css-tricks.com/) 一个关于运用CSS技术进行网络开发和设计的小技巧的交流网站
 - [Css Wizardry](http://csswizardry.com/) Front-end Architecture and Performance Engineering
-- [Sass](http://sass.bootcss.com/docs/sass-reference/) Sass 是成熟、稳定、强大的 CSS 扩展语言
-- [Less](http://less.bootcss.com/) 一种将css赋予了动态语言特性的动态样式语言
-- [Stylus](http://stylus-lang.com/) EXPRESSIVE, DYNAMIC, ROBUST CSS
 - [css modules](https://github.com/css-modules/css-modules)
 - [emotion](https://github.com/emotion-js/emotion)
 - [CSS Tricks](http://css-tricks.neatbang.com/) CSS技巧收集与演示
@@ -131,6 +140,25 @@
 - [leonsans](https://github.com/cmiscm/leonsans) 酷炫的 字体 动画 geometric sans-serif typeface made with code
 - [css-doodle](https://github.com/css-doodle/css-doodle) A web component for drawing patterns with CSS 一个用于使用 CSS 绘制图案的 Web 组件
 
+### **css预处理器**
+
+- [Sass](http://sass.bootcss.com/docs/sass-reference/) Sass 是成熟、稳定、强大的 CSS 扩展语言
+- [Less](http://less.bootcss.com/) 一种将css赋予了动态语言特性的动态样式语言
+- [Stylus](http://stylus-lang.com/) EXPRESSIVE, DYNAMIC, ROBUST CSS
+- [Sass - Syntactically Awesome Style Sheets](http://sass-lang.com/)
+- [Less - Less is More , Than CSS](http://lesscss.org/)
+- [Stylus - Expressive, dynamic, robust CSS](http://learnboost.github.io/stylus/)
+
+### **sass 库**
+
+- [Family.scss - css3选择器简写框架,非常不错](http://lukyvj.github.io/family.scss/)
+- [SpaceBase – 基于 Sass 的响应式 CSS 框架](http://spacebase.space150.com/)
+- [breakpoint-sass 媒体查询库](http://breakpoint-sass.com/)
+- [@include-media diy媒体查询库](http://include-media.com/)
+- [sass-mediaqueries 媒体查询库-推荐](https://github.com/paranoida/sass-mediaqueries)
+- [sass-mq Media Queries with superpowers-em单位媒体查询库](https://github.com/sass-mq/sass-mq)
+- [sass-svg 一个内联 SVG 的 SASS 库](https://github.com/leeenx/sass-svg)
+
 <!-- tabs:end -->
 ---
 <!-- panels:start -->
@@ -147,6 +175,11 @@
 - [深入浅出浏览器中的ES modules](https://github.com/forthealllight/blog/issues/66)
 - [前端实现弹幕效果的方法总结(包含css3和canvas的实现方式)](https://github.com/forthealllight/blog/issues/17)
 <!-- div:right-panel -->
+- [谈谈一些有趣的 CSS 话题](https://github.com/chokcoco/iCSS)
+- [一家伙（s5s5）学习css3动画的心得](https://github.com/s5s5/CSS-Animations)
+- [css-gif 一个动图，一个CSS知识点](https://github.com/qdlaoyao/css-gif)
+- [CSS世界中那些说起来很冷的知识](https://juejin.cn/post/6844903635248218126)
+- [灵活运用CSS开发技巧](https://juejin.im/post/5d4d0ec651882549594e7293)
 - [css加载会造成阻塞吗？](https://juejin.cn/post/6844903667733118983)
 - [从青铜到王者10个css3伪类使用技巧和运用，了解一哈](https://juejin.cn/post/6844903654756089864)
 - [CSS性能优化的8个技巧](https://juejin.cn/post/6844903649605320711)
@@ -154,17 +187,81 @@
 - [CSS设置居中的方案总结-超全](https://juejin.cn/post/6844903560879013901)
 - [Web开发者需要知道的CSS Tricks](https://juejin.cn/post/6844903576561516558)
 - [CSS 常用技巧](https://juejin.cn/post/6844903619909648398)
+- [HTML5 与 CSS3 技术应用评估](http://html5please.com/ "html5与css3技术应用评估")
 <!-- panels:end -->
 ---
 
 ## k01：JavaScript :id=k01
 
 ---
+<!-- tabs:start -->
+### **JavaScript 框架**
+
+- [react](https://github.com/facebook/react)
+- [preact (react的代替者)](https://github.com/developit/preact/)
+- [Angular](https://github.com/angular/angular)
+- [jQuery](https://github.com/jquery/jquery)
+- [Backbone.js](https://github.com/jashkenas/backbone)
+- [Ractive.js](https://github.com/ractivejs/ractive)
+- [KISSY](https://github.com/kissyteam/kissy)
+- [Zepto.js](https://github.com/madrobby/zepto)
+- [ZeptoBuilder是Zepto的一个在线版本，从列表中选取你想包含的文件，就能得到你自定义的构建了](http://github.e-sites.nl/zeptobuilder/)
+- [Vanilla JS](http://vanilla-js.com/)
+- [Avalon](https://github.com/RubyLouvre/avalon)
+- [Sprint.js - 一个高性能、小体积的 DOM 操作库 (Benjamin De Cock)](https://github.com/bendc/sprint)
+- [JSLite.js](http://jslite.io/)
+- [Ember.js：一个用于创建 web 应用的 JavaScript MVC 框架，采用基于字符串的Handlebars模板，支持双向绑定、观察者模式、计算属性（依赖其他属性动态变化）、自动更新模板、路由控制、状态机等。](http://emberjs.com/)
+
+### **轻量级JavaScript框架**
+
+- [Min.js - Super minimal selector and event library](https://github.com/remy/min.js)
+- [skel.js - A lightweight responsive framework](https://github.com/n33/skel)
+- [LAB.js 异步加载js](https://github.com/getify/LABjs)
+
+### **JavaScript 工具扩展库**
+
+- [es5-shim](https://github.com/es-shims/es5-shim)
+- [es6-promise](https://github.com/stefanpenner/es6-promise)
+- [underscore.js JavaScript实用库,提供了类似Prototype.js的一些功能,但是没有继承任何JavaScript内置对象。](https://github.com/jashkenas/underscore)
+- [Lodash.js 函数式编程库,一个 JavaScript 实用工具库,提供一致性,模块化,性能和配件等功能。](https://lodash.com/)
+- [Ramda.js 函数式编程库](http://ramda.cn/)
+- [functional.js 函数式编程库](https://github.com/functionaljs/functional-js/)
+- [Lazy.js 性能超越underscore和Lodash的工具类库](https://github.com/dtao/lazy.js/)
+- [Babel.js 让浏览器支持新js ES6,其实就是把ES6,5的语法转换成旧的js形式](https://github.com/babel/babel)
+- [Way.js - 双向数据绑定库](https://github.com/gwendall/way.js)
+- [Keys.js - 应用快捷键](https://github.com/bitwalker/keys.js)
+- [Mousetrap - 键盘快捷键操作](https://github.com/ccampbell/mousetrap)
+- [移动web开发调试工具AlloyLever介绍 - 打印信息](http://alloyteam.github.io/AlloyLever/)
+- [vConsole.js 同上](https://github.com/WechatFE/vConsole/blob/dev/README_CN.md)
+- [Hotkeys.js 捕获键盘输入和输入的组合键快捷键](https://github.com/jaywcjlove/hotkeys)
+- [keymaster.js 同上](https://github.com/madrobby/keymaster)
+
+###  **js插件网站**
+
+- [Unheap](http://www.unheap.com/)
+- [jquer.in](http://jquer.in/)
+- [OpenLib--http://www.open-lib.com/](http://www.open-lib.com/)
+- [jQuery插件库--http://www.jq22.com/](http://www.jq22.com/)
+- [jquery之家--http://www.htmleaf.com/](http://www.htmleaf.com/)
+- [分享天空--http://www.sharetk.com/](http://www.sharetk.com/)
+- [jQuery Script--http://www.jqueryscript.net/](http://www.jqueryscript.net/)
+- [dowebok 做好网站--http://www.dowebok.com/](http://www.dowebok.com/)
+- [Web前端开发--http://www.zjgsq.com/](http://www.zjgsq.com/)
+
+### **JavaScript 资源**
+
+- [awesome-javascript](https://github.com/wwsun/awesome-javascript)
+- [JavaScript 秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)
+- [JavaScript 资源大全中文版](https://github.com/jobbole/awesome-javascript-cn)
+- [现代 JavaScript 教程中文版](https://github.com/javascript-tutorial/zh.javascript.info)
+- [《JavaScript 闯关记》](https://github.com/stone0090/javascript-lessons)
+
+<!-- tabs:end -->
+---
 <!-- panels:start -->
 <!-- div:left-panel -->
-- [发布订阅模式，在工作中它的能量超乎你的想象](https://juejin.cn/post/6844903616172539917)
-- [谁说前端不需要懂-Nginx反向代理与负载均衡](https://juejin.cn/post/6844903619465068551)
-- [CSS世界中那些说起来很冷的知识](https://juejin.cn/post/6844903635248218126)
+- [深入理解javascript原型和闭包系列](http://www.cnblogs.com/wangfupeng1988/p/4001284.html)
+- [深入理解JavaScript系列](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
 - [WebSocket是时候展现你优秀的一面了](https://juejin.cn/post/6844903696560553991)
 - [socket.io让每个人都可以开发属于自己的即时通讯](https://juejin.cn/post/6844903700905852936)
 - [WebSocket 是什么原理？为什么可以实现持久连接](https://juejin.cn/post/6844903592525037576)
@@ -189,7 +286,6 @@
 - [7分钟理解JS的节流、防抖及使用场景](https://juejin.cn/post/6844903669389885453)
 - [ECMAScript 6 六级考试](https://zhuanlan.zhihu.com/p/29214240)
 - [Promise实现原理（附源码）](https://juejin.cn/post/6844903665686282253)
-- [可能是最好的正则表达式的教程笔记了吧...](https://juejin.cn/post/6844903648309297166)
 - [一些 JavaScript 中的代码小技巧](https://juejin.cn/post/6844903663492661262)
 - [急速JavaScript全栈教程](https://juejin.cn/post/6844903663035482125)
 - [理解异步之美 --- promise与async await （三）](https://juejin.cn/post/6844903664209887246)
@@ -211,9 +307,6 @@
 - [你不知道的 JavaScript 中下](https://wangtunan.github.io/blog/books/javascript/know-down.html)
 - [深入理解 ES6](https://wangtunan.github.io/blog/books/javascript/es6.html)
 <!-- div:right-panel -->
-- [JavaScript 设计模式与开发实践](https://wangtunan.github.io/blog/designPattern/)
-- [JavaScript 数据结构和算法](https://wangtunan.github.io/blog/books/javascript/algorithm.html)
-- [JavaScript 高级程序设计](https://wangtunan.github.io/blog/books/javascript/red-book.html)
 - [手把手教你实现json嵌套对象的范式化和反范式化](https://github.com/forthealllight/blog/issues/12)
 - [实现一个完美符合Promise/A+规范的Promise](https://github.com/forthealllight/blog/issues/4)
 - [从promise、process.nextTick、setTimeout出发，谈谈Event Loop中的Job queue](https://github.com/forthealllight/blog/issues/5)
@@ -270,7 +363,6 @@
 - [TypeScript 解决了什么痛点？](https://www.zhihu.com/question/308844713/answer/594169638)
 - [Typescript代码整洁之道](https://github.com/forthealllight/blog/issues/67)
 - [聊一聊Typescript中与this相关的类型定义](https://github.com/forthealllight/blog/issues/63)
-- [聊聊Typescript中的设计模式——装饰器篇(decorators)](https://github.com/forthealllight/blog/issues/33)
 - [可能是你需要的react + typescript 50条规范和经验](https://juejin.cn/post/6844903849166110728)
 <!-- panels:end -->
 ---
@@ -278,6 +370,12 @@
 ## k03：Jquery :id=k03
 
 ## k04：Angular技术栈 :id=k04
+
+---
+
+- [AngularJS ,一些关于 AngularJS 的博客，文章，视频，书籍等](https://github.com/justjavac/AngularJS-Learning-zh_CN)
+
+---
 
 ## k05：React技术栈 :id=k05
 
@@ -318,11 +416,23 @@
 - [redux-bundler](https://github.com/henrikjoreteg/redux-bundler)
 - [redux-box](https://github.com/anish000kumar/redux-box)
 
+###  **React 相关**
+
+- [ANT DESIGN](http://ant-design.gitee.io/index-cn)
+- [reactSPA](https://github.com/JasonBai007/reactSPA)
+- [ReCharts 是一个 React 图表组件库](http://recharts.org/#/en-US/)
+- [React-Bootstrap](https://react-bootstrap.github.io/)
+- [anu.js 是一个高级兼容React16的迷你React 框架](https://rubylouvre.github.io/anu/ch/index.html)
+
 <!-- tabs:end -->
 
 ---
 <!-- panels:start -->
 <!-- div:left-panel -->
+- [React Cookbook](https://github.com/shimohq/react-cookbook)
+- [React.js 小书](http://huziketang.com/books/react/lesson1)
+- [React 入门实例教程](http://www.ruanyifeng.com/blog/2015/03/react.html)
+- [React-Native学习指南](https://github.com/ele828/react-native-guide)
 - [React 源码解析](https://zhuanlan.zhihu.com/p/28697362)
 - [从零搭建React全家桶框架教程](https://github.com/brickspert/blog/issues/1)
 - [让虚拟DOM和DOM-diff不再成为你的绊脚石](https://juejin.cn/post/6844903806132568072)
@@ -358,6 +468,11 @@
 - [React生态，dva源码阅读](https://github.com/forthealllight/blog/issues/41)
 - [在React项目中，如何优雅的优化长列表](https://github.com/forthealllight/blog/issues/31)
 - [React-tiny-virtual-list源码阅读](https://github.com/forthealllight/blog/issues/32)
+- [React 入门教程-中文](https://doc.react-china.org/)
+- [React Bits - 有关React，你需要知道的一切](https://github.com/hateonion/react-bits-CN)
+- [React-Native学习指南](https://github.com/reactnativecn/react-native-guide)
+- [[译]看漫画理解Flux](https://medium.com/@icyfish/%E8%AF%91-%E7%9C%8B%E6%BC%AB%E7%94%BB%E7%90%86%E8%A7%A3flux-4e4aa508eade)
+- [《看漫画，学 Redux》 —— A cartoon intro to Redux](https://github.com/jasonslyvia/a-cartoon-intro-to-redux-cn)
 <!-- div:right-panel -->
 - [从mixin到hooks,谈谈对16.7.0-alpha中即将引入的hooks的理解](https://github.com/forthealllight/blog/issues/29)
 - [发布一个react组件——react-read-pdf，用于在移动端展示PDF文件](https://github.com/forthealllight/blog/issues/27)
@@ -404,19 +519,10 @@
 ## k06：Vue技术栈 :id=k06
 
 ---
-<!-- panels:start -->
-<!-- div:left-panel -->
-- [8个非常实用的Vue自定义指令](https://juejin.cn/post/7067051410671534116)
-- [Vue2.0 源码分析](https://wangtunan.github.io/blog/vueAnalysis/introduction/)
-- [手摸手，带你用 vue 撸后台 系列一(基础篇)](https://juejin.im/post/59097cd7a22b9d0065fb61d2)
-- [手摸手，带你用 vue 撸后台 系列二(登录权限篇)](https://juejin.im/post/591aa14f570c35006961acac)
-- [手摸手，带你用 vue 撸后台 系列三 (实战篇)](https://juejin.im/post/593121aa0ce4630057f70d35)
-- [手摸手，带你用 vue 撸后台 系列四(vueAdmin 一个极简的后台基础模板)](https://juejin.im/post/595b4d776fb9a06bbe7dba56)
-- [手摸手，带你封装一个 vue component](https://segmentfault.com/a/1190000009090836)
-- [手摸手，带你优雅的使用 icon](https://juejin.im/post/59bb864b5188257e7a427c09)
-- [手写Vue-router核心原理，再也不怕面试官问我Vue-router原理](https://juejin.cn/post/6854573222231605256)
-- [浅谈使用 Vue 构建前端 10w+ 代码量的单页面应用开发底层](https://juejin.cn/post/6844903622501728263)
-<!-- div:right-panel -->
+<!-- tabs:start -->
+### **vue 组件库**
+
+- [Vuesax](https://vuesax.com/) 一个优质的vue的组件库
 - [vue-multiselect](https://github.com/shentao/vue-multiselect) select 组件 目前 vue 里面用过最好用的
 - [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) DnD 拖拽组件 基于 Sortable.js 的 vue 版本
 - [vue-sauce](https://github.com/Botre/vue-sauce) 一个可以展示 vue 源码的指令
@@ -430,6 +536,51 @@
 - [buefy](https://github.com/buefy/buefy) 适配移动端的 vue 组件库 看着还挺舒服的
 - [vxe-table](https://github.com/xuliangzhan/vxe-table)vue 表格解决方案，还没具体用过看着的确解决了其它 table 组件的一些问题
 - [Vue 测试指南](https://lmiller1990.github.io/vue-testing-handbook/zh-CN/) vue 测试指南
+
+### **vue专题**
+
+- [awesomes vue 各种组件](https://www.awesomes.cn/subject/vue)
+- [『收藏』VUE优秀UI组件库合集](https://shimo.im/doc/LkpdnWxM1j40BDJj/)
+- [cooking更易上手的前端构建工具 for vue](http://elemefe.github.io/cooking/)
+- [一个记录使用了vue技术的网站列表-made with vue.js](https://madewithvuejs.com/)
+
+### **vue 其他插件组件**
+
+- [PortalVue ， anywhere in the document/普通开发使用组件](https://github.com/LinusBorg/portal-vue)
+- [mpvue vue转微信小程序](https://github.com/Meituan-Dianping/mpvue)
+- [vue-axios](https://github.com/imcvampire/vue-axios)
+- [Vue-Lazyload 图片延迟加载](https://github.com/hilongjw/vue-lazyload)
+- [vue-amap 基于Vue 2.0 和高德地图的地图组件](https://github.com/ElemeFE/vue-amap)
+- [Scroller for Vue 2.0](http://im.dahoo.wang/vue-scroller//)
+- [JRoll无限加载+下拉刷新 for Vue2](https://github.com/chjtx/JRoll/tree/master/extends/jroll-vue-infinite)
+- [Vue-Core-Image-Upload 2.0 一款轻量级图片裁剪上传插件](https://github.com/Vanthink-UED/vue-core-image-upload)
+- [vue-datepicker 日期拾取组件](https://github.com/hsiaosiyuan0/vue-datepicker)
+- [一个生成 svg 图标组件的工具 (vue2.x)](https://github.com/MMF-FE/vue-svgicon)
+- [vue GUI generator](https://github.com/vuegg/vuegg)
+
+### **vue 源码**
+
+- [learnVue - Vue.js源码分析](https://github.com/answershuto/learnVue)
+- [vue 源码解析及实现](https://github.com/fastCreator/MVVM)
+- [逐行剖析Vue.js源码](https://github.com/NLRX-WJC/Learn-Vue-Source-Code)
+
+<!-- tabs:end -->
+---
+<!-- panels:start -->
+<!-- div:left-panel -->
+- [vue 教程](http://www.cnblogs.com/keepfool/p/5619070.html)
+- [【强力推荐】揭秘 Vue.js 九个性能优化技巧](https://juejin.cn/post/6922641008106668045)
+- [8个非常实用的Vue自定义指令](https://juejin.cn/post/7067051410671534116)
+- [浅谈使用 Vue 构建前端 10w+ 代码量的单页面应用开发底层](https://juejin.cn/post/6844903622501728263)
+- [Vue2.0 源码分析](https://wangtunan.github.io/blog/vueAnalysis/introduction/)
+- [手写Vue-router核心原理，再也不怕面试官问我Vue-router原理](https://juejin.cn/post/6854573222231605256)
+<!-- div:right-panel -->
+- [手摸手，带你用 vue 撸后台 系列一(基础篇)](https://juejin.im/post/59097cd7a22b9d0065fb61d2)
+- [手摸手，带你用 vue 撸后台 系列二(登录权限篇)](https://juejin.im/post/591aa14f570c35006961acac)
+- [手摸手，带你用 vue 撸后台 系列三 (实战篇)](https://juejin.im/post/593121aa0ce4630057f70d35)
+- [手摸手，带你用 vue 撸后台 系列四(vueAdmin 一个极简的后台基础模板)](https://juejin.im/post/595b4d776fb9a06bbe7dba56)
+- [手摸手，带你封装一个 vue component](https://segmentfault.com/a/1190000009090836)
+- [手摸手，带你优雅的使用 icon](https://juejin.im/post/59bb864b5188257e7a427c09)
 <!-- panels:end -->
 ---
 
@@ -588,7 +739,99 @@
 ## k08：UI库 :id=k08
 
 ---
+<!-- tabs:start -->
+### **vue 布局**
 
+- [vue-waterfall](https://github.com/MopTym/vue-waterfall)-Vue.js 的瀑布布局组件。
+- [vueisotope](https://github.com/David-Desmaisons/Vue.Isotope)-用于同位素过滤器和分类魔术布局的 Vue 组件。
+- [vue-grid-layout](https://github.com/jbaysolutions/vue-grid-layout)-Vue.js 的可拖动和可调整大小的网格布局。
+- [vue-drag-zone](https://github.com/surmon-china/vue-drag-zone)-Vue.js(2.x)的拖动区域组件。
+- [vue-masonry](https://github.com/shershen08/vue-masonry)-用于砌体块布局的 Vue.js 指令。
+- [vue-fraction-grid](https://github.com/bkzl/vue-fraction-grid)-基于 Flexbox 的 Vue.js 响应式分数网格系统。
+- [vue-virtual-scroll-list](https://github.com/tangbc/vue-virtual-scroll-list)-Vue(2.x)组件通过使用虚拟滚动列表支持大数据。
+- [vue-virtual-scroller](https://github.com/Akryum/vue-virtual-scroller)-用于有效滚动大量元素的组件(Vue 2.x)。
+- [vue-virtualscroll](https://github.com/ddgll/vue-virtualscroll)- [Vue 2.x]组件用于虚拟滚动内容。
+- [vue-inview](https://github.com/rachmanzz/vue-inview)- [Vue 2.x]视口，在输入或离开 DOM 元素时获取通知。
+- [dnd-grid](https://github.com/dattn/dnd-grid)-具有可拖动和可调整大小的框的 vuejs 网格
+- [vue-extend-layout](https://github.com/ktquez/vue-extend-layout)-扩展默认布局或为 Vue.js SPA 的页面创建自定义布局
+- [vue-masonry-css](https://github.com/paulcollett/vue-masonry-css)-由 CSS 驱动的 Vue.js Masonry 布局组件，无依赖
+- [vue-fullpage.js](https://github.com/alvarotrigo/vue-fullpage.js)-Vue.js 的官方 fullPage.js 组件。
+- [vue-virtual-collection](https://github.com/starkwang/vue-virtual-collection)-用于有效渲染大型集合数据的 Vue 组件。
+- [自动响应-vue](https://github.com/xudafeng/autosensitive-vue)-Vue 的自动响应网格布局库。
+- [VueFlex](https://github.com/SeregPie/VueFlex)-一个 flexbox 网格系统。
+- [v-chacheli](https://gitlab.com/shellyBits/v-chacheli)-一个 Vue.js 组件，用于创建和显示类似于仪表板的自定义网格布局。
+- [vue-grid-styled](https://github.com/mattrothenberg/vue-grid-styled)-一组轻量级的功能网格组件，从 React 的[grid-styled](https://github.xn--com-7n1gj63e/) / jxnblk /网格样式/)
+- [简单网格](https://github.com/anthinkingcoder/simple-grid)-用于网格布局的 Vue 组件，支持 flex。
+- [vue-container-component](https://github.com/kavalcante/vue-container-component)-受 Bootstrap 容器启发的简单容器组件
+- [vue-colcade](https://github.com/alexiscolin/vue-colcade)-用于将 Colcade 网格布局集成到 Vuejs 的小包装。
+- [vue-ads-layout](https://github.com/arnedesmedt/vue-ads-layout)-一个小的 Vue 组件库，可快速生成带有工具栏，左/右抽屉和页脚的响应式 Web 应用程序布局。所有组件都可以固定或相对放置。
+- [vue-magic-grid](https://github.com/imlinus/Vue-Magic-Grid)-Vue.js 2 的 Magic Grid 小端口。
+- [vue-splitter-pane](https://github.com/venkatperi/vue-splitter-pane)-一个 Vuejs 组件，它以可调节的拆分方式(垂直或水平)呈现两个插槽。
+- [splitpanes](https://github.com/antoniandre/splitpanes)-一个 Vue JS 可靠，简单且可触摸的窗格拆分器/缩放器。
+- [vue-mock-layout](https://github.com/promosis/vue-mock-layout)-轻松模拟 Vue 应用程序的布局。
+- [vue-simple-drawer](https://github.com/dreambo8563/vue-simple-drawer)-带有反弹动画，支持嵌套和自定义主题的小抽屉面板。方向：左/右/上/下
+- [vue-grd](https://github.com/1000ch/vue-grd)-用于网格布局的简单，轻巧和灵活的 Vue.js 组件。
+
+### **UI Icon组件**
+
+- [Font Awesome](http://fontawesome.io/icons/)
+- [Glyphter: The SVG Font Machine](http://glyphter.com/)
+- [Perfect Icons](http://perfecticons.com/)
+- [iconizr](http://iconizr.com/)
+- [Cikonss - 纯CSS实现的响应式Icon](http://www.bootcss.com/p/cikonss/)
+- [Simple Icons](https://github.com/danleech/simple-icons)
+
+### **vue ui组件库**
+
+- [vue.js ie9+](http://cn.vuejs.org/)
+- [滴滴 Web 移动端组件库 cube-ui](https://github.com/didi/cube-ui)
+- [AT UI 由阿里通信技术团队打造基于Vue的Web组件库](http://aliqin.github.io/docs/atui/introduce)
+- [微信UI Vux 支持@^1.0.24](https://github.com/airyland/vux)
+- [bootstrap风格 Vux 支持@v1.x.x](https://github.com/yuche/vue-strap)
+- [material风格 vue-mdl](https://github.com/posva/vue-mdl)
+- [Keen-UI](https://github.com/JosephusPaye/Keen-UI)
+- [Mint UI](https://github.com/ElemeFE/mint-ui)
+- [iView UI](https://github.com/iview/iview)
+- [element UI 支持vue@2.0](http://element.eleme.io)
+- [Muse-UI - 基于 Vue 2.0 和 Material Desigin 的 UI 组件库](https://museui.github.io/)
+- [Vue Material](https://github.com/marcosmoura/vue-material)
+- [vant 有赞开发的基于 Vue.js 2.0 的 UI 组件库](https://github.com/youzan/vant)
+- [vue-beauty 基于 ant design 的漂亮的 vue 组件库](https://github.com/FE-Driver/vue-beauty)
+
+### **分隔面板(Split Panel)**
+
+- [jQuery Split Pane plugin](https://github.com/shagstrom/split-pane)
+- [Split.js (推荐)](https://github.com/nathancahill/Split.js)
+- [React Split Pane](https://github.com/tomkp/react-split-pane)
+- [Vue Split Pane](https://github.com/PanJiaChen/vue-split-pane)
+- [Vue Split Pane](https://github.com/dangvanthanh/vue-split-pane)
+- [vue-resize-split-pane](https://github.com/raven78/vue-resize-split-pane)
+- [vue-multipane](https://github.com/yansern/vue-multipane)
+
+### **ui组件库**
+
+- [GMU - 基于zepto的ui组件库，适用于移动端](https://github.com/fex-team/GMU)
+- [FrozenUI - 腾讯移动端组件库](https://github.com/frozenui/frozenui)
+- [NEC](http://nec.netease.com/)
+- [NEJ](http://nej.netease.com/)
+- [Pure CSS Components](https://github.com/LFeh/css-components/)
+- [magic-of-css](https://github.com/adamschwartz/magic-of-css)
+- [Primer - The CSS toolkit and guidelines that power GitHub](https://github.com/primer/primer)
+- [ZUI - 一个开源前端实践方案，帮助你快速构现代跨屏应用。][1]
+- [WeX5开源前端][2]
+- [B-JUI][3]
+- [MUI 轻量级WEB框架](https://www.muicss.com/)
+- [jQuery WeUI - V0.7.1 WeUI 的jQuery实现版，提供了大量官方WeUI没有的组件, 同时兼容 jQuery 和 Zepto。](http://lihongxun945.github.io/jquery-weui/)
+- [Light7 手机ui组件](http://www.light7.cn/)
+- [bttn.css Awesome buttons for awesome projects](https://github.com/ganapativs/bttn.css)
+- [CSS Pressable 3D Buttons](https://github.com/iRaul/pushy-buttons)
+
+### **后端UI框架**
+
+- [Layui](http://www.layui.com/)
+- [BUI](http://www.builive.com/)
+
+<!-- tabs:end -->
 ---
 
 ## k09：Electron/桌面端 :id=k09
@@ -602,7 +845,13 @@
 
 ## k10：微信小程序/快应用 :id=k10
 
+---
+
+- [娜娜奇 - 基于 React 的多端小程序转译框架](https://rubylouvre.github.io/nanachi/)
 - [只需两步获取任何微信小程序源码](https://juejin.im/post/5b0e431f51882515497d979f?utm_source=花裤衩)
+- [微信小程序开发资源汇总](https://github.com/justjavac/awesome-wechat-weapp)
+
+---
 
 ## k11：Flutter/RN/移动端 :id=k11
 
@@ -610,8 +859,43 @@
 <!-- tabs:start -->
 ### **移动端**
 
-- [fastclick](https://github.com/ftlabs/fastclick) 解决移动端一些点击问题
+- [eruda](https://github.com/liriliri/eruda) 移动端调试工具
+- [fastclick](https://github.com/ftlabs/fastclick) 解决移动端点击延迟300ms问题
+- [better-scroll](https://github.com/ustbhuangyi/better-scroll) 移动端滚动插件
 - [mobile-web-best-practice](https://github.com/mcuking/mobile-web-best-practice) 移动 web 最佳实践
+- [UserAgent detector](https://github.com/hotoo/detector) 客户端环境识别模块
+
+### **vue 移动端**
+
+- [Framework7-Vue](https://github.com/framework7io/framework7)-使用 Framework7＆Vue 构建功能齐全的 iOS 和 Android 应用。
+- [vux](https://github.com/airyland/vux)- [中文]基于 WeUI 的 Vue UI 组件。
+- [vue-onsenui](https://github.com/OnsenUI/OnsenUI)-使用 HTML5 和 JavaScript 的移动应用开发框架和 SDK。创建美观，高性能的跨平台移动应用程序。基于 Web 组件，并提供 Angular 1、2，React 和 Vue.js 的绑定。
+- [Weex](https://weex.incubator.apache.org/)-Weex 提供了发布跨平台的功能，因此 Web，Android 和 IOS 应用程序可以使用相同的 API 开发功能。
+- [weex-eros](https://github.com/bmfe/eros-template)- [中文] Eros 是基于 Weex 和 Vue 的应用程序解决方案，使您能够使用 Vue 的 API，简单快速地开发 Vue 中小型应用程序。
+- [mint-ui](https://github.com/ElemeFE/mint-ui)-Vue.js 的移动 UI 元素。
+- [vant](https://github.com/youzan/vant)-来自 YouZan 的 Vue.js 2.0 移动用户界面。
+- [cube-ui](https://didi.github.io/cube-ui)-Vue.js 编写的出色的移动 ui lib 实现 2。
+- [mand-mobile](https://didi.github.io/mand-mobile)-基于 Vue.js 2 的移动 UI 工具包，专为金融场景而设计。
+
+### **移动端资料**
+
+- [H5 案例 - 不定期收集市面上优秀的 H5 作品。](https://github.com/o2team/cases) 
+- [移动H5前端性能优化指南](https://isux.tencent.com/h5-performance.html)
+- [支付宝无线Web开发经验谈](http://am-team.github.io/amg/dev-exp-doc.html)
+- [移动前端系列——移动端页面坑与排坑技巧( 2014-12-08 )](http://tgideas.qq.com/webplat/info/news_version3/804/7104/7106/m5723/201411/290576.shtml)
+- [移动web最佳实践（2013）](http://www.ipresst.com/play/528892e11d0495f30f00762e)
+- [移动Web前端框架 ( 2014 )](http://www.jingwentian.com/t-135)
+- [移动端自适应方案-lib.flexible,淘宝手机版都是用这个框架](https://github.com/amfe/lib.flexible)
+- [iOS 微信 音频 视频自动播放](http://www.w3ctech.com/topic/1165rd)
+- [解决ios下的微信打开的页面背景音乐无法自动播放](http://www.w3cmark.com/2016/434.html)
+- [微信JS-SDK说明文档](http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html)
+- [微信js demo](http://203.195.235.76/jssdk/)
+- [QQ浏览器X5内核问题汇总](http://www.qianduan.net/qqliu-lan-qi-x5nei-he-wen-ti-hui-zong/)
+- [手机分辨率查询](http://viewportsizes.com/)
+- [移动端响应式框架-测试阶段,不适用于复杂页面](https://github.com/peunzhang/pageResponse)
+- [视频H5のVideo标签在微信里的坑和技巧](https://aotu.io/notes/2017/01/11/mobile-video/)
+- [LAVAS 基于 Vue.js 的 PWA 解决方案 帮助开发者快速搭建 PWA 应用，解决接入 PWA 的各种问题](https://lavas.baidu.com/?qq-pf-to=pcqq.group)
+
 <!-- tabs:end -->
 
 ---
@@ -619,8 +903,16 @@
 <!-- div:left-panel -->
 - [Flutter实战视频-移动电商](https://jspang.com/post/FlutterShop.html%23toc-4c7)
 - [flutter中event_bus实现原理](https://cloud.tencent.com/developer/article/1338289)
-<!-- div:right-panel -->
 - [Flutter 面试知识点集锦](https://juejin.cn/post/6844903843260530701)
+<!-- div:right-panel -->
+- [几乎所有设备的屏幕尺寸与像素密度表](http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density "几乎所有设备的屏幕尺寸与像素密度表")
+- [移动设备参数表](http://screensiz.es/phone "移动设备参数表")
+- [ios端移动设备参数速查](http://ivomynttinen.com/blog/the-ios-design-cheat-sheet-volume-2/ "ios端移动设备参数速查")
+- [浏览器兼容表](http://www.quirksmode.org/compatibility.html "浏览器兼容表")
+- [移动设备查询器](https://deviceatlas.com/device-data/devices "移动设备查询器")
+- [移动设备适配库](http://51degrees.codeplex.com/ "移动设备适配库")
+- [移动设备适配库2](http://detectmobilebrowsers.com/ "移动设备适配库2")
+- [viewport与设备尺寸在线检测器](https://deviceatlas.com/device-data/devices "viewport与设备尺寸在线检测器")
 <!-- panels:end -->
 ---
 
@@ -628,8 +920,11 @@
 
 ---
 <!-- tabs:start -->
-### **nodejs**
+### **nodejs 库**
 
+- [commander](https://github.com/tj/commander.js) 提供了用户命令行输入和参数解析的强大功能
+- [inquirer](https://github.com/SBoudrias/Inquirer.js) 与命令行进行交互
+- [chalk](https://github.com/chalk/chalk) 美化命令行打印样式
 - [live-server](https://github.com/tapio/live-server) 可以快速启一个本地 dev 服务 并且支持自动刷新的 http server
 - [serve](https://github.com/zeit/serve) 快速起本地静态服务
 - [picojs](https://github.com/tehnokv/picojs) js 人脸识别库
@@ -658,6 +953,26 @@
 - [mammoth.js](https://github.com/mwilliamson/mammoth.js) Convert Word documents (.docx files) to HTML
 - [npkill](https://github.com/voidcosmos/npkill) 列出所有 node_modules，并支持删除
 - [strapi](https://github.com/strapi/strapi/) 开源的解决方案来创建、部署和管理自己的 API，通过图形化界面进行操作
+
+### **nodejs 框架**
+
+- [egg.js](https://github.com/eggjs/egg)
+- [Nest 是一个用于构建高效，可扩展的 Node.js 服务器端应用程序的框架。](https://github.com/nestjs/nest)
+
+### **nodejs 学习资料**
+
+- [Node.js 最佳实践](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.chinese.md)
+- [node.js中文资料导航](https://github.com/youyudehexie/node123)
+- [一个月时间整理《深入浅出Node.js》](https://cnodejs.org/topic/551200e6d792542a29789a43)
+- [《Node.js 调试指南》](https://github.com/nswbmw/node-in-debugging)
+- [《一起学 Node.js》彻底重写完毕](https://github.com/nswbmw/N-blog)
+- [了不起的Nodejs Nodejs的各种资源,英文](https://github.com/vndmtrx/awesome-nodejs)
+- [如何通过饿了么 Node.js 面试](https://github.com/ElemeFE/node-interview/tree/master/sections/zh-cn)
+- [Node.js技术栈](https://github.com/Q-Angelo/Nodejs-Roadmap)
+- [七天学会NodeJS](http://nqdeng.github.io/7-days-nodejs/5.2)
+- [全栈工程师之路-Node.js](https://i5ting.github.io/nodejs-fullstack/)
+- [《深入理解Node.js：核心思想与源码分析》](https://github.com/yjhjstz/deep-into-node)
+
 <!-- tabs:end -->
 
 ---
@@ -669,19 +984,32 @@
 - [浏览器与Node的事件循环(Event Loop)有何区别](https://zhuanlan.zhihu.com/p/54882306)
 - [从Express到Nestjs，谈谈Nestjs的设计思想和使用方法](https://github.com/forthealllight/blog/issues/35)
 - [基于 node.js 的脚手架工具开发经历](https://juejin.im/post/5a31d210f265da431a43330e)
+<!-- div:right-panel -->
 - [How to build a CLI with Node.js](https://www.twilio.com/blog/how-to-build-a-cli-with-node-js)
 - [循序渐进教你实现一个完整的node的EventEmitter模块](https://github.com/forthealllight/blog/issues/21)
 - [nodejs中的子进程，深入解析child_process模块和cluster模块](https://github.com/forthealllight/blog/issues/24)
 - [NodeJS与模块系统](https://mp.weixin.qq.com/s/uDp0v_1hN0Uzg-EGr1yfgA)
 - [基于node.js的脚手架工具开发经历](https://juejin.cn/post/6844903526947110919#heading-14)
-<!-- div:right-panel -->
-
-
+- [跟着老司机玩转Node命令行](https://blog.csdn.net/qq_41903941/article/details/90259369)
 <!-- panels:end -->
 ---
 
 ## k13：SVN/Git版本管理 :id=k13
 
+---
+<!-- tabs:start -->
+### **Git**
+
+- [連猴子都能懂的Git入門指南](https://backlog.com/git-tutorial/tw/intro/intro1_1.html)
+- [Git可视化教程，通俗易懂](https://learngitbranching.js.org/?demo)
+- [Github使用指南-从新手到专家](http://www.cnblogs.com/xirongliu/p/4589834.html)
+- [高质量的Git中文教程](https://github.com/geeeeeeeeek/git-recipes)
+- [Git 学习目录 wiki](https://github.com/geeeeeeeeek/git-recipes/wiki)
+- [GitHub秘籍](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-cn.md)
+- [Git的奇技淫巧](https://github.com/521xueweihan/git-tips)
+- [git资料](https://github.com/xirong/my-git)
+
+<!-- tabs:end -->
 ---
 
 - [git-guide](http://rogerdudler.github.io/git-guide/index.zh.html) git 入门指南
@@ -701,7 +1029,7 @@
 ### **webpack**
 
 - [webpackbar](https://github.com/nuxt/webpackbar) webpack 打包进度条
-- [jarvis](https://github.com/zouhir/jarvis) webpack dashboard
+- [jarvis](https://github.com/zouhir/jarvis) - A very intelligent browser based Webpack dashboard/美化监听错误图界面
 - [webpack-chain](https://github.com/neutrinojs/webpack-chain) 通过 chain 风格 api 的方式修改 webpack 配置
 - [speed-measure-webpack-plugin](https://github.com/stephencookdev/speed-measure-webpack-plugin) 统计 webpack 各阶段的耗时
 - [obsolete-webpack-plugin](https://github.com/ElemeFE/obsolete-webpack-plugin) 基于 browserslist 做浏览器升级提示
@@ -710,6 +1038,8 @@
 - [duplicate-package-checker-webpack-plugin](https://github.com/darrenscerri/duplicate-package-checker-webpack-plugin) 检查是否存在重复依赖
 - [cssnano](https://github.com/cssnano/cssnano) CSS 压缩
 - [bundle-buddy](https://github.com/samccone/bundle-buddy) webpack bundle 依赖分析
+- [friendly-errors-webpack-plugin/友善的错误提示界面](https://github.com/geowarin/friendly-errors-webpack-plugin)
+
 ### **打包工具**
 
 - [webpack](https://github.com/webpack/webpack) - 打包项目。
@@ -811,7 +1141,41 @@
 
 ## k15：Canvas/SVG/VML :id=k15
 
+---
+<!-- tabs:start -->
+### **svg**
+
+- [vue-svgicon](https://github.com/MMF-FE/vue-svgicon)-创建 svg 图标组件的工具。(版本 2.x)。
+- [vue-content-loading](https://github.com/LucasLeandro1204/vue-content-loading)-Vue 组件可轻松构建(或使用预设)Facebook 之类的 SVG 加载卡。
+- [vue-annotator](https://github.com/DrSensor/vue-annotator)-使用任何 SVG 元素(“ rect”，“ polygon”以及其他更多元素，即使包装了 HTML 元素如“ canvas”，也可以为页面添加注释)在`foreignObject`中)
+- [vue-svg-sprite](https://github.com/thierrymichel/vue-svg-sprite)-简单使用 SVG sprite(vue 2.x)的指令。
+- [vue-svg-filler](https://github.com/biigpongsatorn/vue-svg-filler)-用于自定义 svg 文件 🖍(vue 2.x)的 Vue 组件。
+
+### **canvas**
+
+- [vue-easeljs](http://github.com/dankuck/vue-easeljs)-对 HTML5 canvas 元素的数据驱动控制。
+- [vue-canvas-effect](https://github.com/chenxuan0000/vue-canvas-effect)-Vue.js 的简单画布效果集合。
+- [vue-konva](https://github.com/rafaesc/vue-konva)-Vue＆Canvas-JavaScript 库，用于使用 Vue 绘制复杂的画布图形。
+- [vue-html2canvas](https://github.com/mycure-inc/vue-html2canvas)-Vue mixin 捕获 html 并使用 Html2Canvas 将其转换为图像。
+- [vue-canvas-nest](https://github.com/ZYSzys/vue-canvas-nest)-适用于 canvas-nest 的 Vue.js 组件。
+- [vue-signature-pad](https://github.com/neighborhood999/vue-signature-pad)-V Vue 签名板组件
+- [jCanvas - 语法简单实现canvas的js 库](https://github.com/caleb531/jcanvas)
+- [create.js](http://www.createjs.cc/)
+- [Canvas Gauges 是一个利用纯 JavaScript 和 HTML5 Canvas（画布）打造的可完全自定义的仪表，你可以用它来创建诸如机动车速度表、温度计等类型的测量设备。](https://github.com/Mikhus/canvas-gauges)
+- [APNG to Canvas 支持apng图片](https://github.com/davidmz/apng-canvas)
+- [particles.js 背景的粒子动画生成库](https://github.com/VincentGarreau/particles.js)
+- [Fabric.js 是一个简单而强大的 JavaScript Canvas 库](https://github.com/kangax/fabric.js)
+- [腾讯 AlloyTeam 正式发布 Canvas 魔幻线条 - curve.js](https://github.com/AlloyTeam/curvejs)
+- [Fanvas 一键把swf转为html5 canvas动画](https://github.com/TencentOpen/Fanvas/)
+- [inMap 是 一款基于 canvas 的大数据可视化库](https://github.com/TalkingData/inmap)
+- [Rough.js 手绘风格](https://github.com/pshihn/rough)
+- [merge-images - canvas简单图片合成](https://github.com/lukechilds/merge-images)
+<!-- tabs:end -->
+---
+
 - [如何优雅的通过canvas实现一个简单的文本编辑器](https://github.com/forthealllight/blog/issues/60)
+
+---
 
 ## k16：WebGL/计算机图形学 :id=k16
 
@@ -843,6 +1207,14 @@
 - [Threejs官方文档-入门-（4）webgl兼容性检测](https://github.com/forthealllight/learn-threejs/blob/master/demo4.md)
 - [Threejs官方文档-入门-（5）画线](https://github.com/forthealllight/learn-threejs/blob/master/demo5.md)
 
+### **Vue 构建的 webgl 库**
+
+- [vue-3d-model](https://github.com/hujiulong/vue-3d-model)-Vue 组件中的 3D 模型查看器。
+- [vue-pano](https://github.com/ChiChou/vue-pano)-Vue 组件中的全景查看器。
+- [vue-threejs](https://github.com/fritx/vue-threejs)-Three.js 的 Vue 绑定。
+- [VueGL](https://github.com/vue-gl/vue-gl)-Vue.js 组件通过 three.js 反应性地渲染 3D 图形
+- [vue-vr](https://github.com/imudin/vue-vr)-使用 Vue 构建 VR 应用程序的框架
+- [vue-displacement-slideshow](https://github.com/AlbanCrepel/vue-displacement-slideshow)-一个 Vue.js 组件，可简化 Webgl 图像位移转换。
 <!-- tabs:end -->
 ---
 <!-- panels:start -->
@@ -863,11 +1235,198 @@
 <!-- panels:end -->
 ---
 
-## k17：动画/可视化 :id=k17
+## k17：动画/可视化/地图 :id=k17
+
+---
+<!-- tabs:start -->
+### **vue 动画**
+
+- [vue2-animate](https://github.com/asika32764/vue2-animate)-Animate.css 的 Vue.js 2.0 端口。与 Vue 的内置转换一起使用。
+- [animated-vue](https://github.com/radical-dreamers/animated-vue)-一个 Vue.js 2.x 插件，可轻松使用 Animate.css 动画作为过渡。就像``一样简单！
+- [vue-lottie](https://github.com/chenqingspring/vue-lottie)-一个 Vue.js 2.x 插件，用于基于 bodymovin 渲染特效动画
+- [Vueg](https://github.com/jaweii/vueg)-使 vue-router 具有过渡效果/为 webApp 提供转场特效的开源 Vue 插件
+- [v-animate-css](https://jofftiquez.github.io/v-animate-css/)-最容易实现 Animate.css 的 Vue 2 指令
+- [vue-mixin-tween](https://github.com/lukechinworth/vue-mixin-tween)-Mixin 工厂，它将补间值添加到动画的组件上下文中
+- [v-odometer](https://github.com/JefferyHus/v-odometer)-轻松平滑地转换数字。使用此库可为您的应用程序提供平滑的动画，仅适用于数字。
+- [vue2-transitions](https://github.com/cristijora/vue2-transitions)✨ 可重复使用的 Vue 2 过渡组件
+- [vue-overdrive](https://github.com/mattrothenberg/vue-overdrive)Vue 应用程序的超级简单的魔术移动过渡 🎩
+- [animated-number-vue](https://github.com/Leocardoso94/animated-number-vue)超级简单的数字动画方法。
+- [vue-typed-js](https://github.com/Orlandster1998/vue-typed-js)集成了 Typed.js，可轻松创建打字动画。
+- [vue-parent-change-transition](https://github.com/inamori/vue-parent-change-transition)启用子组件在更改父组件时进行动画处理。
+- [vue-smooth-reflow](https://github.com/guanzo/vue-smooth-reflow)响应数据变化而转换元素重排。
+- [VueTween](https://github.com/SeregPie/VueTween)允许组件补间其属性。
+- [vue-slide-up-down](https://github.com/danieldiekmeier/vue-slide-up-down)就像 jQuery 的`slideUp` /`slideDown`一样，但是对于 Vue！
+- [vue-animejs](https://github.com/BenAHammond/vue-anime)Vue 的简单`anime.js`指令。
+- [Eagle.js](https://github.com/zulko/eagle.js/)Eagle.js 是 Vue.js 的基于 Web 的幻灯片框架。
+- [vue-pose](https://github.com/Popmotion/popmotion/tree/master/packages/vue-pose)Pose for Vue 是一个声明式运动系统，结合了 CSS 过渡的简单性和 CSS 的强大功能和灵活性 JavaScript。
+- [vue-slide-up-down-component](https://github.com/k-okina/vue-slide-up-down-component)这是一个简单的界面，但是实现了非常灵活而强大的幻灯片动画 Vue！
+- [femtoTween](https://github.com/pearofducks/femtoTween)具有一流 Vue 支持的简约(零深度，小于 1k)补间库
+- [vue-sequential-entrance](https://github.com/deivthings/vue-sequential-entrance)插件，用于创建带有页面元素列表的优雅的连续动画入口。零努力。简单轻巧
+- [vue-animate-scroll](https://github.com/mike-prince/vue-animate-scroll)一种超级轻量级  的方法，可在元素滚动到视图中时向其添加 CSS 动画。
+- [vue-svg-transition](https://github.com/kai-oswald/vue-svg-transition)创建 2 状态，SVG 驱动的过渡
+- [vue-page-transition](https://github.com/Orlandster/vue-page-transition)Vue.js 的简单路由/页面转换
+
+### **js动画库**
+
+- [GSAP.js 最屌的动画库](http://greensock.com/gsap)
+- [Animate Plus  CSS/SVG 动画库](https://github.com/bendc/animateplus)
+- [anime.js 动画库,支持svg-一直在更新](https://github.com/juliangarnier/anime)
+- [dynamics.js js动画-很屌的样子,支持svg](http://dynamicsjs.com/)
+- [snabbt.js - 简约的JavaScript动画库](http://daniel-lundin.github.io/snabbt.js/)
+- [Transit - CSS transitions and transformations for jQuery](https://github.com/rstacruz/jquery.transit)
+- [Move.js - 简化CSS3动画的JS库](http://visionmedia.github.io/move.js/) - [github](https://github.com/visionmedia/move.js)
+- [Animo.js - 堆栈动画，创建跨浏览器的模糊效果【效果不错，依赖jq】](http://labs.bigroomstudios.com/libraries/animo-js) - [github](https://github.com/ThrivingKings/animo.js)
+- [Velocity.js - 加速JavaScript动画](https://github.com/julianshapiro/velocity)
+- [Morf.js 提供了一组 JavaScript 方法用于加速 CSS3的各种转换效果，支持的方法都在上图中，无需编写 CSS3 代码。](http://www.joelambert.co.uk/morf/) -  [github](https://github.com/joelambert/morf)
+- [lenticular.js - 响应倾斜或鼠标事件创建图片动画](https://github.com/thomasxiii/lenticular.js)
+- [jQuery Interactive 3D - 使用图片创建一个3D模型](https://github.com/peachananr/interactive_3d)
+- [AnimateScroll - 动画滚动,应该是定点导航动画](https://github.com/ramswaroop/animatescroll.js)
+- [jq 元素抖动库](http://jackrugile.com/jrumble/)
+- [Tween JS  JavaScript 补间动画库 canvas](http://www.createjs.com/!/CreateJS)
+- [Rekapi 关键帧动画库](http://rekapi.com/)
+- [favico.js v0.3.4 控制游览器标签小图标](http://lab.ejci.net/favico.js/) - [github](https://github.com/ejci/favico.js)
+- [dom-animator -注释动画](http://tholman.com/dom-animator/)
+- [KUTE.js 支持SVG等动画-手机端性能不太好](https://github.com/thednp/kute.js)
+- [Granim.js 简单易用的渐变动画库,纯JavaScript(< 10kB) 实现。](https://sarcadass.github.io/granim.js/)
+- [txt.wav.js 让文字飞起来](https://github.com/still-life-studio/txt.wav)
+- [jquery.path 动画路径](https://github.com/weepy/jquery.path)
+- [Vivus.js](http://maxwellito.github.io/vivus/) 是一个轻量级的JavaScript类(完全无依赖) 来允许你创建 SVG 动画，让他们显示被画出来的轨迹。 Vivus提供很多不同种类的动画。 另外还有选项，你可以按你的想法来创建一个定制的脚本来创建你的SVG动画。
+- [mo.js](http://mojs.io/)
+- [micron.js Micron是一个允许你为DOM元素添加不同的CSS增强动画的库](https://github.com/webkul/micron)
+- [Direction Reveal （方向展示）](https://github.com/NigelOToole/direction-reveal)
+- [Rythm.js 让页面跳舞](https://github.com/Okazari/Rythm.js)
+- [一个 JavaScript 的 3D 设计和动画制作库](https://github.com/metafizzy/zdog)
+- [svg-text-animate 是一个在浏览器环境中将输入文本根据字体转化为描边动画的JavaScript库](https://github.com/oubenruing/svg-text-animate)
+
+### **css动画库**
+
+- [xless - 又一个css动画库](http://royjang.github.io/xless/) [github](https://github.com/royJang/xless)
+- [CSShake - css抖动库](https://elrumordelaluz.github.io/csshake/) - [github](https://github.com/elrumordelaluz/csshake)
+- [animate.css - css3动画库](https://github.com/daneden/animate.css)
+- [all animation - 同上,有sass版本](http://clovisdasilvaneto.github.io/all-animation/) - [github](https://github.com/clovisdasilvaneto/all-animation)
+- [magic - CSS3动画特效](http://dreamsky.github.io/main/blog/magic-css.html) - [gihub](https://github.com/miniMAC/magic)
+- [ScrollMe – 在网页中加入各种滚动动画效果](https://github.com/nckprsn/scrollme)
+- [Loaders.css - css加载动画](http://connoratherton.com/loaders) - [ github](https://github.com/ConnorAtherton/loaders.css)
+- [css-loaders - 同上](https://github.com/lukehaas/css-loaders)
+- [Hover.css](http://ianlunn.github.io/Hover/) - [github](https://github.com/IanLunn/Hover)
+- [Effeckt.css - 手机动画库](https://github.com/h5bp/Effeckt.css)
+- [NEC动画库](http://nec.netease.com/library/category/animation)
+- [uilang - a minimal, ui-focused programming language for web designers](http://uilang.com/)
+- [csshake 带有sass版本](https://github.com/elrumordelaluz/csshake)
+- [AniJS - 一个基于声明式语法的CSS动画库](https://github.com/anijs/anijs/)
+- [SpinKit](https://github.com/tobiasahlin/SpinKit)
+- [JX.Animate - 腾讯css3动画库](http://alloyteam.github.io/JXAnimate/) - [github](https://github.com/AlloyTeam/JXAnimate)
+- [SpinThatShit 酷炫的Loading 动画sass库 https://matejkustec.github.io/SpinThatShit/](https://github.com/MatejKustec/SpinThatShit)
+- [OBNOXIOUS.CSS 冲击视觉的效果](http://tholman.com/obnoxious/)
+
+### **图表**
+
+- [vue-morris](https://github.com/bbonnin/vue-morris)-VueJS 组件包装了 Morris.js。
+- [vue-charts](https://github.com/haydenbbickerton/vue-charts)-适用于 Vue.js 的 Google Charts 插件。
+- [vue-chartjs](https://github.com/apertureless/vue-chartjs)-Chart.js 的 Vue.js 包装器。
+- [hchs-vue-charts](https://github.com/hchstera/vue-charts)-基于 ChartJs 的 Vue2.0 包装器。
+- [vue-echarts](https://github.com/Justineo/vue-echarts)-Vue.js 的 ECharts 组件。
+- [vuetrend](https://github.com/QingWei-Li/vue-trend)-Vue.js 的简洁优雅火花线。
+- [vue-highcharts](https://github.com/weizhenye/vue-highcharts)-Vue 的 Highcharts 组件。
+- [vue-echarts-v3](https://github.com/xlsdg/vue-echarts-v3)-ECharts.js(v3.x +)的 Vue.js(v2.x +)组件包装。
+- [vue-chartist](https://github.com/lakb248/vue-chartist)-Chartist 的 Vue.js 2.0 组件包装。
+- [g2-vue](https://github.com/fireyy/g2-vue)-用于在 Vue 组件中轻松使用 G2 的工厂包装。
+- [vuebars](https://github.com/DeviaVir/vue-bar)-适用于 Vue.js 的简洁优雅的火花棒。
+- [vue-d3-network](https://github.com/emiliorizzo/vue-d3-network)-使用 d3-force 绘制网络图形的 Vue 组件
+- [vue2vis](https://github.com/alexcode/vue2vis)- [Visjs](http://visjs.org/)的 Vue2 包装器。
+- [vue-c3](https://github.com/chryb/vue-c3)-用于 c3 图表的可重用 vue 组件
+- [vue-d2b](https://github.com/d2bjs/vue-d2b)-d2b 图表的 Vue 组件。(包括轴，饼图，sankey 和森伯斯特图)
+- [VueChart](https://github.com/SeregPie/VueChart)-一个非常简单的 Chart Vue 包装器。
+- [vue-chartkick](https://github.com/ankane/vue-chartkick)-用一行 Vue 创建漂亮的 JavaScript 图表
+- [d3vue](https://github.com/ignoreintuition/d3vue)-用于在 VueJS 中创建反应性数据可视化的 D3 插件
+- [vue2-frappe](https://github.com/JustSteveKing/vue2-frappe)-VueJS 的 Frappe Charts 的简单包装
+- [vue-google-charts](https://github.com/devstark-com/vue-google-charts)-Google Charts lib 的反应性 Vue.js 包装器
+- [vue-graph](https://github.com/juijs/vue-graph)-数据可视化库，用于 Vue.js 中的仪表板实现
+- [vue.d3.sunburst](https://github.com/David-Desmaisons/Vue.D3.sunburst)-基于 D3.js 的反应性旭日形组件
+- [v-chart-plugin](https://github.com/ignoreintuition/v-chart-plugin)-一个可定制的组件，用于添加绑定到组件数据的 D3 图表。
+- [vue-jqxchart](https://github.com/jqwidgets/vue/tree/master/chart)-具有饼图，气泡，甜甜圈，线，条，栏，面积，瀑布，极地和蜘蛛系列的制图组件。
+- [toast-ui.vue-chart](https://github.com/nhnent/toast-ui.vue-chart)- [TOAST UI 图表]的 Vue 包装器(http://ui.toast.com/tui -图表/)。
+- [vue-apexcharts](https://github.com/apexcharts/vue-apexcharts)- [ApexCharts]的 Vue.js 组件(https://github.com/apexcharts/apexcharts.js)。
+- [vue-doughnut-chart](https://github.com/mazipan/vue-doughnut-chart)-Vue.js 的甜甜圈图组件。
+- [v-charts](https://github.com/ElemeFE/v-charts)-基于 Vue2.x 和 Echarts 的图表组件。
+- [vue-css-donut-chart](https://github.com/dumptyd/vue-css-donut-chart)-用于绘制纯 CSS 甜甜圈图的轻量级 Vue 组件。
+- [vue-trend-chart](https://github.com/dmtrbrl/vue-trend-chart)-Vue.js 的简单趋势图
+- [vueplotlib](https://github.com/keller-mark/vueplotlib)-声明性，交互式，链接的绘图组件
+- [vgauge](https://github.com/amroessam/vgauge)-GaugeJS 的 Vue 包装器-创建漂亮的量规
+- [vue-plotly](https://github.com/David-Desmaisons/vue-plotly)- [plotly.js](https://plot.ly/javascript/)声明性图表库的包装，随附 20 图表类型，包括 3D 图表，统计图和 SVG 地图。
+- [vue-funnel-graph-js](https://github.com/greghub/vue-funnel-graph-js)-Vue.js 的漏斗图绘制库。创建垂直和水平动画 SVG 漏斗图，并添加标签，值，图例和其他信息。
+- [pure-vue-chart](https://github.com/djaxho/pure-vue-chart)-在没有任何图表库相关性的情况下实现的轻量级 vue 图表
+
+### **地图**
+
+- [vue2-google-maps](https://github.com/xkjyeah/vue-google-maps)-Google Maps 组件，用于带有 2 向数据绑定的 vue。
+- [vue2-leaflet](https://github.com/KoRiGaN/Vue2Leaflet)-传单地图的 Vue 2 组件。
+- [vue-mapbox-gl](https://github.com/phegman/vue-mapbox-gl)-Mapbox GL JS 的 Vue 2.x 组件
+- [vue-yandex-maps](https://github.com/PNKBizz/vue-yandex-map)-Yandex Maps 的 Vue 2.x 组件
+- [vue-baidu-map](https://github.com/Dafrok/vue-baidu-map)-百度地图的 Vue 2.x 组件。
+- [vue-choropleth](https://github.com/voluntadpear/vue-choropleth)-Vue 2.x 组件，用于显示一个 Choropleth 贴图。
+- [vuelayers](https://github.com/ghettovoice/vuelayers)-Vue 2 组件可与 OpenLayers 一起使用。
+- [vue-googlemaps](https://github.com/Akryum/vue-googlemaps)-Vue 2.x 组件，用于集成 Google Maps。
+- [vue-static-map](https://github.com/eperedo/vue-static-map)-Vue 2.x 简单组件，可生成静态 Google 地图
+- [vue-mapbox](https://github.com/soal/vue-mapbox)-Mapbox GL JS 库周围的 Vue 2.x 包装器，提供了与地图交互的途径。
+
+<!-- tabs:end -->
+---
 
 - [页面可视化搭建工具前生今世](https://zhuanlan.zhihu.com/p/37171897)
+- [10 个原则让动画带你飞](https://github.com/xitu/gold-miner/blob/master/TODO/smooth-css-animations.md)
+
+---
 
 ## k18：WebRTC/音视频 :id=k18
+
+---
+<!-- tabs:start -->
+###  **音频视频**
+
+- [A HTML5 video player with a parser that saves traffic 西瓜播放器](https://github.com/bytedance/xgplayer)
+- [Chimee 组件化H5播放器框架-mp4、m3u8、flv](http://chimee.org/)
+- [pizzicato.js](https://github.com/alemangui/pizzicato)
+- [webaudiox.js](https://github.com/jeromeetienne/webaudiox)
+- [jWebAudio](http://01org.github.io/jWebAudio/)
+- [jPlayer -  HTML5 Audio & Video for jQuery](https://github.com/happyworm/jPlayer)
+- [video.js - HTML5 & Flash video player](https://github.com/videojs/video.js)
+- [Accessible HTML5 Video Player - PayPal 开源的 HTML5 视频播放器](https://github.com/paypal/accessible-html5-video-player)
+- [Clappr - 开源的Web视频播放器](https://github.com/clappr/clappr)
+- [Plyr - 简单，灵活的 HTML5 媒体播放器](https://github.com/selz/plyr)
+- [FitVids.js - A lightweight, easy-to-use jQuery plugin for fluid width video embeds.](https://github.com/davatron5000/FitVids.js)
+- [BigVideo.js - The jQuery Plugin for Big Background Video](https://github.com/dfcb/BigVideo.js)
+- [BigScreen - A simple library for using the JavaScript Full Screen API](https://github.com/bdougherty/BigScreen)
+- [Vide - 视频背景](https://github.com/VodkaBears/Vide)
+- [winamp2-js](https://github.com/captbaritone/winamp2-js)
+- [Buzz - A Javascript HTML5 Audio library](https://github.com/jaysalvat/buzz)
+- [howler.js 是一个新的 JavaScript 库用于处理 Web 的音频，该库最初是为一个 HTML5 游戏引擎所开发，但也可用于其他的 Web 项目。] (https://github.com/goldfire/howler.js)
+- [Flv.js 实现了 FLV 格式视频的播放](https://github.com/Bilibili/flv.js)
+- [BIDEO.JS使得添加全屏背景视频更加容易。](https://github.com/rishabhp/bideo.js)
+- [loud links一个很小的JavaScript库,允许您通过HTML5添加交互式音频元素在网站播放mp3 / ogg文件，目前支持所有浏览器。](https://github.com/mahdif/loud-links/)
+- [Waud.js – 使用HTML5降级处理的Web音频库](https://github.com/waud/waud)
+- [Wad](https://github.com/rserota/wad)
+- [Tone.js](https://tonejs.github.io/)
+- [PearPlayer.js 一个支持多协议、多源、混合P2P-CDN的流媒体播放器](https://github.com/PearInc/PearPlayer.js)
+
+### **视频操作**
+
+- [vue-playlist](https://github.com/MishaPetrov/vue-playlist)-轻量级的 vue(2.0)组件，没有依赖关系，可提供真正无缝的 html5 视频播放。使用 Vanilla JS 进行无缝视频播放的唯一且唯一可行的解  决方案。它需要一系列视频并将它们拼接在一起成为一个视频。
+
+###  **vue音频视频**
+
+- [Vue-APlayer](https://github.com/SevenOutman/vue-aplayer)-：cake：用于 Vue 2.x 的易于配置的音乐播放器。
+- [vue-audio](https://github.com/shershen08/vuejs-sound-player)-音频标签包装器；Vue 2.x 的声音播放器组件
+- [vue-dplayer](https://github.com/sinchang/vue-dplayer)-基于 DPlayer 的 Vue 2.x 视频播放器组件。
+- [vue-canvasvideo](https://github.com/chrishurlburt/vue-canvasvideo)-一个 Vue 2.x 组件，用于在 iOS / Safari 上播放视频背景和自动播放视频。
+- [vue-music](https://github.com/petsgre/music)-基于 html5``的 Vue 组件。
+- [vue-audio-visual](https://github.com/staskobzar/vue-audio-visual)-Vue HTML5 音频可视化组件。
+- [vue-plyr](https://github.com/redxtech/vue-plyr)-一组用于 plyr 视频和音频播放器的 Vue 组件。
+- [v-playback](https://github.com/TerryZ/v-playback)-一个 Vue2 插件，可简化视频播放。
+- [vue-audio-recorder](https://github.com/grishkovelli/vue-audio-recorder)-Vue.js 的音频记录器。它允许在服务器上创建，播放，下载和存储记录
+- [vue-video-section](https://github.com/johndatserakis/vue-video-section)-Vue 的简单视频标头/部分组件。适用于视频背景并在其上叠加内容。
+<!-- tabs:end -->
+---
 
 ## k19：V8/浏览器 :id=k19
 
@@ -893,6 +1452,15 @@
 - [掘金](https://chrome.google.com/webstore/detail/%E6%8E%98%E9%87%91/lecdifefmmfjnjjinhaennhdlmcaeeeb) 目前我默认新开 tab 的默认页，可以刷刷新的文章或者项目，还不错。
 - [沙拉查词](https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg) 划词翻译插件
 - [npmhub](https://github.com/npmhub/npmhub)在 README 下方显示 npm 依赖信息
+
+### **浏览器统一(Cross Browser)**
+
+- [HTML5 BOILERPLATE](https://github.com/h5bp/html5-boilerplate)
+- [Modernizr](https://github.com/Modernizr/Modernizr)
+- [Normalize.css](https://github.com/necolas/normalize.css/)
+- [cssFx - 为CSS3自动生成浏览器前缀](https://github.com/imsky/cssFx)
+- [-prefix-free - Break free from CSS prefix hell](https://github.com/LeaVerou/prefixfree)
+  
 <!-- tabs:end -->
 
 ---
@@ -902,9 +1470,11 @@
 - [引擎浅谈 SpiderMonkey & Google V8](https://www.wangshaoxing.com/blog/javascript-engines.html)
 - [前端必须要懂的浏览器缓存机制](https://juejin.cn/post/6844903599537930253)
 - [浏览器的回流与重绘 (Reflow & Repaint)](https://juejin.cn/post/6844903569087266823)
+- [feature.js 检测浏览器是否支持某属性](http://featurejs.com/)
 <!-- div:right-panel -->
 - [深入浅出浏览器渲染原理](https://zhuanlan.zhihu.com/p/53913989)
 - [抛弃console.log()，拥抱浏览器Debugger](https://zhuanlan.zhihu.com/p/52077620)
+- [ChromeAppHeroes - Chrome插件英雄榜, 为优秀的Chrome插件写一本中文说明书, 让Chrome插件英雄们造福人类~](https://github.com/zhaoolee/ChromeAppHeroes)
 <!-- panels:end -->
 ---
 
@@ -913,6 +1483,9 @@
 - [workbox](https://github.com/googlechrome/workbox) PWA 方案，Google 出品
 - [critical](https://github.com/addyosmani/critical) - 提取关键 CSS。
 - [前端性能相关：防抖、节流](https://juejin.cn/post/6844903592898330638)
+- [渲染性能](https://github.com/sundway/blog/issues/2)
+- [7 天打造前端性能监控系统](http://fex.baidu.com/blog/2014/05/build-performance-monitor-in-7-days/)
+- [性能专栏](https://github.com/barretlee/performance-column)
 
 ## k21：Web安全 :id=k21
 
@@ -920,12 +1493,18 @@
 
 - [hacksplaining](https://www.hacksplaining.com/lessons) 网络安全学习网站
 - [尤雨溪：关于近日涉及 SonarQube 和 Vue 的漏洞通知](https://zhuanlan.zhihu.com/p/461720764)
+- [前端之困 · XSS CookBook系列](http://zhuanlan.zhihu.com/wooyun/19756127)
 
 ---
 
 ## k22：Nginx/服务器 :id=k22
 
 ---
+
+- [Nginx 入门教程](https://github.com/xuexb/learn-nginx)
+- [Nginx开发从入门到精通](https://github.com/taobao/nginx-book)
+- [谁说前端不需要懂-Nginx反向代理与负载均衡](https://juejin.cn/post/6844903619465068551)
+- [nginxconfig](https://github.com/valentinxxx/nginxconfig.io/) 可视化配置 nginx 提供了多个基础模板
 
 ---
 
@@ -935,7 +1514,7 @@
 
 ---
 
-## k24：测试与持续集成 :id=k24
+## k24：测试与持续集成部署 :id=k24
 
 ---
 <!-- tabs:start -->
@@ -959,11 +1538,14 @@
 <!-- panels:end -->
 ---
 
-## k25：计算机网络协议 :id=k25
+## k25：Http/计算机网络协议 :id=k25
 
 ---
 <!-- panels:start -->
 <!-- div:left-panel -->
+- [【web必知必会】——图解HTTP](http://www.cnblogs.com/xing901022/p/4309840.html)
+- [HTTP API 设计指南](https://github.com/ZhangBohan/http-api-design-ZH_CN)
+- [JSON API：用 JSON 构建 API 的标准指南中文版](https://github.com/justjavac/json-api-zh_CN)
 - [设计一个无懈可击的浏览器缓存方案：关于思路，细节，ServiceWorker，以及HTTP/2](https://zhuanlan.zhihu.com/p/28113197)
 - [你应该知道的前端——缓存](https://juejin.cn/post/6844903598556446733)
 - [HTTP 缓存机制一二三](https://zhuanlan.zhihu.com/p/29750583)
@@ -997,6 +1579,16 @@
 
 ---
 
+- [JavaScript模式集合](http://shichuan.github.io/javascript-patterns/)
+- [深入理解JavaScripts设计模式系列：](http://wiki.jikexueyuan.com/project/javascript-depth-understanding/model-design-one.html)
+- [设计模式总结,非js](http://www.cnblogs.com/chenssy/p/3357683.html)
+- [发布订阅模式，在工作中它的能量超乎你的想象](https://juejin.cn/post/6844903616172539917)
+- [JavaScript 设计模式与开发实践](https://wangtunan.github.io/blog/designPattern/)
+- [聊聊Typescript中的设计模式——装饰器篇(decorators)](https://github.com/forthealllight/blog/issues/33)
+- [JavaScript 高级程序设计：笔记](https://wangtunan.github.io/blog/books/javascript/red-book.html)
+- [大话设计模式](https://www.kancloud.cn/dengyigegushi/details-dahua/100439)
+- [面向对象的JavaScript编程：原理与实践](https://github.com/haitaoxin/jsoo)
+
 ---
 
 ## k27：数据结构与算法 :id=k27
@@ -1006,15 +1598,21 @@
 ### **算法**
 
 - [leetcode](https://github.com/azl397985856/leetcode) 用 js 刷 leetcode
+- [手把手撕LeetCode题目，扒各种算法套路的裤子](https://github.com/labuladong/fucking-algorithm)
 
 <!-- tabs:end -->
 
 ---
 <!-- panels:start -->
 <!-- div:left-panel -->
+- [JavaScript 数据结构和算法：笔记](https://wangtunan.github.io/blog/books/javascript/algorithm.html)
 - [前端笔试&面试爬坑系列---算法](https://juejin.cn/post/6844903656865677326)
-<!-- div:right-panel -->
 - [漫画：什么是红黑树](https://juejin.cn/post/6844903519632228365)
+<!-- div:right-panel -->
+- [数据结构和算法动态可视化](https://visualgo.net/zh)
+- [JavaScript 算法与数据结构](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
+- [《编程之法：面试和算法心得》](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/Readme.md)
+
 <!-- panels:end -->
 ---
 
@@ -1048,6 +1646,53 @@
 - [just](https://github.com/Microsoft/just) - 微软出的任务管理器。
 - [tern](https://github.com/ternjs/tern) - 代码分析器，为不少编辑器服务。
 - [lightproxy](https://github.com/alibaba/lightproxy) - 底层协议代理工具，跨平台。
+
+### **依赖安装**
+
+- [yarn](http://yarnpkg.top/)
+- [npm](https://www.npmjs.com/)
+
+### **前端构建工具**
+
+- [Yeoman - a set of tools for automating development workflow](https://github.com/yeoman/yeoman)
+- [gulp - The streaming build system](http://gulpjs.com/)
+- [grunt - the JavaScript Task Runner](http://gruntjs.com/)
+- [F.I.S - 前端集成解决方案](https://github.com/fex-team/fis)
+
+### **前端模块管理器**
+
+- [Bower - A package manager for the web](http://bower.io/)
+- [Browserify](http://browserify.org/)
+- [Component](https://github.com/componentjs/component)
+- [Duo](http://duojs.org/)
+- [RequireJS](http://requirejs.org/)
+- [Sea.js](http://seajs.org/)
+- [webpack](http://webpack.github.io/docs/)
+- [ESL](https://github.com/ecomfe/esl)是一个浏览器端、符合AMD的标准加载器，适合用于现代Web浏览器端应用的入口与模块管理。
+
+### **前端框架(Frameworks)**
+
+- [Material-UI 移动端ui框架,效果好](http://material-ui.com//components/appbar) [github](https://github.com/callemall/material-ui)
+- [Frozen UI 腾讯移动UI框架](http://frozenui.github.io/)
+- [Bootstrap](https://github.com/twbs/bootstrap)
+- [Foundation](https://github.com/zurb/foundation)
+- [Amaze UI](http://amazeui.org/)
+- [Semantic UI](https://github.com/semantic-org/semantic-ui)
+- [Pure CSS](http://purecss.io/)
+- [topcoat](https://github.com/topcoat/topcoat)
+- [UIkit](https://github.com/uikit/uikit)
+- [Material UI](https://github.com/callemall/material-ui)
+- [Framework7](http://www.idangero.us/framework7)
+- [mui](https://github.com/dcloudio/mui)
+- [ionic framework](http://ionicframework.com/)
+- [Fries](https://github.com/jaunesarmiento/fries)
+- [jQuery Mobile](http://jquerymobile.com/)
+- [H-ui 前端框架](http://h-ui.net/index.shtml)
+- [Skeleton](https://github.com/dhg/Skeleton)
+- [HaloJS](https://halojs.aotu.io/api/index.html)
+- [QMUI Web 是一个专注 Web UI](https://github.com/QMUI/QMUI_Web)
+- [LuLu ui](https://l-ui.com/content/about/design.html)
+
 <!-- tabs:end -->
 
 ---
@@ -1108,6 +1753,7 @@
 - [Linux命令手册](https://ipcmen.com/)
 - [后端程序员必备的 Linux 基础知识+常见命令（近万字总结）](https://juejin.cn/post/6860400014569996302)
 - [Epoll原理解析](https://blog.csdn.net/armlinuxww/article/details/92803381)
+- [Vim 从入门到精通](https://github.com/wsdjeg/vim-galore-zh_cn)
 
 ---
 
@@ -1116,6 +1762,7 @@
 ---
 <!-- panels:start -->
 <!-- div:left-panel -->
+- [前端面试手册](https://github.com/yangshun/front-end-interview-handbook/blob/master/Translations/Chinese/README.md)
 - [【汪图南的博客】：前端面试之道](https://wangtunan.github.io/blog/interview/)
 - [中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(上)](https://juejin.cn/post/6844903776512393224)
 - [中高级前端大厂面试秘籍，寒冬中为您保驾护航，直通大厂(中)](https://juejin.cn/post/6844903801153945608)
@@ -1183,6 +1830,23 @@
 ## k32：个人博客/网站搭建 :id=k32
 
 ---
+<!-- tabs:start -->
+### **博客评论插件**
+
+- [Gitalk](https://github.com/gitalk/gitalk)
+- [Valine](https://github.com/xCss/Valine)
+- [Vssue](https://github.com/meteorlxy/vssue) 静态博客评论插件
+- [vue-comment-grid](https://github.com/TugayYaldiz/vue-comment-grid)-💬 使用 CSS Grid 和 Firebase REST API + Authentication 构建的自适应 Vue.js 注释系统插件。
+
+### **静态网站生成器**
+
+- [VuePress](https://github.com/vuejs/vuepress)-简约的 Vue 驱动的静态网站生成器。
+- [Peco](https://github.com/egojump/peco)-人类的静态网站生成器。未维护
+- [Sabre](https://github.com/egoist/saber)-一个静态网站生成器，用于使用 Vue.js 构建快速的网站。
+- [Gridsome](https://github.com/gridsome/gridsome)-使用 Vue.js 构建超快速，现代化的网站
+
+<!-- tabs:end -->
+---
 <!-- panels:start -->
 <!-- div:left-panel -->
 - [VuePress 基础知识](https://wangtunan.github.io/blog/vuepress/)
@@ -1196,9 +1860,18 @@
 ## k33：前端书籍 :id=k33
 
 - [JavaScript权威指南](https://book.douban.com/subject/6854549/)
-- [JavaScript高级程序设计](https://book.douban.com/subject/10546125//)
+- [JavaScript高级程序设计](https://book.douban.com/subject/10546125/)
 - [JavaScript设计模式与开发实践](https://book.douban.com/subject/26382780/)
 - [HTTP权威指南](https://book.douban.com/subject/10746113/)
+- [USTC-CS-Courses-Resource 中国科学技术大学众多课程资源](https://github.com/mbinary/USTC-CS-Courses-Resource)
+- [免费的计算机编程类中文书籍](https://github.com/justjavac/free-programming-books-zh_CN)
+- [免费编程书籍](https://github.com/vhf/free-programming-books/blob/master/free-programming-books-zh.md)
+- [码农周刊整理-推荐关注](https://github.com/nemoTyrant/manong)
+- [运维实践指南](https://github.com/meetbill/op_practice_book)
+- [《微服务：从设计到部署》](https://github.com/oopsguy/microservices-from-design-to-deployment-chinese)
+- [【编程随想】收藏的电子书清单](https://github.com/programthink/books) 
+- [2019年最新总结，从程序员到CTO，从专业走向卓越，分享大牛企业内部pdf与PPT](https://github.com/0voice/from_coder_to_expert)
+- [Study-Step-by-Step 书籍合集](https://github.com/qibaoguang/Study-Step-by-Step)
 
 ## k34：前端专题系列 :id=k34
 
@@ -1321,14 +1994,18 @@
 <!-- tabs:start -->
 ### **开发社区**
 
-- [掘金：只有高手分享的中文技术社区](https://juejin.im/)
-- [Stack Overflow：编程相关的IT技术问答网站](http://stackoverflow.com/)
-- [GitHub：面向开源及私有软件项目的git托管平台](https://github.com/)
 - [SegmentFault：一个专注于解决编程问题，提高开发技能的社区。](https://segmentfault.com/)
-- [V2EX：一个关于分享和探索的地方。](https://www.v2ex.com/)
 - [Smashingmagazine：一个web技术类的博客杂志站点](https://www.smashingmagazine.com/)
 - [CNode：Node.js专业中文社区](https://cnodejs.org/)
 - [JS Tips：每天推出一个JS技巧的网站](http://www.jstips.co/)
+- [Github：面向开源及私有软件项目的git托管平台](https://github.com/)
+- [掘金：一个帮助开发者成长的社区](https://juejin.im/)
+- [简书：有很多频道的创作社区](https://www.jianshu.com/)
+- [stack overflow：编程相关的IT技术问答网站](https://stackoverflow.com/)
+- [InfoQ：](https://www.infoq.cn/topic/Front-end)
+- [V2EX：一个关于分享和探索的地方](https://www.v2ex.com/)
+- [鱼塘热榜：划水网站，收集了很多网站，当天热门文章](https://mo.fish/)
+- [码力全开资源库：很全很强大，独立开发者/设计干货/优质利器/工具资源](https://maliquankai.com/designnav/)
 
 ### **前端门户**
 
@@ -1345,18 +2022,29 @@
 
 ---
 
+- [Front-end Code Standards & Best Practices](http://isobar-idev.github.io/code-standards/)
 - [YY UED前端规范指南](https://www.bookstack.cn/read/fe-guide/README.md)
 - [前端开发规范手册](https://www.bookstack.cn/read/Aaaaaashu-Guide/README.md)
 - [饿了么前端风格指南](https://www.bookstack.cn/read/style-guide/README.md)
-
 - [Eslint + Prettier + Husky + Commitlint+ Lint-staged 规范前端工程代码规范](https://juejin.cn/post/7038143752036155428)
 - [Eslint + Prettier + stylelint + Husky + Lint-staged 规范你的工程git提交信息和代码规范](https://juejin.cn/post/7018053886699110407)
 - [eslint最详细规范整理](https://blog.csdn.net/weixin_40013817/article/details/108003812)
-- [vuejs/eslint-config-vue](/frontendguide/k37/01.eslint-config-vue.md)
+- [vuejs/eslint-config-vue](/frontendcolumn/k37/01.eslint-config-vue.md)
+- [百度前端编码规范](https://github.com/ecomfe/spec)
+- [vue 风格指南](https://cn.vuejs.org/v2/style-guide/)
+- [Airbnb 的 JavaScript 编码规范](https://github.com/airbnb/javascript)
+- [frontend-guidelines - Some HTML, CSS and JS best practices.](https://github.com/bendc/frontend-guidelines)
+- [Vue.js 组件编码规范](https://github.com/pablohpsilva/vuejs-component-style-guide/blob/master/README-CN.md)
+- [CSS 创作指南（Beta）](https://github.com/cssdream/css-creating)
+- [JavaScript Standard Style](https://github.com/standard/standard/blob/master/docs/README-zhtw.md)
+- [AlloyTeam代码规范](https://github.com/AlloyTeam/CodeGuide)
+- [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)
+- [中文技术文档的写作规范](https://github.com/ruanyf/document-style-guide)
+- [JavaScript 风格指南](https://github.com/alivebao/clean-code-js)
 
 ---
 
-## k38：前端开发者指南 :id=k38
+## k38：前端导航指南 :id=k38
 
 ---
 
@@ -1364,6 +2052,14 @@
 - [前端开发者指南（2017）](https://www.bookstack.cn/read/front-end-handbook-2017-zh/README.md)
 - [前端开发者指南（2018）](https://www.bookstack.cn/read/front-end-handbook-2018-zh/README.md)
 - [前端开发者指南（2019）](https://www.bookstack.cn/read/front-end-handbook-2019-zh/README.md)
+- [前端收集](https://github.com/jikeytang/front-end-collect)
+- [WEB前端知识库](https://github.com/imweb/FKB)
+- [jsdig](http://jsdig.com/)
+- [前端笔记](http://www.w3cmark.com/mark/)
+- [醉牛前端](http://f2er.club/)
+- [前端收藏夹](http://collect.w3ctrain.com/)
+- [web前端导航](http://guide.500lines.cc/)
+- [F2E前端导航](http://fenav.com/#/index)
 
 ---
 
@@ -1440,6 +2136,7 @@
 ---
 
 - [让功能找到用户；让用户体验美好「自然交互 1」](https://zhuanlan.zhihu.com/p/41952711)
+- [视觉设计师是怎样让前端工程师 100% 实现设计效果的？](http://www.zhihu.com/question/27743708answer-17103050)
 
 ---
 
@@ -1451,13 +2148,103 @@
 
 ---
 <!-- tabs:start -->
-### **游戏框架**
 
-- [PhaserJS](http://phaser.io/)
-- [Cocos2d-x](http://www.cocos.com/)
-- [白鹭引擎](https://www.egret.com/)
+### **前端游戏框架(动画引擎)**
+
+- [Hilo 跨终端的互动游戏解决方案 阿里出品](https://github.com/hiloteam/Hilo)
+- [Pixi.js v4 - WebGL 国外游戏引擎](http://www.pixijs.com/)
+- [cocos2d-html5](https://github.com/cocos2d/cocos2d-html5)
+- [Egret Engine](http://www.egret-labs.org/)
+- [LimeJS](https://github.com/digitalfruit/limejs)
+- [EaselJS](https://github.com/CreateJS/EaselJS)
+- [three.js](https://github.com/mrdoob/three.js)
+- [AlloyStick](https://github.com/AlloyTeam/AlloyStick)
+- [The-Best-JS-Game-Framework](https://github.com/finscn/The-Best-JS-Game-Framework)
+- [CanvasEngine](https://github.com/RSamaium/CanvasEngine)
+- [Quintus](https://github.com/cykod/Quintus)
+- [LayaAir 引擎 国内游戏框架,跟白鹭比较??暂时不知道](http://layabox.com/)
+- [soya2d 一个 好学、易用、强大、开源的 H5游戏引擎 现在,有你掌控](http://soya2d.com)
+- [phina.js JavaScript游戏开发库](https://github.com/yrq110/odds-and-ends/blob/master/%E5%88%9D%E6%AC%A1%E4%BD%BF%E7%94%A8phina.js%20-%20JavaScript%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E5%BA%93.md)
+- [melon.js](https://github.com/melonjs/melonjs)
+- [Phaser - HTML5 Game Framework](https://github.com/photonstorm/phaser)
+- [PlayCanvas WebGL Game Engine](https://github.com/playcanvas/engine)
+- [Popmotion.js – 小巧，灵活的 JavaScript 运动引擎](https://github.com/Popmotion/popmotion)
+- [Dynamics.js - 创建逼真的物理动画的 JS 库](https://github.com/michaelvillar/dynamics.js)
+- [Snabbt.js – 极简的 JavaScript 动画库](https://github.com/daniel-lundin/snabbt.js)
 
 <!-- tabs:end -->
+---
+
+## k41：正则表达式 :id=k41
+
+---
+<!-- tabs:start -->
+### **正则**
+
+- [正则可视化](https://regex101.com/)
+- [正则表达式 - 教程](https://www.runoob.com/regexp/regexp-tutorial.html)
+
+### **正则表达式工具**
+
+- [正则表达式调试工具](https://regexr.com/)
+- [正则表达式可视化工具](https://jex.im/regulex/)
+
+<!-- tabs:end -->
+---
+
+- [可能是最好的正则表达式的教程笔记了吧...](https://juejin.cn/post/6844903648309297166)
+- [什么是正则表达式?](https://github.com/zeeshanu/learn-regex/blob/master/README-cn.md)
+
+---
+
+## k42：Markdown/富文本编辑器 :id=k42
+
+---
+
+- [Vueditor 基于Vue 2.0 的富文本编辑器](https://github.com/hifarer/Vueditor)
+- [README文件语法解读](https://github.com/guodongxiaren/README)
+- [Simditor - 简单快速的富文本编辑器](https://github.com/mycolorway/simditor)
+- [BachEditor - 一个有情怀的编辑器](https://github.com/Integ/BachEditor)
+- [Squire – 简洁的 HTML5 富文本编辑器](http://neilj.github.io/Squire/)
+- [TinyMCE](https://github.com/tinymce/tinymce)
+- [bootstrap-markdown](https://github.com/toopay/bootstrap-markdown)
+- [marked - markdown解析器](https://github.com/chjj/marked)
+- [Markdown Plus](https://github.com/tylingsoft/markdown-plus)
+- [Editor.md - 开源在线Markdown编辑器](https://github.com/pandao/editor.md)
+
+---
+
+## k43：Jenkins/K8s/Docker :id=k43
+
+---
+
+- [Docker — 从入门到实践](https://github.com/yeasy/docker_practice)
+
+---
+
+## k44：程序员英语 :id=k44
+
+---
+
+- [如何提高英语技能](https://github.com/byoungd/english-level-up-tips-for-Chinese)
+- [中国程序员容易发音错误的单词](https://github.com/shimohq/chinese-programmer-wrong-pronunciation)
+
+---
+
+## k45：前端AR/VR :id=k45
+
+---
+
+- [全景漫游VR -（淘宝造物节背后的库）](http://tgask.qq.com/?/article/3)
+
+---
+
+## k46：渐进式网页应用(PWA) :id=k46
+
+---
+
+- [第一本 PWA 中文书](https://github.com/SangKa/PWA-Book-CN)
+
 ---
 
 ## k100：职业发展 :id=k100
@@ -1469,6 +2256,28 @@
 - [蔡志忠：努力是没有用的](https://www.yuque.com/book-academy/share/shp7tu)
 
 ---
+
+# 前端组件库 :id=componentlibrary
+
+---
+
+## a00：图标 :id=a00
+
+---
+
+## a01：布局 :id=a01
+
+---
+
+## a02：导航 :id=a02
+
+---
+
+## a03：数据录入 :id=a03
+
+## a04：数据展示 :id=a04
+
+## a05：数据展示 :id=a05
 
 # 资源工具 :id=resourcetools
 
@@ -1595,11 +2404,6 @@
 - [JSON/YAML在线转换](http://www.fly63.com/tool/jsonyaml/)
 - [人民币大小写转换工具](http://www.fly63.com/tool/renmingbi/)
 
-### **正则表达式工具**
-
-- [正则表达式调试工具](https://regexr.com/)
-- [正则表达式可视化工具](https://jex.im/regulex/)
-
 ### **网络工具**
 
 - [IP地址归属地查询](https://www.ip138.com/)
@@ -1696,23 +2500,6 @@
 - [Simplenote](https://simplenote.com/)
 - [语雀](https://www.yuque.com/)
 
-### **编程学习网**
-
-- [哔哩哔哩](https://www.bilibili.com/)
-- [C语言网](https://www.dotcpp.com/)
-- [cppreference](http://zh.cppreference.com/)
-- [中国大学MOOC](https://www.icourse163.org/)
-- [牛客网](www.nowcoder.com)
-- [网易公开课](https://open.163.com/)
-- [CodeGym](https://codegym.cc/)
-- [BeginnersBook](https://beginnersbook.com/)
-- [JavaSED](http://www.javased.com/)
-- [codecademy](https://www.codecademy.com/)
-- [Coursera](https://www.coursera.org/)
-- [StackOverFlow](https://stackoverflow.com/)
-- [LeetCode](https://leetcode-cn.com/)
-- [LintCode](https://www.lintcode.com/)
-
 ### **构建工具**
 
 - [Webpack：代码模块化构建打包工具](https://webpack.js.org/)
@@ -1803,7 +2590,7 @@
 - [the-bread-code](https://github.com/hendricius/the-bread-code) 使用程序员的思维制作面包 ，比如制作中使用 A/B test,
   来比较那种做法更好。
 - [build-your-own-x](https://github.com/danistefanovic/build-your-own-x) 教你用各种语言实现 Bot Database Neural Network
-- [javascript-algorithms ](https://github.com/trekhleb/javascript-algorithms) 教你用前端知识认识各种算法
+- [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) 教你用前端知识认识各种算法
 - [not-paid](https://github.com/kleampa/not-paid) 如果你给人做网站，交过去以后对方没有付款，那么这个 JS 会把网站的透明度一天调低一点，直到看不见
 - [nsfwjs](https://github.com/infinitered/nsfwjs) 前端图片鉴黄，基于 Tensorflow
 - [elevator.js](https://github.com/tholman/elevator.js) 我很喜欢的一个库，让一个 back-to-top 的效果有了一种坐复古电梯的感觉
@@ -1812,12 +2599,46 @@
 - [react-kawaii](https://github.com/miukimiu/react-kawaii) 一个非常可爱的 React 卡通人脸库，很有意思
 - [chart-race-react](https://github.com/Mckinsey666/chart-race-react) 图表竞赛 长条图赛跑动画 在微博或者 b 站这种类型视频很火
 - [98.css](https://jdan.github.io/98.css/#tree-view) windows 98 主题分格 css
+- [奇趣网站收藏家](https://fuun.fun/) 收藏了很多有趣的网站
+- [帮你百度一下](http://www.baidu-x.com/) 可以 [点我测试一下](http://www.baidu-x.com/?q=和谐有爱富强)-
+- [国际版](http://lmgtfy.com/) 同`帮我百度一下`-[点我测试一下](http://lmgtfy.com/?q=a)-
+- [wallhaven](https://alpha.wallhaven.cc/) 壁纸网站-
+- [URL 地址播放 Emojis 动画](http://matthewrayfield.com/articles/animating-urls-with-javascript-and-emojis/#🌖) 在地址栏里面播放 emoji
+- [Can't Unsee](https://cantunsee.space/) 强烈建议前端、客户端、UI 开发的同学玩下，检查一下自己对设计稿的敏感度怎么样
+- [ggtalk](https://talk.swift.gg/) 平时一直在听的一个技术博客
+- [awesome-comment](https://github.com/Blankj/awesome-comment) 里面收集了很多有趣的代码注释
+- [text-img](https://www.text-image.com/index.html) 都将图片转化为 ascii 用来写注释
+- [weird-fonts](https://github.com/beizhedenglong/weird-fonts) 将普通字母转化为 特殊 unicode
+- [snake](https://github.com/epidemian/snake) 在地址栏里面玩贪吃蛇
+- [zero-width-lib](https://github.com/yuanfux/zero-width-lib) 利用零宽度字符实现 隐形水印、加密信息分享、逃脱词匹配，很有创意
+- [abbreviations](https://www.abbreviations.com/) 查看一个简写是什么意思的网站
+- [magi](https://magi.com/) ai 搜索神器，超屌
+- [诺基亚短信图片生成器](https://zzkia.noddl.me:8020/)
+
+### **实用**
+
+- [browser-update](https://browser-update.org/) 浏览器版本更新提示插件
+- [typeform](https://admin.typeform.com/signup) 一个国外的在线调查问卷网站
+- [VideoFk](https://www.videofk.com/) VideoFk 视频在线解析下载
+- [全历史](https://www.allhistory.com/) 历史内容聚合网站
+- [UzerMe](https://www.uzer.me/) 云端办公工具
+- [SoBooks](https://sobooks.cc/) 强大的电子书资源网站
+- [稿定设计](https://www.gaoding.com/) 键式设计工具+智能抠图
+- [大力盘](https://dalipan.com/) 百度网盘搜索
+- [ENFI 下载器](https://www.macbl.com/app/internet/enfi) 不限速下载器
+- [来画视频](https://www.laihua.com/) 像做 PPT 一样做短视频
+- [Arkie 海报制作工具](https://www.arkie.cn/)
+- [优品 PPT](http://www.ypppt.com/)
+- [比格 PPT](http://www.tretars.com/)
+- [高清免费图片](https://www.pexels.com/)
+- [高清免费图片 2](https://unsplash.com/)
 
 ### **其他工具**
 
 ---
 <!-- panels:start -->
 <!-- div:left-panel -->
+- [codota](https://www.codota.com/) AI代码智能提示（应用于代码编辑器）
 - [在线Nginx配置工具](https://nginxconfig.io/)
 - [在线文本代码比对工具](http://www.fly63.com/tool/textdiff/)
 - [在线Chrome浏览器插件](https://www.crx4chrome.com/)
@@ -1838,7 +2659,6 @@
 - [mkcert](https://github.com/FiloSottile/mkcert) 一键命令 让本地也支持 https
 - [termtosvg](https://github.com/nbedos/termtosvg) 录制 命令操作转成 svg 基于 python
 - [gh-polls](https://github.com/apex/gh-polls) 可以在 github issue 中添加投票
-- [eruda](https://github.com/liriliri/eruda) 移动端调试工具
 - [vConsole](https://github.com/Tencent/vConsole) 也是一个移动端调试工具 腾讯出品
 - [terminalizer](https://github.com/faressoft/terminalizer) 命令行录制工具 基于 node
 - [badgen](https://github.com/amio/badgen-service) 快速构建和 shields 一样的 svg badge 但速度更快
@@ -1856,7 +2676,6 @@
 - [Optimizely](https://www.optimizely.com/) A/B Test
 - [appadhoc](http://www.appadhoc.com/) 一个国内的 A/B Test 服务
 - [glorious-demo](https://github.com/glorious-codes/glorious-demo) 通过编写代码的方式构建一个命令行的演示例子
-- [nginxconfig](https://github.com/valentinxxx/nginxconfig.io/) 可视化配置 nginx 提供了多个基础模板
 - [bundlephobia](https://bundlephobia.com/) 一个可以查看某个库的大小，并且分析它的依赖
 - [jsperf](https://jsperf.com/popular) 一个提供在线 test case 的网站，主要用来比较性能。可以比较如： forEach vs for 的性能
 - [perflink](https://github.com/lukejacksonn/perflink) 与 jsperf 类似的一个比较 js 性能的网站
@@ -1878,6 +2697,7 @@
 - [mjml](https://github.com/mjmlio/mjml) 一个让发 email 更简单的框架。定义了一套自己的语法，你用这套语法写邮件，然后编译成 HTML。
 - [any-rule](https://any86.github.io/any-rule/) 正则大全
 - [outline](https://github.com/outline/outline) 一个免费开源的库，能让你快速搭建自己的 wiki
+
 <!-- panels:end -->
 <!-- tabs:end -->
 ---
@@ -1905,7 +2725,122 @@
 <!-- panels:end -->
 ---
 
-## m02：豆瓣榜单 :id=m02
+## m02：前端资源推荐 :id=m02
+
+---
+<!-- tabs:start -->
+### **Github**
+
+- [github 短域名服务](https://git.io/)
+- [shields](https://shields.io/) 徽章图标
+- [followers 全球排名](https://wangchujiang.com/github-rank/index.html)
+- [star-history](https://star-history.t9t.io/) 展示一个项目 Stars 增长曲线
+
+### **代码编辑**
+
+- [codepen](https://codepen.io) 在线代码编辑与演示
+- [codesandbox](https://codesandbox.io) 内嵌VSCode的在线IDE
+
+### **Emoji表情**
+
+- [符号大全](http://www.fhdq.net/)
+- [emoji表情](https://emojipedia.org/)
+- [emoji表情备忘录](https://www.webfx.com/tools/emoji-cheat-sheet)
+- [gitmoji](https://github.com/carloscuesta/gitmoji) 通过 emoji 表达 git 的操作内容
+> windows系统下按<kbd>Win</kbd>+<kbd>.</kbd>快速打开表情选择框
+
+### **图片工具**
+
+- [tinypng图片压缩](https://tinypng.com) 压缩png很有用
+- [Squoosh](https://squoosh.app/) 谷歌出品在线免费图片压缩工具
+- [waifu2x](http://waifu2x.udp.jp/) 通过卷积网络放大图片
+- [vectormagic](https://vectormagic.com/) 转换矢量图
+- [vectorizer](https://www.vectorizer.io/) 真正的 png 转 svg 神器
+- [在线AI图片处理](https://photo.opencool.cn/) 黑白修复、无损放大、动漫化、铅笔画等。
+- [remove](https://www.remove.bg/zh) AI抠图
+
+### **作图**
+
+- [processon在线作图](https://www.processon.com/) 流程图、思维导图、原型图等
+- [百度脑图](https://naotu.baidu.com) 思维导图
+
+### **CDN加速**
+
+- [jsDelivr](http://www.jsdelivr.com/) 国外的一家优秀的公共 CDN 服务提供商
+- [unpkg](https://unpkg.com/) cdn 服务
+
+### **电子书**
+
+- [前端电子书收集](http://www.yuanchengcheng.vip/books)
+- [SoBooks](https://sobooks.cc/) 免费的电子书资源网站
+
+### **编程学习网**
+
+- [哔哩哔哩](https://www.bilibili.com/)
+- [C语言网](https://www.dotcpp.com/)
+- [cppreference](http://zh.cppreference.com/)
+- [中国大学MOOC](https://www.icourse163.org/)
+- [牛客网](www.nowcoder.com)
+- [网易公开课](https://open.163.com/)
+- [CodeGym](https://codegym.cc/)
+- [BeginnersBook](https://beginnersbook.com/)
+- [JavaSED](http://www.javased.com/)
+- [codecademy](https://www.codecademy.com/)
+- [Coursera](https://www.coursera.org/)
+- [StackOverFlow](https://stackoverflow.com/)
+- [LeetCode](https://leetcode-cn.com/)
+- [LintCode](https://www.lintcode.com/)
+- [慕课网](https://www.imooc.com/) 实战视频教程
+- [妙味课堂](https://www.miaov.com/) 比较系统的前端入门视频教程
+- [egghead](http://egghead.io) 质量还不错的短视频教程，外网
+
+<!-- tabs:end -->
+---
+
+# 个人兴趣 :id=personalinterest
+
+---
+
+## c00：b站视频 :id=c00
+
+---
+<!-- panels:start -->
+<!-- div:left-panel -->
+- [1.【醒醒】中华儿女该起床了](/personalinterest/c00/c00-0001.md)
+- [2.他们死在了祖国胜利的前夜](/personalinterest/c00/c00-0002.md)
+- [3.七尺之躯，已许国，再难许卿](/personalinterest/c00/c00-0003.md)
+<!-- div:right-panel -->
+- [4.【祭·英烈】中国的未来，拜托了！【百万剪辑狮】](/personalinterest/c00/c00-0004.md)
+- [5.【派大星的独白】一个关于正常人的故事](/personalinterest/c00/c00-0005.md)
+- [6.小时候看笑话，长大后看真实](/personalinterest/c00/c00-0006.md)
+<!-- panels:end -->
+---
+
+## c01：书单推荐 :id=c01
+
+---
+
+- [书单狗精神成长文学树（65本）](/personalinterest/c01/c01-0001.md)
+
+---
+
+## c02：图书馆 :id=c02
+
+---
+
+- [中国图书馆图书分类法](/personalinterest/c02/c02-0001.md)
+- [全球开放电子图书馆及免费资源](/personalinterest/c02/c02-0002.md)
+- [书栈网 · BookStack_程序员IT互联网开源编程书籍免费阅读，助您【码】力十足！](https://www.bookstack.cn/)
+- [时间地图](https://www.allhistory.com/map)
+- [中文维基百科](https://www.wiki-wiki.top/)
+- [ProcessOn图形化知识资源](https://www.processon.com/diagrams/new#template)
+- [世界数字图书馆](https://www.wdl.org/zh/)
+- [中华诗词](https://www.shi-ci.com/)
+- [【建议收藏！】最全公开课知识库](https://docs.qq.com/sheet/DRU5MWHZCTHFGQnhM?tab=qb1sze)
+
+---
+
+## c03：豆瓣榜单 :id=c03
 
 ---
 <!-- tabs:start -->
@@ -1951,49 +2886,6 @@
 - [2021年度音乐榜单](https://music.douban.com/annual/2021?source=navigation)
 <!-- panels:end -->
 <!-- tabs:end -->
----
-
-# 个人兴趣 :id=personalinterest
-
----
-
-## c00：b站视频 :id=c00
-
----
-<!-- panels:start -->
-<!-- div:left-panel -->
-- [01.【醒醒】中华儿女该起床了](/personalinterest/c00/01.【醒醒】中华儿女该起床了.md)
-- [02.他们死在了祖国胜利的前夜](/personalinterest/c00/02.他们死在了祖国胜利的前夜.md)
-- [03.七尺之躯，已许国，再难许卿](/personalinterest/c00/03.七尺之躯，已许国，再难许卿)
-<!-- div:right-panel -->
-- [04.【祭·英烈】中国的未来，拜托了！【百万剪辑狮】](/personalinterest/c00/04.【祭·英烈】中国的未来，拜托了！【百万剪辑狮】.md)
-- [05.【派大星的独白】一个关于正常人的故事](/personalinterest/c00/05.【派大星的独白】一个关于正常人的故事.md)
-- [06.小时候看笑话，长大后看真实](/personalinterest/c00/06.小时候看笑话，长大后看真实)
-<!-- panels:end -->
----
-
-## c01：书单推荐 :id=c01
-
----
-
-- [书单狗精神成长文学树（65本）](/personalinterest/c01/01.精神成长书籍.md)
-
----
-
-## c02：图书馆 :id=c02
-
----
-
-- [中国图书馆图书分类法](/personalinterest/c02/01.中国图书馆图书分类法.md)
-- [全球开放电子图书馆及免费资源](/personalinterest/c02/02.全球开放电子图书馆及免费资源.md)
-- [书栈网 · BookStack_程序员IT互联网开源编程书籍免费阅读，助您【码】力十足！](https://www.bookstack.cn/)
-- [时间地图](https://www.allhistory.com/map)
-- [中文维基百科](https://www.wiki-wiki.top/)
-- [ProcessOn图形化知识资源](https://www.processon.com/diagrams/new#template)
-- [世界数字图书馆](https://www.wdl.org/zh/)
-- [中华诗词](https://www.shi-ci.com/)
-- [【建议收藏！】最全公开课知识库](https://docs.qq.com/sheet/DRU5MWHZCTHFGQnhM?tab=qb1sze)
-
 ---
 <!-- 最近更新时间 -->
 <last-update-time>{docsify-updated}</last-update-time>

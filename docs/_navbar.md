@@ -1,5 +1,29 @@
 <!-- _navbar.md -->
-* [导航](/roadmap)
+* 推荐
+
+  * [awesomes-前端资源库](https://www.awesomes.cn/)
+  * [常用库查询系统](http://hackr.io/)
+  * [frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks)
+  * [目前最全的前端开发面试题及答案](https://github.com/HerbertKarajan/Fe-Interview-questions)
+  * [渗透攻击10年系列](https://github.com/Micropoor/Micro8)
+  * [阮一峰每周分享摘录](https://wanmaoor.github.io/ryfWeekly/)
+  * [Easy Mock 模拟数据](https://www.easy-mock.com/)
+  * [JavaScript错误监测](https://fundebug.com/)
+  * [个人常用开发工具](https://github.com/yyman001/web_tools)
+  * [HEAD](https://github.com/joshbuchea/HEAD)
+  * [HEAD 中文版本](https://www.awesomes.cn/repo/joshbuchea/head)
+  * [ScriptOJ 是首个 Web 前端开发评测系统](http://scriptoj.mangojuice.top/)
+  * [项目规范-avaScript工程项目的一系列最佳实践策略](https://github.com/wearehive/project-guidelines/blob/master/README-zh.md)
+  * [30 Seconds of CSS](https://atomiks.github.io/30-seconds-of-css/)
+  * [Zan Proxy - 本地代码调试线上页面](https://github.com/youzan/zan-proxy)
+  * [最全前端资源汇集](https://jeffjade.com/2016/03/30/104-front-end-tutorial/)
+  * [CSS Inspiration，在这里找到写 CSS 的灵感！](https://github.com/chokcoco/CSS-Inspiration)
+  * [看图学算法](https://github.com/MisterBooo/LeetCodeAnimation)
+  * [OI-wiki 编程竞赛相关知识教程](https://github.com/24OI/OI-WIKI)
+  * [成为专业程序员路上用到的各种优秀资料、神器及框架](https://github.com/stanzhai/be-a-professional-programmer)
+  * [Web前端入门和进阶学习笔记](https://github.com/qianguyihao/Web)
+  * [Algorithm Visualizer 算法展示](https://github.com/algorithm-visualizer/algorithm-visualizer)
+  * [大前端面试宝典 - 图解前端](https://github.com/azl397985856/fe-interview)
 
 * 开发工具
 
@@ -78,6 +102,7 @@
 
 * 小册/周刊
 
+  * [Nginx 入门教程](https://github.com/xuexb/learn-nginx)
   * [《IVWEB技术周刊》](https://github.com/iv-web/weekly)
   * [前端精读周刊](https://github.com/dt-fe/weekly)
   * [《阿里云前端技术周刊》](https://github.com/aliyunfe/weekly)
@@ -87,6 +112,7 @@
   * [learnVue](https://github.com/answershuto/learnVue)
   * [vue-cli 源码分析](https://kuangpf.com/vue-cli-analysis/)
   * [TypeScript 入门教程](https://ts.xcatliu.com/?tdsourcetag=s_pctim_aiomsg)
+  * [TypeScript Handbook（中文版）](https://zhongsp.gitbooks.io/typescript-handbook/content/)
   * [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/)
   * [React技术揭秘](https://react.iamkasong.com/#%E5%AF%BC%E5%AD%A6%E8%A7%86%E9%A2%91)
   * [前端开发者手册](http://caibaojian.com/fedbook/)
@@ -100,6 +126,12 @@
   * [鸟哥的Linux私房菜：基础学习篇 第四版](https://wizardforcel.gitbooks.io/vbird-linux-basic-4e/content/index.html)
   * [33-js-concepts](https://github.com/leonardomso/33-js-concepts)
   * [Node.js 应用故障排查手册](https://github.com/aliyun-node/Node.js-Troubleshooting-Guide)
+  * [Three.js 中文教程](https://techbrood.com/threejs/docs/)
+  * [Nest.js 中文教程](https://docs.nestjs.cn/6/introduction)
+  * [Express 4.x API 中文手册](http://www.expressjs.com.cn/4x/api.html)
+  * [three.js 中文手册](https://threejs.org/docs/)
+  * [CSS 种植手册](http://csscode.itcast.cn/#/README)
+  * [《Flutter 实战》](https://book.flutterchina.club/)
 
 * 大牛/博客
 
@@ -125,6 +157,7 @@
   * [木偶 muwoo](https://github.com/muwoo/blogs)
   * [小浩算法](https://www.geekxh.com/)
   * [木易杨前端进阶](https://muyiy.cn/question/)
+  * [腾讯团队web移动文章](http://tgideas.qq.com/)
 
 * 团队/大会
 
@@ -148,7 +181,9 @@
 
 * 文档
   
-  * [caniuse](https://caniuse.com/)
+  * [MDN](https://developer.mozilla.org/zh-CN/docs/Web)
+  * [MDN-JS标准内置对象](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects)
+  * [现代JavaScript教程](https://zh.javascript.info)
   * [菜鸟教程](https://www.runoob.com/)
   * [绿叶学习网](http://www.lvyestudy.com/)
   * [HTML Standard](https://html.spec.whatwg.org/)
@@ -156,10 +191,10 @@
   * [Annotated ECMAScript 5](https://es5.github.io/)
   * [Promises/A+](https://promisesaplus.com/)
   * [W3C](https://www.w3.org)
-  * [MDN](https://developer.mozilla.org/zh-CN/)
   * [ECMA](https://www.ecma-international.org/)
   * [IETF Datatracke](https://datatracker.ietf.org/)
   * [网道](https://wangdoc.com/)
+  * [ES5教程](https://wangdoc.com/javascript/)
   * [ES6 入门教程](https://es6.ruanyifeng.com/)
   * [TypeScript 官网](https://www.tslang.cn/)
   * [jQuery API 中文文档](https://jquery.cuishifeng.cn/)
@@ -198,7 +233,37 @@
   * [Navicat](https://www.navicat.com.cn/manual/online_manual/cn/navicat/win_manual/#/cover)
   * [Markdown 语法中文版](https://www.appinn.com/markdown/)
   * [正则表达式手册](https://tool.oschina.net/uploads/apidocs/jquery/regexp.html)
-  * [印记中文](https://docschina.org/)
+  * [Bash 脚本教程](https://wangdoc.com/bash/)
+  * [腾讯云开发者手册](https://cloud.tencent.com/developer/devdocs)
+  * [Vue Docs 中文文档翻译合集](https://github.com/vuejs/vue-docs-zh-cn)
+  * [css手册](http://css.doyoe.com/)
+  * [webkitcss 属性查询文档](http://ued.ctrip.com/webkitcss/index.html)
+  * [(英文)css属性详解](http://cssreference.io)
+  * [flex](http://yoksel.github.io/flex-cheatsheet/#flex-direction)
+  * [jQuery API 中文文档](http://www.css88.com/jqapi-1.9/)
+  * [jQuery UI API中文文档](http://www.css88.com/jquery-ui-api/)
+  * [Chrome 开发者工具](http://www.css88.com/doc/chrome-devtools/)
+  * [Sass (3.4.21) 中文文档](http://www.css88.com/doc/sass/)
+  * [ES6 手册](https://qiutc.me/post/es6-cheatsheet.html)
+  * [React 中文文档（V15.5.4）](http://www.css88.com/react/)
+  * [React 官方中文文档（V16.13.1）](https://zh-hans.reactjs.org/docs/getting-started.html#javascript-resources)
+  * [Zepto.js 中文文档](http://www.css88.com/doc/zeptojs_api/)
+  * [Backbone.js 中文文档](http://www.css88.com/doc/backbone/)
+  * [Underscore.js 中文文档](http://www.css88.com/doc/underscore/)
+  * [JSDoc中文文档](http://www.css88.com/doc/jsdoc/index.html)
+  * [Bootstrap 中文文档](http://bootstrap.css88.com/)
+  * [Lodash 中文文档](http://www.css88.com/doc/lodash/)
+  * [webpack 官方中文文档](https://doc.webpack-china.org/guides/getting-started)
+  * [webpack 中文文档(2.2)](http://www.css88.com/doc/webpack2/)
+  * [avalon 2 中文文档](http://avalonjs.coding.me/)
+  * [vuex 中文文档](https://vuex.vuejs.org/zh-cn/)
+  * [koa 中文文档](https://koa.bootcss.com/)
+  * [rollup.js 中文文档](https://www.kancloud.cn/yunye/rollup/327462)
+  * [weex](https://weex.apache.org/cn/references/)
+  * [Electron 中文文档](https://github.com/amhoho/electron-cn-docs)
+  * [SuperAgent中文使用文档](https://cnodejs.org/topic/5378720ed6e2d16149fa16bd)
+  * [Linux 命令大全搜索工具](https://github.com/jaywcjlove/linux-command)
+  * [Jest 测试单元文档](https://jestjs.io/zh-Hans/)
 
 * 友链
 
@@ -207,6 +272,7 @@
 
 * 关于
 
+  * [卡夫卡的岛上书店](https://kaimo313.github.io/blogs/)
   * [CSDN](https://blog.csdn.net/kaimo313)
   * [Gitee](https://gitee.com/kaimo313)
   * [GitHub](https://github.com/kaimo313)
