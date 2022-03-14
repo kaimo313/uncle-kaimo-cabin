@@ -19,4 +19,5 @@
   </span>
 </div>
 
+[组件库](/resourcetools/frontend.md)
 [开始阅读](/roadmap)

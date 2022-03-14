@@ -100,6 +100,7 @@
 - [html5 Canvas画图系列教程目录](http://jo2.org/html5-canvas-tutorial-list/)
 - [HTML5 Cross Browser Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills)
 - [HTML5 POLYFILLS](http://html5polyfill.com/)
+- [ELF 灵活可扩展的HTML5 构建工具](https://elf.aotu.io/)
 
 ### **CSS相关**
 
@@ -119,9 +120,21 @@
 - [css-tricks](https://css-tricks.com/) css技巧文章
 - [You-need-to-know-css](https://lhammer.cn/You-need-to-know-css/#/zh-cn/) CSS的各种DEMO，很全
 - [animista](https://animista.net/) CSS动画可视化工具
+- [flexbox在线制作器](http://the-echoplex.net/flexyboxes/) 
+- [SPARK动画平台](https://tonytony.club/spark/)
+- [OneDiv 这是个神奇的网站，里面的所有细节都是用一个div元素通过复杂的Css3实现的](http://a.singlediv.com/)
+- [贝塞尔曲线生成器](http://cubic-bezier.com/)
+- [各种奇妙的hack](http://browserhacks.com/ "各种奇妙的hack")
+- [在线转换字体](http://www.fontsquirrel.com/tools/webfont-generator "在线转换字体")
+- [css3 选择器测试](http://tools.css3.info/selectors-test/test.html "css3选择器测试")
+- [兼容性速查表](http://caniuse.com/ "兼容性速查表")
+- [各种各样的媒体查询收集](http://nmsdvid.com/snippets/ "各种各样的媒体查询收集")
+- [sass @include-media 媒体查询库](https://github.com/eduardoboucas/include-media) 
+- [css3 渐变在线制作器](http://www.colorzilla.com/gradient-editor/ "css3渐变在线制作器")
 
 ### **Css && 动画**
 
+- [css3 动画在线制作器](http://ecd.tencent.com/css3/tools.html "css3动画在线制作器")
 - [animate.css](https://github.com/daneden/animate.css) 最有名的动画效果库
 - [magic.css](https://github.com/miniMAC/magic) css 动画效果库 类似 animate.css
 - [popmotion](https://github.com/Popmotion/popmotion) 一个函数式声明前端动画库
@@ -139,6 +152,15 @@
 - [zdog](https://github.com/metafizzy/zdog) 3D engine 引擎
 - [leonsans](https://github.com/cmiscm/leonsans) 酷炫的 字体 动画 geometric sans-serif typeface made with code
 - [css-doodle](https://github.com/css-doodle/css-doodle) A web component for drawing patterns with CSS 一个用于使用 CSS 绘制图案的 Web 组件
+- [CSS滤镜 CSSgram](http://una.im/CSSgram/)
+- [CSS单位对比视图](http://katydecorah.com/css-ruler/)
+- [Crayon.css CSS颜色变量名与16进制对应列表。](http://riccardoscalco.github.io/crayon/)
+- [Transformicons - CSS/SVG 元素模拟 图标/符号动画-过渡](http://www.transformicons.com/)
+- [CSS 滤镜在线调试](http://ilyashubin.github.io/FilterBlend/)
+- [resizr 测试  CSS media queries 的轻量级应用-需要线上地址,没有线上地址,可以搞个coding-git](http://resizr.co/)
+- [Wenk 是一个轻量级纯 CSS 写的文本工具提示库。](https://tiaanduplessis.github.io/wenk/)
+- [把CSS代码转成SASS的应用](http://css2sass.herokuapp.com/)
+- [Wysiwyg.css 使用漂亮的主题从HTML或Markdown生成文档](http://jgthms.com/wysiwyg.css/)
 
 ### **css预处理器**
 
@@ -343,9 +365,11 @@
 - [抱歉，学会 Proxy 真的可以为所欲为](https://zhuanlan.zhihu.com/p/35080324)
 - [中级前端工程师必须要掌握的 28 个 JavaScript 技巧](https://juejin.cn/post/6844903856489365518)
 - [前端路由原理解析和实现](https://juejin.cn/post/6844903842643968014)
-- [正则表达式不要背](https://juejin.cn/post/6844903845227659271)
 - [前端必知必会--操作URL的黑科技](https://juejin.cn/post/6844903865767165959)
 - [关于 JavaScript 单线程的一些事](https://github.com/JChehe/blog/blob/master/posts/%E5%85%B3%E4%BA%8EJavaScript%E5%8D%95%E7%BA%BF%E7%A8%8B%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BA%8B.md)
+- [YOU MIGHT NOT NEED JQUERY - 是用原生写法代替jq](http://youmightnotneedjquery.com/)
+- [从零开始构建 JavaScript 技术栈](https://github.com/pd4d10/js-stack-from-scratch)
+- [45个实用的JavaScript技巧、窍门和最佳实践](http://colobu.com/2014/09/23/45-Useful-JavaScript-Tips,-Tricks-and-Best-Practices/)
 <!-- panels:end -->
 ---
 
@@ -416,7 +440,7 @@
 - [redux-bundler](https://github.com/henrikjoreteg/redux-bundler)
 - [redux-box](https://github.com/anish000kumar/redux-box)
 
-###  **React 相关**
+### **React 相关**
 
 - [ANT DESIGN](http://ant-design.gitee.io/index-cn)
 - [reactSPA](https://github.com/JasonBai007/reactSPA)
@@ -513,6 +537,8 @@
 - [深入理解 react-router 路由系统](https://zhuanlan.zhihu.com/p/20381597)
 - [Immutable 详解及 React 中实践](https://zhuanlan.zhihu.com/p/20295971)
 - [React-Redux源码分析](https://zhuanlan.zhihu.com/p/29723405)
+- [React Native 中文网](http://reactnative.cn/)
+- [了不起的React React的各种资源,英文](https://github.com/enaqx/awesome-react)
 <!-- panels:end -->
 ---
 
@@ -850,10 +876,11 @@
 - [娜娜奇 - 基于 React 的多端小程序转译框架](https://rubylouvre.github.io/nanachi/)
 - [只需两步获取任何微信小程序源码](https://juejin.im/post/5b0e431f51882515497d979f?utm_source=花裤衩)
 - [微信小程序开发资源汇总](https://github.com/justjavac/awesome-wechat-weapp)
-
+- [让小程序支持组件化开发的框架-类型vue组件开发](https://github.com/Tencent/wepy)
+  
 ---
 
-## k11：Flutter/RN/移动端 :id=k11
+## k11：Flutter/移动端 :id=k11
 
 ---
 <!-- tabs:start -->
@@ -904,6 +931,9 @@
 - [Flutter实战视频-移动电商](https://jspang.com/post/FlutterShop.html%23toc-4c7)
 - [flutter中event_bus实现原理](https://cloud.tencent.com/developer/article/1338289)
 - [Flutter 面试知识点集锦](https://juejin.cn/post/6844903843260530701)
+- [移动端手势表](http://ww1.sinaimg.cn/bmiddle/c2c57f68jw1e4fh7dmw12j20fi2w6qe1.jpg "移动端手势表")
+- [iPhone 6 屏幕揭秘](http://wileam.com/iphone-6-screen-cn/)
+- [TouchSwipe 手势库](http://labs.rampinteractive.co.uk/touchSwipe/demos/index.html)
 <!-- div:right-panel -->
 - [几乎所有设备的屏幕尺寸与像素密度表](http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density "几乎所有设备的屏幕尺寸与像素密度表")
 - [移动设备参数表](http://screensiz.es/phone "移动设备参数表")
@@ -1136,6 +1166,7 @@
 - [入门babel--实现一个es6的class转换器](https://juejin.cn/post/6844903586950807560)
 - [webpack 中那些最易混淆的 5 个知识点](https://juejin.cn/post/6844904007362674701)
 - [关于webpack4的14个知识点,童叟无欺](https://juejin.cn/post/6844903853905674248)
+- [搜罗一切webpack的好文章好工具](https://github.com/webpack-china/awesome-webpack-cn)
 <!-- panels:end -->
 ---
 
@@ -1150,9 +1181,15 @@
 - [vue-annotator](https://github.com/DrSensor/vue-annotator)-使用任何 SVG 元素(“ rect”，“ polygon”以及其他更多元素，即使包装了 HTML 元素如“ canvas”，也可以为页面添加注释)在`foreignObject`中)
 - [vue-svg-sprite](https://github.com/thierrymichel/vue-svg-sprite)-简单使用 SVG sprite(vue 2.x)的指令。
 - [vue-svg-filler](https://github.com/biigpongsatorn/vue-svg-filler)-用于自定义 svg 文件 🖍(vue 2.x)的 Vue 组件。
+- [SVG圆形菜单生成器](http://sarasoueidan.com/tools/circulus/)
+- [使用GUI快速创建SVG path](http://anthonydugois.com/svg-path-builder/)
+- [一个绘制制svg图标的集合for react](https://dmfrancisco.github.io/react-icons/)
 
 ### **canvas**
 
+- [CCapture.js 可以使用固定的帧率实现对网页中 Canvas 的动画进行捕获，录制成视频。CCapture.js 依赖于 Whammy.js 和 gif.js。](https://github.com/spite/ccapture.js)
+- [glfx.js canvas图片处理滤镜](https://github.com/evanw/glfx.js)
+- [flash文件转 canvas - Flash2x Tool](http://web.flash2x.org/) http://www.annie2x.com/docs/
 - [vue-easeljs](http://github.com/dankuck/vue-easeljs)-对 HTML5 canvas 元素的数据驱动控制。
 - [vue-canvas-effect](https://github.com/chenxuan0000/vue-canvas-effect)-Vue.js 的简单画布效果集合。
 - [vue-konva](https://github.com/rafaesc/vue-konva)-Vue＆Canvas-JavaScript 库，用于使用 Vue 绘制复杂的画布图形。
@@ -1370,11 +1407,29 @@
 - [vue-static-map](https://github.com/eperedo/vue-static-map)-Vue 2.x 简单组件，可生成静态 Google 地图
 - [vue-mapbox](https://github.com/soal/vue-mapbox)-Mapbox GL JS 库周围的 Vue 2.x 包装器，提供了与地图交互的途径。
 
+### **图表绘制/图形库(Graphics)**
+
+- [Highcharts](https://github.com/highslide-software/highcharts.com)
+- [Chart.js - 基于HTML5的JavaScript图表](https://github.com/nnnick/Chart.js)
+- [百度 ECharts](https://github.com/ecomfe/echarts)
+- [Chartist.js](https://github.com/gionkunz/chartist-js)
+- [D3.js - D3是基于数据的文档操作javascript库,D3能够把数据和HTML、SVG、CSS结合起来,创造出可交互的数据图表。](https://github.com/d3/d3)
+- [intro-to-d3 - a D3.js tutorial](https://github.com/square/intro-to-d3)
+- [Bonsai - 一个功能强大的JavaScript图形库](https://github.com/uxebu/bonsai)
+- [Epoch - 漂亮、平稳流畅和高性能可视化的图表库](http://fastly.github.io/epoch/)
+- [SVG 2D绘图](http://jonobr1.github.io/two.js/)
+- [SVG Morpheus - SVG图形变形动画](https://alexk111.github.io/SVG-Morpheus/)
+- [Sigma是一个专用于图形绘制的JavaScript库。](https://github.com/jacomyal/sigma.js)
+- [GraphicsJS ，一个轻量级的前端图形库 支持ie6](http://www.graphicsjs.org/)
+- [强大的矢量图形库：Raphael JS](https://github.com/DmitryBaranovskiy/raphael/)
+- [chart.xkcd - xkcd 风格(手绘风格)的图表库](https://github.com/timqian/chart.xkcd)
+
 <!-- tabs:end -->
 ---
 
 - [页面可视化搭建工具前生今世](https://zhuanlan.zhihu.com/p/37171897)
 - [10 个原则让动画带你飞](https://github.com/xitu/gold-miner/blob/master/TODO/smooth-css-animations.md)
+- [Animsition - 页面切换时的过渡效果](https://github.com/blivesta/animsition)
 
 ---
 
@@ -1382,7 +1437,7 @@
 
 ---
 <!-- tabs:start -->
-###  **音频视频**
+### **音频视频**
 
 - [A HTML5 video player with a parser that saves traffic 西瓜播放器](https://github.com/bytedance/xgplayer)
 - [Chimee 组件化H5播放器框架-mp4、m3u8、flv](http://chimee.org/)
@@ -1474,11 +1529,15 @@
 <!-- div:right-panel -->
 - [深入浅出浏览器渲染原理](https://zhuanlan.zhihu.com/p/53913989)
 - [抛弃console.log()，拥抱浏览器Debugger](https://zhuanlan.zhihu.com/p/52077620)
+- [浏览器的一些独特参数](http://www.browserscope.org/ "浏览器的一些独特参数")
+- [webkit独有的样式分析](http://ued.ctrip.com/blog/wp-content/webkitcss/ "webkit独有的样式分析")
 - [ChromeAppHeroes - Chrome插件英雄榜, 为优秀的Chrome插件写一本中文说明书, 让Chrome插件英雄们造福人类~](https://github.com/zhaoolee/ChromeAppHeroes)
 <!-- panels:end -->
 ---
 
 ## k20：Web性能 :id=k20
+
+---
 
 - [workbox](https://github.com/googlechrome/workbox) PWA 方案，Google 出品
 - [critical](https://github.com/addyosmani/critical) - 提取关键 CSS。
@@ -1486,6 +1545,11 @@
 - [渲染性能](https://github.com/sundway/blog/issues/2)
 - [7 天打造前端性能监控系统](http://fex.baidu.com/blog/2014/05/build-performance-monitor-in-7-days/)
 - [性能专栏](https://github.com/barretlee/performance-column)
+- [Clusterize.js 可以优化你的大型数据表格的性能](http://nexts.github.io/Clusterize.js/)
+- [优化和配置SVGO的WEB应用](https://jakearchibald.github.io/svgomg/)
+- [marky.js 性能分析](https://github.com/nolanlawson/marky)
+
+---
 
 ## k21：Web安全 :id=k21
 
@@ -1511,7 +1575,15 @@
 ## k23：Redis/数据库 :id=k23
 
 ---
+<!-- tabs:start -->
+### **数据库**
 
+- [nedb](https://github.com/louischatriot/nedb)
+- [lowdb](https://github.com/typicode/lowdb)
+- [localForage](https://github.com/localForage/localForage)
+- [Dexie.js](https://github.com/dfahlander/Dexie.js)
+- [ZangoDB](https://github.com/erikolson186/zangodb)
+<!-- tabs:end -->
 ---
 
 ## k24：测试与持续集成部署 :id=k24
@@ -1533,6 +1605,9 @@
 <!-- panels:start -->
 <!-- div:left-panel -->
 - [ESLint里的规则教会我，无规矩 不编程](https://juejin.cn/post/6844903608379506701)
+- [Mock.js 生成随机数据,拦截ajax](http://mockjs.com/)
+- [testcafe 浏览器测试工具-类似(测试单元工具)](https://github.com/DevExpress/testcafe)
+
 <!-- div:right-panel -->
 - [Vue 应用测试](https://wangtunan.github.io/blog/test/vueTest.html)
 <!-- panels:end -->
@@ -1599,7 +1674,7 @@
 
 - [leetcode](https://github.com/azl397985856/leetcode) 用 js 刷 leetcode
 - [手把手撕LeetCode题目，扒各种算法套路的裤子](https://github.com/labuladong/fucking-algorithm)
-
+- [JavaScript 算法与数据结构](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
 <!-- tabs:end -->
 
 ---
@@ -2041,6 +2116,7 @@
 - [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)
 - [中文技术文档的写作规范](https://github.com/ruanyf/document-style-guide)
 - [JavaScript 风格指南](https://github.com/alivebao/clean-code-js)
+- [让WEB前端的变优雅的东东，如：代码规范，代码组织，最佳实践之类](https://github.com/iamjoel/be-grace-front-end-developer)
 
 ---
 
@@ -2194,11 +2270,27 @@
 
 - [可能是最好的正则表达式的教程笔记了吧...](https://juejin.cn/post/6844903648309297166)
 - [什么是正则表达式?](https://github.com/zeeshanu/learn-regex/blob/master/README-cn.md)
+- [正则表达式不要背](https://juejin.cn/post/6844903845227659271)
 
 ---
 
 ## k42：Markdown/富文本编辑器 :id=k42
 
+---
+<!-- tabs:start -->
+### **代码高亮插件**
+
+- [google-code-prettify](https://code.google.com/p/google-code-prettify/)
+- [highlight.js](https://highlightjs.org/)
+- [Crayon Syntax Highlighter](https://github.com/aramk/crayon-syntax-highlighter)
+- [prism - Lightweight, robust, elegant syntax highlighting.](https://github.com/PrismJS/prism)
+- [Rainbow](http://craig.is/making/rainbows)
+
+### **代码编辑器**
+
+- [ACE](https://github.com/ajaxorg/ace)
+- [CodeMirror](https://github.com/codemirror/codemirror)
+<!-- tabs:end -->
 ---
 
 - [Vueditor 基于Vue 2.0 的富文本编辑器](https://github.com/hifarer/Vueditor)
@@ -2236,6 +2328,8 @@
 ---
 
 - [全景漫游VR -（淘宝造物节背后的库）](http://tgask.qq.com/?/article/3)
+- [css3d-engine 全景漫游VR](https://github.com/yyman001/css3d-engine)
+- [pico.js: a face-detection library in 200 lines of JavaScript- 人脸识别](https://github.com/tehnokv/picojs)
 
 ---
 
@@ -2244,6 +2338,14 @@
 ---
 
 - [第一本 PWA 中文书](https://github.com/SangKa/PWA-Book-CN)
+
+---
+
+## k47：前端兼容性 :id=k47
+
+---
+
+- [Navigo 一个简单的简单的JavaScript路由，兼容老版本浏览器。](https://github.com/krasimir/navigo)
 
 ---
 
@@ -2257,636 +2359,6 @@
 
 ---
 
-# 前端组件库 :id=componentlibrary
-
----
-
-## a00：图标 :id=a00
-
----
-
-## a01：布局 :id=a01
-
----
-
-## a02：导航 :id=a02
-
----
-
-## a03：数据录入 :id=a03
-
-## a04：数据展示 :id=a04
-
-## a05：数据展示 :id=a05
-
-# 资源工具 :id=resourcetools
-
----
-
-## m00：常用在线工具集 :id=m00
-
-<!-- tabs:start -->
-### **前端常用**
-
-- [sweetalert2](https://github.com/sweetalert2/sweetalert2) 一个自适应，且自定义性强的弹出框（零依赖）
-- [tippy.js](https://github.com/atomiks/tippyjs) 最著名的 tooltip/popover library
-- [text-mask](https://github.com/text-mask/text-mask) 可以让 input 按照规则输入(如电话,email,日期,信用卡等)，特殊格式 input
-- [dinero.js](https://github.com/sarahdayan/dinero.js) 用来创建、计算和格式化货币价值的不可变的框架，支持国际化
-- [lerna](https://github.com/lerna/lerna) 大项目版本控制工具，项目中可以有多个 package.json 文件
-- [img-2](https://github.com/RevillWeb/img-2) 一个提高图片加载性能和体验的库，懒加载使用 web worker 模糊预览
-- [fingerprintjs](https://github.com/Valve/fingerprintjs2) 是一个快速的浏览器指纹库，通浏览环境的一系列配置生成 id
-- [ajv](https://github.com/epoberezkin/ajv) 一个 json schema 验证的库
-- [dayjs](https://github.com/xx45/dayjs) 一个轻量级类 moment.js API 时间库
-- [primjs](https://github.com/PrismJS/prism) 让页面支持代码高亮
-- [ReLaXed](https://github.com/RelaxedJS/ReLaXed) 一个将 document html 转成 PDF 的工具
-- [uppy](https://github.com/transloadit/uppy) 一个很好看的也很好用的 前端上传库
-- [Filepond](https://github.com/pqina/filepond) 一个小巧的文件上传库
-- [tui-calendar](http://ui.toast.com/tui-calendar/) 功能全面的日程安排日历控件，还支持拖拽
-- [tui.editor](https://github.com/nhnent/tui.editor) markdown 所见即所得编辑器
-- [tabler](https://github.com/tabler/tabler) 基于 Bootstrap 4 的 Dashboard UI Kit 和美观 高颜值 ui 模板
-- [pulltorefresh.js](https://github.com/BoxFactura/pulltorefresh.js) 下个下拉刷新插件
-- [lulu](https://github.com/yued-fe/lulu) 腾讯阅文基于 jQuery，针对 PC 网站 IE8+（peak 主题）的前端 UI 框架
-- [chancejs](https://github.com/chancejs/chancejs) 生成随机数据的库
-- [spritejs](https://github.com/spritejs/spritejs) 360 奇舞团出的跨平台绘图对象模型
-- [tui.image-editor](https://github.com/nhnent/tui.image-editor) 一个功能齐全的在线图片编辑，基于 canvas
-- [nanoid](https://github.com/ai/nanoid) 前端轻量 unique string ID 生成库
-- [rxdb](https://github.com/pubkey/rxdb) 一款开源的快速、灵活的客户端数据库，支持各种浏览器以及 NodeJS，Electron、React 等等，是 PouthDB 之上的一个封装库
-- [percollate](https://github.com/danburzo/percollate) 命令行工具 能将网页转换成 pdf
-- [rawact](https://github.com/sokra/rawact) 一个 babel 插件，把 react 组件转为原生 dom
-- [irondb](https://github.com/gruns/irondb) 是一个浏览器 key-value 储存的封装库，把 Cookies、IndexedDB、LocalStorage、SessionStorage 统一成一个接口。它的最大特色就是数据冗余机制，即使某种底层储存机制失效，它可以从其他机制恢复数据。
-- [big.js](https://github.com/MikeMcl/big.js) 解决 js 浮点数问题。 主要就是 Big Number 或者小数点温柔
-- [bignumber.js](https://github.com/MikeMcl/bignumber.js) 同上
-- [stickybits](https://github.com/dollarshaveclub/stickybits) CSS 的 position: sticky 是一个很有用的设置，但是老的浏览器不支持。这个 JS 库是该功能的垫片库。
-- [react-jsonschema-form](https://github.com/mozilla-services/react-jsonschema-form) Mozilla service 开源了一个通过 JSON 直接生成表单的 React 组件
-- [cleave.js](https://github.com/nosir/cleave.js) 用于在输入时格式化输入内容（信用卡格式、日期等）
-- [shiny](https://github.com/rikschennink/shiny) 在手机设备上模拟光的反射效果。 支持 DeviceMotion 事件
-- [cloudquery](https://github.com/cloudfetch/cloudquery) Turn any website to serverless API
-- [A-Programmers-Guide-to-English](https://github.com/yujiangshui/A-Programmers-Guide-to-English) 专为程序员编写的英语学习指南。
-- [rrweb](https://github.com/rrweb-io/rrweb) 一个可以记录你页面中所有操作的库
-- [nodeppt](https://github.com/ksky521/nodeppt) markdown 写 ppt
-- [flexsearch](https://github.com/nextapps-de/flexsearch) 能让你更加高效和快速的检索文本内容
-- [public-apis](https://github.com/toddmotto/public-apis) 汇集了市面上一些对外免费开放的 api，做一些自己练手 app 的时候很好用。
-- [scroll-hint](https://github.com/appleple/scroll-hint) 用于提示用户页面可以左右滑动的一个提示库
-- [fuse.js](https://github.com/krisk/fuse) 轻量级前端模糊查询库 非常的好用
-- [FileSaver.js](https://github.com/eligrey/FileSaver.js) 文件下载插件 很多时候下载会有兼容性问题，它能帮你解决这些问题
-- [instant.page](https://github.com/instantpage/instant.page) 一个判断用户行为 预测提前加载页面的库
-- [screenfull.js](https://github.com/sindresorhus/screenfull.js) 浏览器全屏插件 解决了不少兼容性问题
-- [VuePress](https://github.com/vuejs/vuepress) 本网站就是基于它实现的，简单方便的静态网站生成器
-- [selection](https://github.com/Simonwep/selection) 可视化选择页面元素的库
-- [scroll-out](https://github.com/scroll-out/scroll-out) 滚动效果（滚动视差）的框架，框架大小不到 1KB,使用回调的方式将相关动画元素的属性进行实时分配
-- [gpu.js](https://github.com/gpujs/gpu.js) 通过将 js 转为特定的 language，利用 GPU 来执行，大大提高了执行性能和速度
-- [pressure](https://github.com/stuyam/pressure) 前端实现 3D Touch
-- [hammer](https://github.com/hammerjs/hammer.js) 移动端手势库
-- [AlloyFinger](https://github.com/AlloyTeam/AlloyFinger) 腾讯出的手势库
-- [lowdb](https://github.com/typicode/lowdb) LowDB 是一个本地 JSON 数据库，基于 Lodash 开发的
-- [JSON-server](https://github.com/typicode/json-server) 可以配合 LowDB 使用 快速搭建一个 REST API
-- [lunr.js](https://github.com/olivernn/lunr.js) 是个用于浏览器的轻量级 JavaScript 全文搜索引擎,对于一些小型的博客、开发者文档或 Wiki 网站来说,完全可以通过它实现站内离线搜索
-- [he](https://github.com/mathiasbynens/he) 一个前端 encoder/decoder 库
-- [grade](https://github.com/benhowdle89/grade) 一个可以根据你的 图片 调整底色的插件
-- [pretty-bytes](https://github.com/sindresorhus/pretty-bytes) 将字节转换成可以读的字符串，比如 1337 个字节，会显示成 1.34 KB
-- [runkit](https://runkit.com) 一个基于 node 的在线 playground
-- [chart.xkcd](https://github.com/timqian/chart.xkcd) 手绘风格的图表库
-- [sketchviz](https://sketchviz.com/new) 手绘风格流程图
-- [pagemap](https://github.com/lrsjng/pagemap) Mini map for web pages 页面导航图
-- [commonmark.js](https://github.com/commonmark/commonmark.js) parser and renderer markdown
-- [body-scroll-lock](https://github.com/willmcpo/body-scroll-lock) 解决滚动穿透问题
-- [lodash](https://github.com/lodash/lodash) 前端工具函数集合
-- [dayjs](https://github.com/iamkun/dayjs) 时间处理库，不过大部分情况下我还是用自己的封装的函数
-- [lightgallery](https://github.com/sachinchoolur/lightgallery.js) 图片预览组件
-- [photoswipe](https://github.com/dimsemenov/photoswipe) 图片预览组件，支持移动端
-- [darken](https://github.com/ColinEspinas/darken) 页面黑夜模式切换
-- [mitt](https://github.com/developit/mitt) 轻量级 pub/sub
-- [sanitize-html](https://github.com/apostrophecms/sanitize-html) html 过滤库，防 xss
-- [DOMPurify](https://github.com/cure53/DOMPurify) 比 sanitize-html 更轻量，建议一般业务用这个
-
-### **开发常用软件**
-
-- [Github Desktop](https://github.com/desktop/desktop)管理 github 仓库的变更和 PR
-- [runjs](https://runjs.dev/) js 运行沙盒，写 test case 或者面试当场写代码的时候很有用
-- [Charles](https://www.charlesproxy.com/) 抓包用，支持 https
-- [Google Chrome](https://www.google.com/chrome/) 前端必备没啥好说的
-- [ColorSnapper2](https://colorsnapper.com/) 取色工具
-- [postman](https://www.getpostman.com/) api 调试工具
-- [Sequel Pro](https://www.sequelpro.com/) MySQL 界面管理工具
-- [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake) 可保证系统不自动休眠，挂机跑脚本很有用
-
-### **在线画图工具**
-
-- [在线画图工具ProcessOn](https://www.processon.com/)
-- [在线画图工具Draw.io](https://app.diagrams.net/)
-- [在线思维导图工具MindLine](http://www.mindline.cn/webapp)
-- [PlantUML在线编辑器](http://haha98k.com/)
-
-### **在线编解码工具**
-
-- [BASE64编解码工具](https://base64.supfree.net/)
-- [MD5编码工具](https://www.zxgj.cn/g/md5)
-- [AES/DES加解密](http://www.fly63.com/tool/cipher/)
-- [JWT解码工具](http://jwt.calebb.net/)
-- [ASCII编解码工具](https://www.matools.com/code-convert-ascii)
-- [Unicode编解码工具](https://www.zxgj.cn/g/unicode)
-- [UTF-8编解码工具](https://www.zxgj.cn/g/utf8)
-- [字符串编解码工具](https://www.zxgj.cn/g/enstring)
-- [URL编解码工具](http://tool.chinaz.com/tools/urlencode.aspx?jdfwkey=lbixz1)
-
-### **在线转换工具**
-
-- [在线ASCII码对照表](http://www.fly63.com/tool/ascii/)
-- [通用进制转换工具](https://www.zxgj.cn/g/jinzhi)
-- [在线浮点数十进制转换](http://www.binaryconvert.com/)
-- [RGB颜色转换](https://www.zxgj.cn/g/yansezhi)
-- [时间戳转换工具](https://www.zxgj.cn/g/unix)
-- [计量单位换算工具](http://www.fly63.com/tool/unitable/)
-- [在线JSON解析](http://www.json.cn/)
-- [在线JS代码格式化工具](https://prettier.io/playground/)
-- [SQL压缩/格式化工具](https://www.zxgj.cn/g/sqlformat)
-- [JSON和XML在线转换](https://www.zxgj.cn/g/jsonxml)
-- [JSON/YAML在线转换](http://www.fly63.com/tool/jsonyaml/)
-- [人民币大小写转换工具](http://www.fly63.com/tool/renmingbi/)
-
-### **网络工具**
-
-- [IP地址归属地查询](https://www.ip138.com/)
-- [IP地址查询](https://www.ipip.net/ip.html)
-- [HTTP在线接口测试工具](http://www.fly63.com/php/http/)
-
-### **在线编译运行工具**
-
-- [C#在线编译运行](https://rextester.com/)
-- [C/C++在线编译调试](https://www.onlinegdb.com/)
-- [在线编译工具套装](https://c.runoob.com/)
-
-### **可视化/格式化工具**
-
-- [在线代码测试工具](https://codepen.io/)
-- [在线数据可视化](https://flourish.studio/)
-- [在线JSON解析](http://www.json.cn/)
-- [在线CSS代码可视化工具](https://enjoycss.com/)
-- [XML格式化工具](https://www.zxgj.cn/g/xmlformat)
-- [在线JS代码格式化工具](https://prettier.io/playground/)
-- [SQL压缩/格式化工具](https://www.zxgj.cn/g/sqlformat)
-- [JSON和XML在线转换](https://www.zxgj.cn/g/jsonxml)
-- [JSON/YAML在线转换](http://www.fly63.com/tool/jsonyaml/)
-
-### **在线生成器**
-
-- [UUID在线生成器](https://www.zxgj.cn/g/uuid)
-- [随机数生成器](https://www.zxgj.cn/g/suijishu)
-  
-### **在线素材工具**
-
-- [免费透明背景图片素材](http://pngimg.com/)
-- [Emoji表情包下载](https://emojiisland.com/)
-- [open source icons](https://feathericons.com/)
-- [阿里巴巴矢量图标库](https://www.iconfont.cn/)
-- [表情包在线网站](https://fabiaoqing.com/)
-- [免费PNG图片库](https://pluspng.com/)
-- [ICON图标在线下载](https://www.iconfinder.com/)
-- [极简壁纸](https://bz.zzzmh.cn/)
-- [Wallpaper Abyss壁纸](https://wall.alphacoders.com)
-- [Pixabay图片素材库](https://pixabay.com/zh/)
-- [Unsplash图片素材库](https://unsplash.com)
-- [Pexels图片素材库](http://www.pexels.com)
-- [NASA图片视频素材库](https://images.nasa.gov)
-
-### **设计制作类工具**
-
-- [在线PS](https://www.uupoop.com/)
-- [在线音频剪辑](https://www.weixinsyt.com/)
-- [在线视频剪辑](https://www.kapwing.com/)
-- [免费logo在线制作](http://www.uugai.com/)
-- [艺术字体在线生成](https://www.qt86.com/)
-- [在线表格转换工具](https://tableconvert.com/)
-- [在线海报设计工具](https://www.designcap.com/)
-- [图片智能放大工具](https://bigjpg.com/)
-- [二维码美化器](https://mh.cli.im/)
-- [在线代码截图工具](https://carbon.now.sh/)
-- [在线抠图工具](https://www.remove.bg/zh)
-- [ICO图标在线生成](http://www.fly63.com/php/ico/)
-- [SVG转PNG工具](http://www.fly63.com/tool/svg2img/)
-- [视频转GIF工具](http://www.fly63.com/tool/giftxt/)
-- [二维码在线生成器](http://www.fly63.com/tool/ewm/)
-- [二维码在线解码](http://www.fly63.com/php/decoder/)
-
-### **写作辅助工具**
-
-- [在线字数统计](https://www.eteste.com/)
-- [mdnice markdown排版工具](https://mdnice.com/)
-- [md2all markdown排版工具](http://md.aclickall.com/)
-- [在线图床神器](https://picx.xpoet.cn/)
-- [在线免费图床](https://sm.ms/)
-- [图壳图床](https://imgkr.com/)
-- [在线代码截图工具](https://carbon.now.sh/)
-- [在线短链接工具](https://urlify.cn/)
-- [在线文本替换](http://www.fly63.com/tool/textreplace/)
-
-### **在线办公工具**
-
-- [pdf在线处理工具套装1](https://smallpdf.com/cn/pdf-tools)
-- [pdf在线处理工具套装2](https://tools.pdf24.org/zh/)
-- [pdf转word在线工具](https://www.pdftoword.com/)
-- [在线多媒体转换器合集](https://cn.office-converter.com/)
-- [在线文字识别工具](https://ocr.wdku.net/)
-- [在线文件压缩工具](https://docsmall.com/)
-
-### **文档笔记工具**
-
-- [印象笔记](https://www.yinxiang.com/)
-- [有道笔记](https://note.youdao.com/)
-- [OneNote](https://www.onenote.com/)
-- [幕布](https://mubu.com/)
-- [为知笔记](https://www.wiz.cn/)
-- [石墨文档](https://shimo.im/)
-- [Simplenote](https://simplenote.com/)
-- [语雀](https://www.yuque.com/)
-
-### **构建工具**
-
-- [Webpack：代码模块化构建打包工具](https://webpack.js.org/)
-- [Gulp：基于流的自动化构建工具](http://www.gulpjs.com.cn/)
-- [Browserify：遵循commonjs规范的模块化工具](http://browserify.org/)
-- [Yeoman：一套用于自动化开发工作流程的工具](http://yeoman.io/)
-- [Grunt：JavaScript 世界的构建工具](http://www.gruntjs.net/)
-- [Babel：使用最新的规范来编写js](https://babeljs.io/)
-- [FIS3：为你定制的前端工程构建工具](https://fex-team.github.io/fis3/)
-
-### **调试工具**
-
-- [Fiddler：前端必备抓包调试工具，没有之一](http://www.telerik.com/fiddler)
-- [Charles：好用的抓包调试工具，可在mac上使用](https://www.charlesproxy.com/)
-
-### **编辑器/IDE**
-
-- [VSCode](https://code.visualstudio.com/)
-- [IntelliJ IDEA](https://www.jetbrains.com/idea/)
-- [codesandbox](https://codesandbox.io/)
-- [stackblitz](https://stackblitz.com/)
-- [Sublime](https://www.sublimetext.com/)
-- [WebStorm](https://www.jetbrains.com/webstorm/)
-- [VSCode](https://code.visualstudio.com/)
-- [che](https://github.com/eclipse/che)
-- [codesandbox-client](https://github.com/CompuIves/codesandbox-client)
-- [theia](https://github.com/theia-ide/theia)
-
-### **字体**
-
-- [Dank Mono](https://dank.sh/)
-- [FiraCode](https://github.com/tonsky/FiraCode)
-- [Operator Mono](https://www.typography.com/blog/introducing-operator)
-
-### **语言**
-
-- [typescript](https://github.com/Microsoft/TypeScript)
-- [flow](https://github.com/facebook/flow)
-- [graphql](https://github.com/graphql/graphql-js)
-
-### **文档**
-
-- [dumi](https://github.com/umijs/dumi)
-- [vuepress](https://github.com/vuejs/vuepress)
-- [docz](https://github.com/pedronauck/docz)
-- [storybook](https://github.com/storybooks/storybook)
-- [mdx](https://github.com/mdx-js/mdx) - jsx + markdown。
-
-### **Mac**
-
-- [get-plain-text](https://itunes.apple.com/cn/app/get-plain-text/) 能清除剪贴板里的格式 很实用
-- [IINA](https://github.com/lhc70000/iina) mac 平台感觉免费最好的播放器 强推
-- [magnet](https://itunes.apple.com/cn/app/magnet/id441258766?mt=12&ign-mpt=uo%3D4) 分屏管理
-- [Xnip](https://zh.xnipapp.com/) 方便好用的截图工具-支持截长图
-- [Spectacle](https://www.spectacleapp.com/) 窗口管理工具
-- [vanilla](https://matthewpalmer.net/vanilla/) 顶栏图标管理工具
-- [Dozer](https://github.com/Mortennn/Dozer) 一个开源的顶栏管理
-- [腾讯电脑管家](https://mac.guanjia.qq.com/index_o.html) 反正我用下来好觉得蛮好用的
-- [mos](https://mos.caldis.me/) 鼠标平滑滚动软件，很好用。免费开源
-- [sequel pro](https://www.sequelpro.com/) mysql 客户端 好用
-- [Microsoft Remote Desktop Beta](https://itunes.apple.com/us/app/microsoft-remote-desktop/id715768417?mt=12#) Mac 远程登录 Windows 调试神器
-- [pap.er](http://paper.meiyuan.in/) 专为 Mac 设计的壁纸应用
-- [The Unarchive](https://theunarchiver.com/) Mac 目前感觉最好用的免费解压软件
-- [Tickeys](https://github.com/yingDev/Tickeys) 让你用 Mac 键盘也能打出机械键盘的感觉
-- [Beaker Browser](https://github.com/beakerbrowser/beaker) P2P 开源浏览器 支持点对点发布文件，成为了文件传输工具，支持 DAT 对等协议
-- [Gifski](https://github.com/sindresorhus/gifski-app) 视频转 gif 工具
-- [more](https://github.com/serhii-londar/open-source-mac-os-apps) 更多优秀的 mac app 介绍
-- [Motrix](https://github.com/agalwood/Motrix) 支持 HTTP、FTP、BT、磁力链、百度网盘的下载工具
-- [iPic](https://apps.apple.com/cn/app/ipic-markdown-%E5%9B%BE%E5%BA%8A-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%B7%A5%E5%85%B7/id1101244278?mt=12)这个应用可以让你方便地上传图片到各种图床
-- [Image2Icon](http://www.img2icnsapp.com/)
-- [hidden](https://github.com/dwarvesf/hidden) 是用来帮助你隐藏 macOS 菜单栏上那些不常用的应用图标
-
-### **录制**
-
-- [licecap](https://www.cockos.com/licecap/) gif 录制，简洁好用，之前都用这个录制
-- [kap](https://getkap.co/) 现在都用这个录制 gif，还支持导出 mp4，录制的 fps 很高
-- [KeyCastr](https://github.com/keycastr/keycastr) 按键显示，录制的时候显示你的按键
-
-### **压缩解压缩**
-
-- [compressing](https://github.com/node-modules/compressing) - 压缩和解压缩。
-- [tar-fs](https://github.com/mafintosh/tar-fs) - tar 的压缩和解压缩。
-- [yauzl](https://github.com/thejoshwolfe/yauzl) - zip 解压缩。
-- [yazl](https://www.npmjs.com/package/yazl) - zip 压缩。
-
-### **有趣**
-
-- [the-bread-code](https://github.com/hendricius/the-bread-code) 使用程序员的思维制作面包 ，比如制作中使用 A/B test,
-  来比较那种做法更好。
-- [build-your-own-x](https://github.com/danistefanovic/build-your-own-x) 教你用各种语言实现 Bot Database Neural Network
-- [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) 教你用前端知识认识各种算法
-- [not-paid](https://github.com/kleampa/not-paid) 如果你给人做网站，交过去以后对方没有付款，那么这个 JS 会把网站的透明度一天调低一点，直到看不见
-- [nsfwjs](https://github.com/infinitered/nsfwjs) 前端图片鉴黄，基于 Tensorflow
-- [elevator.js](https://github.com/tholman/elevator.js) 我很喜欢的一个库，让一个 back-to-top 的效果有了一种坐复古电梯的感觉
-- [app-ideas](https://github.com/florinpop17/app-ideas) 很多年轻人苦于缺少练手的项目，这个项目收集了不少点子，每个点子都有明确的目标和复杂资源。
-- [WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) 很酷的 WebGL 交互
-- [react-kawaii](https://github.com/miukimiu/react-kawaii) 一个非常可爱的 React 卡通人脸库，很有意思
-- [chart-race-react](https://github.com/Mckinsey666/chart-race-react) 图表竞赛 长条图赛跑动画 在微博或者 b 站这种类型视频很火
-- [98.css](https://jdan.github.io/98.css/#tree-view) windows 98 主题分格 css
-- [奇趣网站收藏家](https://fuun.fun/) 收藏了很多有趣的网站
-- [帮你百度一下](http://www.baidu-x.com/) 可以 [点我测试一下](http://www.baidu-x.com/?q=和谐有爱富强)-
-- [国际版](http://lmgtfy.com/) 同`帮我百度一下`-[点我测试一下](http://lmgtfy.com/?q=a)-
-- [wallhaven](https://alpha.wallhaven.cc/) 壁纸网站-
-- [URL 地址播放 Emojis 动画](http://matthewrayfield.com/articles/animating-urls-with-javascript-and-emojis/#🌖) 在地址栏里面播放 emoji
-- [Can't Unsee](https://cantunsee.space/) 强烈建议前端、客户端、UI 开发的同学玩下，检查一下自己对设计稿的敏感度怎么样
-- [ggtalk](https://talk.swift.gg/) 平时一直在听的一个技术博客
-- [awesome-comment](https://github.com/Blankj/awesome-comment) 里面收集了很多有趣的代码注释
-- [text-img](https://www.text-image.com/index.html) 都将图片转化为 ascii 用来写注释
-- [weird-fonts](https://github.com/beizhedenglong/weird-fonts) 将普通字母转化为 特殊 unicode
-- [snake](https://github.com/epidemian/snake) 在地址栏里面玩贪吃蛇
-- [zero-width-lib](https://github.com/yuanfux/zero-width-lib) 利用零宽度字符实现 隐形水印、加密信息分享、逃脱词匹配，很有创意
-- [abbreviations](https://www.abbreviations.com/) 查看一个简写是什么意思的网站
-- [magi](https://magi.com/) ai 搜索神器，超屌
-- [诺基亚短信图片生成器](https://zzkia.noddl.me:8020/)
-
-### **实用**
-
-- [browser-update](https://browser-update.org/) 浏览器版本更新提示插件
-- [typeform](https://admin.typeform.com/signup) 一个国外的在线调查问卷网站
-- [VideoFk](https://www.videofk.com/) VideoFk 视频在线解析下载
-- [全历史](https://www.allhistory.com/) 历史内容聚合网站
-- [UzerMe](https://www.uzer.me/) 云端办公工具
-- [SoBooks](https://sobooks.cc/) 强大的电子书资源网站
-- [稿定设计](https://www.gaoding.com/) 键式设计工具+智能抠图
-- [大力盘](https://dalipan.com/) 百度网盘搜索
-- [ENFI 下载器](https://www.macbl.com/app/internet/enfi) 不限速下载器
-- [来画视频](https://www.laihua.com/) 像做 PPT 一样做短视频
-- [Arkie 海报制作工具](https://www.arkie.cn/)
-- [优品 PPT](http://www.ypppt.com/)
-- [比格 PPT](http://www.tretars.com/)
-- [高清免费图片](https://www.pexels.com/)
-- [高清免费图片 2](https://unsplash.com/)
-
-### **其他工具**
-
----
-<!-- panels:start -->
-<!-- div:left-panel -->
-- [codota](https://www.codota.com/) AI代码智能提示（应用于代码编辑器）
-- [在线Nginx配置工具](https://nginxconfig.io/)
-- [在线文本代码比对工具](http://www.fly63.com/tool/textdiff/)
-- [在线Chrome浏览器插件](https://www.crx4chrome.com/)
-- [在线接口文档管理工具](http://www.docway.net/)
-- [Can I use - Web前端兼容性列表](https://caniuse.com/)
-- [high-speed-downloader](https://github.com/high-speed-downloader/high-speed-downloader) 百度网盘不限速下载 支持 Windows 和 Mac
-- [hyper](https://github.com/zeit/hyper) 前端命令行
-- [yapi](https://github.com/ymfe/yapi) 是一个可本地部署的、打通前后端及 QA 的、可视化的接口管理平台
-- [sway](https://sway.com/) 一个微软自己出的在线 ppt 很强大
-- [Ascii Art Generator](https://asciiartgen.now.sh) 在线生成 Ascii 图案
-- [Winds](https://github.com/GetStream/Winds) 开源 RSS
-- [JSUI](https://github.com/kitze/JSUI) 一个用来控制管理前端项目的客户端
-- [docz](https://github.com/pedronauck/docz) 让你能快速写文档的一个库
-- [hiper](https://github.com/pod4g/hiper) 性能统计分析工具
-- [verdaccio](https://github.com/verdaccio/verdaccio) 私有 npm
-- [bit](https://github.com/teambit/bit) 实现了项目之间的代码共享 可以自建私有
-- [simpread](https://github.com/Kenshin/simpread) 简悦 ( SimpRead ) 让你瞬间进入沉浸式阅读的扩展
-- [mkcert](https://github.com/FiloSottile/mkcert) 一键命令 让本地也支持 https
-- [termtosvg](https://github.com/nbedos/termtosvg) 录制 命令操作转成 svg 基于 python
-- [gh-polls](https://github.com/apex/gh-polls) 可以在 github issue 中添加投票
-- [vConsole](https://github.com/Tencent/vConsole) 也是一个移动端调试工具 腾讯出品
-- [terminalizer](https://github.com/faressoft/terminalizer) 命令行录制工具 基于 node
-- [badgen](https://github.com/amio/badgen-service) 快速构建和 shields 一样的 svg badge 但速度更快
-- [readability](https://github.com/luin/readability) 移除页面非正文部分 基于 jsdom
-- [WeChatPlugin-MacOS](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS) 一款功能强大的 macOS 版微信小助手
-- [puppeteer-recorder](https://github.com/checkly/puppeteer-recorder) 一个 chrome 插件 能够根据你的操作 自动生成 puppeteer 相关代码
-- [mdx-deck](https://github.com/jxnblk/mdx-deck) 用 markdown 编写演示文稿
-- [code-surfer](https://github.com/pomber/code-surfer) 基于 mdx-deck 的一个插件
-  让你更好的在文稿中展示 code
-- [Progressive Tooling](https://progressivetooling.com/) 前端性能优化工具集合
-- [https://github.com/artf/grapesjs](https://github.com/artf/grapesjs) 可视化建站工具 不需要写代码就能写一个页面，前端再次再次要下岗了
-<!-- div:right-panel -->
-- [image-charts](https://www.image-charts.com/) 该服务通过 URL 接受参数，然后生成图表，以图片形式返回
-- [eagle.js](https://github.com/Zulko/eagle.js) 一个用 vue 来制作 PPT 的库
-- [Optimizely](https://www.optimizely.com/) A/B Test
-- [appadhoc](http://www.appadhoc.com/) 一个国内的 A/B Test 服务
-- [glorious-demo](https://github.com/glorious-codes/glorious-demo) 通过编写代码的方式构建一个命令行的演示例子
-- [bundlephobia](https://bundlephobia.com/) 一个可以查看某个库的大小，并且分析它的依赖
-- [jsperf](https://jsperf.com/popular) 一个提供在线 test case 的网站，主要用来比较性能。可以比较如： forEach vs for 的性能
-- [perflink](https://github.com/lukejacksonn/perflink) 与 jsperf 类似的一个比较 js 性能的网站
-- [algorithm-visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer) 算法代码可视化
-- [An-English-Guide-for-Programmers](https://github.com/yujiangshui/An-English-Guide-for-Programmers) 专为程序员编写的英语学习指南
-- [Webhint](https://webhint.io/) 用于检查代码的可访问性、性能和安全的开源检查（Linting）工具
-- [airtap](https://github.com/airtap/airtap) 测试浏览器兼容性，可覆盖 800 多种浏览器
-- [jsonstore](https://github.com/bluzi/jsonstore) 供免费，安全且基于 JSON 的云数据存储，自己玩的小项目神器
-- [x-spreadsheet](https://github.com/myliang/x-spreadsheet) 一个基于 Canvas 的 JS 电子表格库 excel
-- [imgcook](https://imgcook.taobao.org/) 阿里出品，一键通过设计稿生成代码
-- [majestic](https://github.com/Raathigesh/majestic) jest 可视化
-- [leon](https://github.com/leon-ai/leon) 你开源项目的 ai 个人助手
-- [js-code-to-svg-flowchart](https://github.com/Bogdan-Lyashenko/js-code-to-svg-flowchart) 将代码逻辑用流程图的方式展现出来
-- [xterm.js](https://github.com/xtermjs/xterm.js) 一个 web terminal
-- [pixelmatch](https://github.com/mapbox/pixelmatch) diff 两张图片不一样的地方
-- [readme-md-generator](https://github.com/kefranabg/readme-md-generator) 一个命令行脚本帮你快速的创建一个 README
-- [build-tracker](https://github.com/paularmstrong/build-tracker) 构建大小追踪 记录你多个版本构建后文件大小的变化
-- [zan-proxy](https://github.com/youzan/zan-proxy/blob/master/README.zh-CN.md) 本地调试线上环境的工具
-- [mjml](https://github.com/mjmlio/mjml) 一个让发 email 更简单的框架。定义了一套自己的语法，你用这套语法写邮件，然后编译成 HTML。
-- [any-rule](https://any86.github.io/any-rule/) 正则大全
-- [outline](https://github.com/outline/outline) 一个免费开源的库，能让你快速搭建自己的 wiki
-
-<!-- panels:end -->
-<!-- tabs:end -->
----
-
-## m01：编程视频推荐 :id=m01
-
----
-<!-- panels:start -->
-<!-- div:left-panel -->
-- [数据结构和算法：《郝斌 数据结构入门》](https://www.bilibili.com/video/BV11s41167h6)
-- [数据结构和算法：《数据结构-浙江大学》](https://www.bilibili.com/video/BV1JW411i731)
-- [数据结构和算法：《数据结构与算法基础（青岛大学-王卓）》](https://www.bilibili.com/video/BV1nJ411V7bd)
-- [数据结构和算法：《尚硅谷 Java数据结构与算法）》](https://www.bilibili.com/video/BV1E4411H73v)
-- [视频科普：计算机网络该怎么学](https://www.bilibili.com/video/BV1U4411M71p)
-- [计算机网络：《计算机网络微课堂》](https://www.bilibili.com/video/BV1c4411d7jb)
-- [计算机网络：《2019 王道考研 计算机网络》](https://www.bilibili.com/video/BV19E411D78Q)
-- [强力推荐：计算机科学速成课](https://www.bilibili.com/video/av21376839)
-<!-- div:right-panel -->
-- [计算机网络：《韩立刚 计算机网络》](https://www.bilibili.com/video/BV1gV411h7r7)
-- [计算机网络：《计算机网络（谢希仁第七版）》](https://www.bilibili.com/video/BV1H3411y7q6)
-- [操作系统：《2020 南京大学  操作系统：设计与实现 (蒋炎岩) 》](https://www.bilibili.com/video/BV1N741177F5)
-- [操作系统：《操作系统（哈工大李治军老师）》](https://www.bilibili.com/video/BV1d4411v7u7)
-- [计算机组成原理：《计算机组成原理（哈工大刘宏伟）》](https://www.bilibili.com/video/BV1t4411e7LH)
-- [编译原理：《编译原理（哈工大）》](https://www.bilibili.com/video/BV1zW411t7YE)
-<!-- panels:end -->
----
-
-## m02：前端资源推荐 :id=m02
-
----
-<!-- tabs:start -->
-### **Github**
-
-- [github 短域名服务](https://git.io/)
-- [shields](https://shields.io/) 徽章图标
-- [followers 全球排名](https://wangchujiang.com/github-rank/index.html)
-- [star-history](https://star-history.t9t.io/) 展示一个项目 Stars 增长曲线
-
-### **代码编辑**
-
-- [codepen](https://codepen.io) 在线代码编辑与演示
-- [codesandbox](https://codesandbox.io) 内嵌VSCode的在线IDE
-
-### **Emoji表情**
-
-- [符号大全](http://www.fhdq.net/)
-- [emoji表情](https://emojipedia.org/)
-- [emoji表情备忘录](https://www.webfx.com/tools/emoji-cheat-sheet)
-- [gitmoji](https://github.com/carloscuesta/gitmoji) 通过 emoji 表达 git 的操作内容
-> windows系统下按<kbd>Win</kbd>+<kbd>.</kbd>快速打开表情选择框
-
-### **图片工具**
-
-- [tinypng图片压缩](https://tinypng.com) 压缩png很有用
-- [Squoosh](https://squoosh.app/) 谷歌出品在线免费图片压缩工具
-- [waifu2x](http://waifu2x.udp.jp/) 通过卷积网络放大图片
-- [vectormagic](https://vectormagic.com/) 转换矢量图
-- [vectorizer](https://www.vectorizer.io/) 真正的 png 转 svg 神器
-- [在线AI图片处理](https://photo.opencool.cn/) 黑白修复、无损放大、动漫化、铅笔画等。
-- [remove](https://www.remove.bg/zh) AI抠图
-
-### **作图**
-
-- [processon在线作图](https://www.processon.com/) 流程图、思维导图、原型图等
-- [百度脑图](https://naotu.baidu.com) 思维导图
-
-### **CDN加速**
-
-- [jsDelivr](http://www.jsdelivr.com/) 国外的一家优秀的公共 CDN 服务提供商
-- [unpkg](https://unpkg.com/) cdn 服务
-
-### **电子书**
-
-- [前端电子书收集](http://www.yuanchengcheng.vip/books)
-- [SoBooks](https://sobooks.cc/) 免费的电子书资源网站
-
-### **编程学习网**
-
-- [哔哩哔哩](https://www.bilibili.com/)
-- [C语言网](https://www.dotcpp.com/)
-- [cppreference](http://zh.cppreference.com/)
-- [中国大学MOOC](https://www.icourse163.org/)
-- [牛客网](www.nowcoder.com)
-- [网易公开课](https://open.163.com/)
-- [CodeGym](https://codegym.cc/)
-- [BeginnersBook](https://beginnersbook.com/)
-- [JavaSED](http://www.javased.com/)
-- [codecademy](https://www.codecademy.com/)
-- [Coursera](https://www.coursera.org/)
-- [StackOverFlow](https://stackoverflow.com/)
-- [LeetCode](https://leetcode-cn.com/)
-- [LintCode](https://www.lintcode.com/)
-- [慕课网](https://www.imooc.com/) 实战视频教程
-- [妙味课堂](https://www.miaov.com/) 比较系统的前端入门视频教程
-- [egghead](http://egghead.io) 质量还不错的短视频教程，外网
-
-<!-- tabs:end -->
----
-
-# 个人兴趣 :id=personalinterest
-
----
-
-## c00：b站视频 :id=c00
-
----
-<!-- panels:start -->
-<!-- div:left-panel -->
-- [1.【醒醒】中华儿女该起床了](/personalinterest/c00/c00-0001.md)
-- [2.他们死在了祖国胜利的前夜](/personalinterest/c00/c00-0002.md)
-- [3.七尺之躯，已许国，再难许卿](/personalinterest/c00/c00-0003.md)
-<!-- div:right-panel -->
-- [4.【祭·英烈】中国的未来，拜托了！【百万剪辑狮】](/personalinterest/c00/c00-0004.md)
-- [5.【派大星的独白】一个关于正常人的故事](/personalinterest/c00/c00-0005.md)
-- [6.小时候看笑话，长大后看真实](/personalinterest/c00/c00-0006.md)
-<!-- panels:end -->
----
-
-## c01：书单推荐 :id=c01
-
----
-
-- [书单狗精神成长文学树（65本）](/personalinterest/c01/c01-0001.md)
-
----
-
-## c02：图书馆 :id=c02
-
----
-
-- [中国图书馆图书分类法](/personalinterest/c02/c02-0001.md)
-- [全球开放电子图书馆及免费资源](/personalinterest/c02/c02-0002.md)
-- [书栈网 · BookStack_程序员IT互联网开源编程书籍免费阅读，助您【码】力十足！](https://www.bookstack.cn/)
-- [时间地图](https://www.allhistory.com/map)
-- [中文维基百科](https://www.wiki-wiki.top/)
-- [ProcessOn图形化知识资源](https://www.processon.com/diagrams/new#template)
-- [世界数字图书馆](https://www.wdl.org/zh/)
-- [中华诗词](https://www.shi-ci.com/)
-- [【建议收藏！】最全公开课知识库](https://docs.qq.com/sheet/DRU5MWHZCTHFGQnhM?tab=qb1sze)
-
----
-
-## c03：豆瓣榜单 :id=c03
-
----
-<!-- tabs:start -->
-### **电影榜单**
-
-<!-- panels:start -->
-<!-- div:left-panel -->
-- [2015年度电影榜单](https://movie.douban.com/annual/2015?source=navigation)
-- [2016年度电影榜单](https://movie.douban.com/annual/2016?source=navigation)
-- [2017年度电影榜单](https://movie.douban.com/annual/2017?source=navigation)
-- [2018年度电影榜单](https://movie.douban.com/annual/2018?source=navigation)
-<!-- div:right-panel -->
-- [2019年度电影榜单](https://movie.douban.com/annual/2019?source=navigation)
-- [2020年度电影榜单](https://movie.douban.com/annual/2020?source=navigation)
-- [2021年度电影榜单](https://movie.douban.com/annual/2021?source=navigation)
-<!-- panels:end -->
-
-### **读书榜单**
-
-<!-- panels:start -->
-<!-- div:left-panel -->
-- [2015年度读书榜单](https://book.douban.com/annual/2015?source=navigation)
-- [2016年度读书榜单](https://book.douban.com/annual/2016?source=navigation)
-- [2017年度读书榜单](https://book.douban.com/annual/2017?source=navigation)
-- [2018年度读书榜单](https://book.douban.com/annual/2018?source=navigation)
-<!-- div:right-panel -->
-- [2019年度读书榜单](https://book.douban.com/annual/2019?source=navigation)
-- [2020年度读书榜单](https://book.douban.com/annual/2020?source=navigation)
-- [2021年度读书榜单](https://book.douban.com/annual/2021?source=navigation)
-<!-- panels:end -->
-
-### **音乐榜单**
-
-<!-- panels:start -->
-<!-- div:left-panel -->
-- [2015年度音乐榜单](https://music.douban.com/annual/2015?source=navigation)
-- [2016年度音乐榜单](https://music.douban.com/annual/2016?source=navigation)
-- [2017年度音乐榜单](https://music.douban.com/annual/2017?source=navigation)
-- [2018年度音乐榜单](https://music.douban.com/annual/2018?source=navigation)
-<!-- div:right-panel -->
-- [2019年度音乐榜单](https://music.douban.com/annual/2019?source=navigation)
-- [2020年度音乐榜单](https://music.douban.com/annual/2020?source=navigation)
-- [2021年度音乐榜单](https://music.douban.com/annual/2021?source=navigation)
-<!-- panels:end -->
-<!-- tabs:end -->
----
 <!-- 最近更新时间 -->
 <last-update-time>{docsify-updated}</last-update-time>
 

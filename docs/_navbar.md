@@ -24,84 +24,15 @@
   * [Web前端入门和进阶学习笔记](https://github.com/qianguyihao/Web)
   * [Algorithm Visualizer 算法展示](https://github.com/algorithm-visualizer/algorithm-visualizer)
   * [大前端面试宝典 - 图解前端](https://github.com/azl397985856/fe-interview)
-
-* 开发工具
-
-  * [在线ASCII码表](http://www.fly63.com/tool/ascii/)
-  * [正则表达式调试工具](https://regexr.com/)
-  * [正则表达式可视化](https://jex.im/regulex/)
-  * [在线Nginx配置](https://nginxconfig.io/)
-  * [BASE64编解码工具](https://base64.supfree.net/)
-  * [MD5编码工具](https://www.zxgj.cn/g/md5)
-  * [AES/DES加解密](http://www.fly63.com/tool/cipher/)
-  * [JWT解码工具](http://jwt.calebb.net/)
-  * [ASCII编解码工具](https://www.matools.com/code-convert-ascii)
-  * [Unicode编解码工具](https://www.zxgj.cn/g/unicode)
-  * [UTF-8编解码工具](https://www.zxgj.cn/g/utf8)
-  * [字符串编解码工具](https://www.zxgj.cn/g/enstring)
-  * [通用进制转换工具](https://www.zxgj.cn/g/jinzhi)
-  * [浮点数十进制转换](http://www.binaryconvert.com/)
-  * [RGB颜色转换](https://www.zxgj.cn/g/yansezhi)
-  * [时间戳转换工具](https://www.zxgj.cn/g/unix)
-  * [在线JSON解析](http://www.json.cn/)
-  * [在线JS代码格式化工具](https://prettier.io/playground/)
-  * [CSS可视化工具](https://enjoycss.com/)
-  * [XML格式化工具](https://www.zxgj.cn/g/xmlformat)
-  * [SQL压缩/格式化工具](https://www.zxgj.cn/g/sqlformat)
-  * [JSON/XML在线转换](https://www.zxgj.cn/g/jsonxml)
-  * [JSON/YAML在线转换](http://www.fly63.com/tool/jsonyaml/)
-  * [IP地址查询](https://www.ipip.net/ip.html)
-  * [HTTP在线接口测试](http://www.fly63.com/php/http/)
-  * [UUID在线生成器](https://www.zxgj.cn/g/uuid)
-  * [随机数生成器](https://www.zxgj.cn/g/suijishu)
-  * [在线编译套装](https://c.runoob.com/)
-  * [在线文本比对](http://www.fly63.com/tool/textdiff/)
-  * [Gitstar Ranking](https://gitstar-ranking.com/)
-
-* 创作工具
-
-  * [在线画图工具](https://www.processon.com/)
-  * [在线思维导图](http://www.mindline.cn/webapp)
-  * [在线字数统计](https://www.eteste.com/)
-  * [在线 mdnice markdown 排版工具](https://mdnice.com/)
-  * [md2all markdown排版工具](http://md.aclickall.com/)
-  * [在线免费图床](https://sm.ms/)
-  * [Postimages 免费图片托管/图片上传](https://postimages.org/)
-  * [在线代码截图](https://carbon.now.sh/)
-  * [在线短链接生成](http://mrw.so/)
-  * [在线文本替换](http://www.fly63.com/tool/textreplace/)
-  * [在线文件压缩工具](https://docsmall.com/)
-  * [在线多媒体转换器](https://cn.office-converter.com/)
-  * [在线PDF工具](https://smallpdf.com/cn/pdf-tools)
-  * [在线PS](https://www.uupoop.com/)
-  * [logo在线制作](http://www.uugai.com/)
-  * [标点狗，点一点做LOGO](https://www.logoko.com.cn/)
-  * [在线海报设计工具](https://www.designcap.com/)
-  * [Open Source Icons](https://feathericons.com/)
-  * [表情包在线网站](https://fabiaoqing.com/)
-  * [AI人工智能图片放大](https://bigjpg.com/)
-  * [在线抠图工具](https://www.remove.bg/zh)
-  * [ICO图标在线生成](http://www.fly63.com/php/ico/)
-  * [视频转GIF工具](http://www.fly63.com/tool/giftxt/)
-  * [Pixabay图片素材库](https://pixabay.com/zh/)
-  * [Unsplash图片素材库](https://unsplash.com/)
-  * [Pexels图片素材库](http://www.pexels.com/)
-  * [智能 WebP、PNG 和 JPEG 压缩](https://tinypng.com/)
-  * [在线画图工具Draw.io](https://app.diagrams.net/)
-  * [Font Awesome](http://www.bootcss.com/p/font-awesome/)
-  * [阿里巴巴矢量图标库 Iconfont](http://iconfont.cn/)
-  * [IcoMoon](https://icomoon.io/)
-  * [产品班资源下载](http://www.chanpinban.com/downloads/)
-  * [UIGREAT](http://www.uigreat.com/)
-  * [花瓣](http://huaban.com/)
-  * [Dribbble](https://dribbble.com/)
-  * [Behance](https://www.behance.net/)
-  * [Pinterest](https://www.pinterest.com/)
-  * [站酷](http://www.zcool.com.cn/)
-  * [FWA](https://thefwa.com/)
+  * [从零开始学 Web 前端系列教程](https://github.com/Daotin/web)
+  * [前端基础进阶系列](http://www.jianshu.com/p/cd3fee40ef59)
+  * [前端工具推荐](https://github.com/codylindley/frontend-tools)
+  * [CheatSheet，一图读懂系列](https://github.com/wangzhengya/cheatsheet)
+  * [web前端开发分享-目录系列](http://www.cnblogs.com/jikey/p/3613082.html)
 
 * 小册/周刊
 
+  * [JavaScript 算法与数据结构](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
   * [Nginx 入门教程](https://github.com/xuexb/learn-nginx)
   * [《IVWEB技术周刊》](https://github.com/iv-web/weekly)
   * [前端精读周刊](https://github.com/dt-fe/weekly)
@@ -131,6 +62,7 @@
   * [Express 4.x API 中文手册](http://www.expressjs.com.cn/4x/api.html)
   * [three.js 中文手册](https://threejs.org/docs/)
   * [CSS 种植手册](http://csscode.itcast.cn/#/README)
+  * [HelloSea.js seajs教程](https://github.com/island205/HelloSea.js)
   * [《Flutter 实战》](https://book.flutterchina.club/)
 
 * 大牛/博客
@@ -264,6 +196,20 @@
   * [SuperAgent中文使用文档](https://cnodejs.org/topic/5378720ed6e2d16149fa16bd)
   * [Linux 命令大全搜索工具](https://github.com/jaywcjlove/linux-command)
   * [Jest 测试单元文档](https://jestjs.io/zh-Hans/)
+
+* 工具
+
+  * [常用在线工具集](/resourcetools/index.md)
+  * [创作开发工具](/resourcetools/creationdevelopment.md)
+
+* 资源
+
+  * [前端学习资料](/resourcetools/learningmaterials.md)
+  * [前端组件库](/resourcetools/frontend.md)
+
+* 兴趣
+
+  * [电影/书籍](/personalinterest/index.md)
 
 * 友链
 
